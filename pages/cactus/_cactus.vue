@@ -9,6 +9,7 @@
       <p><strong>Flowers:</strong> {{cactus.flowers}}</p>
       <p><strong>Fruit:</strong> {{cactus.fruit}}</p>
       <p><strong>Spines:</strong> {{cactus.spines}}</p>
+      <img :src="cactus.image" />
     </article>
     
     <table>
@@ -69,5 +70,10 @@ export default {
   article {
     padding: 5px;
     margin-top: 15px;
+  }
+
+  img {
+    width: 100px;
+    height: auto;
   }
 </style>

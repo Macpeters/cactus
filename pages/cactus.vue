@@ -19,17 +19,30 @@
         <li><a href="/cactus/trichocereus_pachanoi">trichocereus pachanoi</a></li>
         <li><a href="/cactus/trichocereus_peruvianus">trichocereus peruvianus</a></li>
       </ul>
+      
     <nuxt-child v-if="$route.params.cactus"/>
 
     <span v-if="!$route.params.cactus">Click to view details for any species</span>
+    
+    <span v-if="$route.params.cactus=='lopophora_williamsii'"><lopophoraWilliamsii /></span>
   </div>
 </template>
 
 <script>
+import lopophoraWilliamsii from "../components/cactus/lopophoraWilliamsii.vue"
+
 export default {
+  components: { 
+    lopophoraWilliamsii
+  },
   head () {
     return {
-      title: 'Team',
+      title: 'Cactus', 
+      data() {
+        return {
+          // test: test
+        }
+      },
       meta: [
         { hid: 'description', name: 'description', content: 'Discover our team' }
       ]
