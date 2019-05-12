@@ -20,6 +20,8 @@
         <li><a href="/cactus/trichocereus_peruvianus">trichocereus peruvianus</a></li>
       </ul>
     <nuxt-child v-if="$route.params.cactus"/>
+
+    <span v-if="!$route.params.cactus">Click to view details for any species</span>
   </div>
 </template>
 
