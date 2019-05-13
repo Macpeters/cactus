@@ -44,8 +44,9 @@ export default {
   async asyncData({ app, params, error }) {
     let list = await app.$axios.$get('/api/cactus.json')
     let cactus = list.find((cactus) => cactus.slug == params.cactus)
+    // let error = null;
     if(params.cactus && !cactus) {
-      return error({statusCode: 404, message: 'no cactus'})
+      return error({statusCode: 404, message: 'no cactus was found for the slug: ' + params.cactus})
     }
     return { cactus }
   }

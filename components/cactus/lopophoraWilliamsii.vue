@@ -5,7 +5,8 @@
       <article>
         <h2>Notes on the species</h2>
         <div>
-          They seem to have a fairly good germ rate, and are quick to show it.  
+          They seem to have a fairly good germ rate, and are quick to show it.  All my seeds so far have been purchased
+          from Sacred Seed in Toronto 
 
           <div>
             <h3>Varieties</h3>
