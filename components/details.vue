@@ -32,49 +32,15 @@
 </template>
 
 <script>
-export default {
-  head () {
-    return {
-      title: `Cactus - ${this.$route.params.username}`,
-      meta: [
-        { hid: 'description', name: 'description', content: `Discover our team member ${this.$route.params.username}` }
-      ]
-    }
-  },
-  async asyncData({ app, params, error }) {
-    let list = await app.$axios.$get('/api/cactus.json')
-    let cactus = list.find((cactus) => cactus.slug == params.cactus)
-    // let error = null;
-    if(params.cactus && !cactus) {
-      return error({statusCode: 404, message: 'no cactus was found for the slug: ' + params.cactus})
-    }
-    return { cactus }
-  }
-}
+  export default {
+    props: ['cactus'],
+    head () {
+      return {
+        name: 'details',
+        title: 'details'
+      }
+    }}
 </script>
 
 <style>
-  th, td {
-    padding: 5px;
-  }
-
-  h2, h3 {
-    text-align: center;
-    font-weight: bold
-  }
-
-  .container {
-    width: 80%;
-    padding: 5%;
-  }
-
-  article {
-    padding: 5px;
-    margin-top: 15px;
-  }
-
-  img {
-    width: 100px;
-    height: auto;
-  }
 </style>

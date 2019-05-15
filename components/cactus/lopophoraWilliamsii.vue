@@ -1,25 +1,22 @@
 <template>
   <div>
-    <h1>Lopophora williamsii</h1>
-
-      <article>
-        <h2>Notes on the species</h2>
+    <article>
+      <h2>Notes on the species</h2>
+      <div>
+        They seem to have a fairly good germ rate, and are quick to show it.  All my seeds so far have been purchased
+        from Sacred Seed in Toronto 
         <div>
-          They seem to have a fairly good germ rate, and are quick to show it.  All my seeds so far have been purchased
-          from Sacred Seed in Toronto 
-
-          <div>
-            <h3>Varieties</h3>
-            <ul>
-              <li><strong>Caespitosa</strong>: will easily grow multiple heads without any decapitation happening.  This makes them very easy
-              to propogate.  These head form large clusters known as 'planchas'</li>
-              <li><strong>Menchaka</strong>: tend to have only one head, unless decapitation occurs.</li>
-            </ul>
-          </div>
+          <h3>Varieties</h3>
+          <ul>
+            <li><strong>Caespitosa</strong>: will easily grow multiple heads without any decapitation happening.  This makes them very easy
+            to propogate.  These head form large clusters known as 'planchas'</li>
+            <li><strong>Menchaka</strong>: tend to have only one head, unless decapitation occurs.</li>
+          </ul>
         </div>
-      </article>
+      </div>
+    </article>
 
-     <article>
+    <article>
       <h2>Batch 3: v caespitosa</h2>
       <div>
         <h3>Sowing the seeds: 05/2019</h3>
