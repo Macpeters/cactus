@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Current Cactus List</h1>
+
       <ul>
          <span v-for="cactus in list" :key='cactus.slug'>
           <li><a href="#" @click='choose(cactus)'>{{cactus.latin_name}}</a></li>
@@ -22,6 +23,7 @@
 </template>
 
 <script>
+  import list from '../assets/cactus.json';
   import cactusDetails from "../components/details.vue"
   import astrophytumMyriostigma from "../components/cactus/astrophytumMyriostigma.vue"
   import lopophoraWilliamsii from "../components/cactus/lopophoraWilliamsii.vue"
@@ -31,6 +33,7 @@
 
   export default {
     components: { 
+      list,
       cactusDetails,
       astrophytumMyriostigma,
       lopophoraWilliamsii,
@@ -42,7 +45,8 @@
       return {
         cactus: {
           slug: null
-        }
+        },
+        list: list
       };
     },
     methods: {
@@ -59,10 +63,6 @@
           { hid: 'description', name: 'description', content: "See what cacti I'm growing" }
         ]
       }
-    },
-    async asyncData({ app, params, error }) {
-      let list = await app.$axios.$get('/api/cactus.json')
-      return { list }
     }
   }
 </script>
