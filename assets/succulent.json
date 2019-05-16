@@ -1,0 +1,32 @@
+[
+  {
+    "aka": "Burn Aloe, First Aid Plant, True Aloe (vera means true or genuine)",
+    "description": "Green to grey-green, sometimes with white flecks. Cultivated for agricultural and medicinal purposes",
+    "distribution": null,
+    "flowers": "produced on spike up to 90cm, pendulous flowers with yellow tubular corolla",
+    "fruit": null,
+    "growth_pattern": "long stems from central origin",
+    "height": "60-100cm",
+    "latin_name": "Aloe vera",
+    "origin": "Arabian Peninsula",
+    "ribs": "none - ridged stems",
+    "slug": "aloe_vera",
+    "spines": null,
+    "width": null
+  },
+  {
+    "aka": "Golden Sedum, Golden Glow",
+    "description": "Not cold hardy.  Propogation by leaf cuttings.  Non toxic to humans and animals. Not suited for indoor growing",
+    "distribution": null,
+    "flowers": "white",
+    "fruit": null,
+    "growth_pattern": "trailing, miniature rosettes",
+    "height": "30cm",
+    "latin_name": "Sedum adolphi",
+    "origin": "Bolivia",
+    "ribs": "4-8",
+    "slug": "sedum_adolphi",
+    "spines": "",
+    "width": "61cm"
+  }
+]

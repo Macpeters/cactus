@@ -14,6 +14,8 @@
     
     <span v-if="cactus.slug=='astrophytum_myriostigma'"><astrophytumMyriostigma /></span>
     <span v-if="cactus.slug=='lopophora_williamsii'"><lopophoraWilliamsii /></span>
+    <span v-if="cactus.slug=='mammillaria_pacifica'"><mammillariaPacifica /></span>
+    <span v-if="cactus.slug=='opuntia_engelmannii'"><opuntiaEngelmannii /></span>
     <span v-if="cactus.slug=='trichocereus_bridgisii'"><trichocereusBridgesii /></span>
     <span v-if="cactus.slug=='trichocereus_pachanoi'"><trichocereusPachanoi /></span>
     <span v-if="cactus.slug=='trichocereus_peruvianus'"><trichocereusPeruvianus /></span>
@@ -27,6 +29,8 @@
   import cactusDetails from "../components/details.vue"
   import astrophytumMyriostigma from "../components/cactus/astrophytumMyriostigma.vue"
   import lopophoraWilliamsii from "../components/cactus/lopophoraWilliamsii.vue"
+  import mammillariaPacifica from "../components/cactus/mammillariaPacifica.vue"
+  import opuntiaEngelmannii from "../components/cactus/opuntiaEngelmannii.vue"
   import trichocereusBridgesii from "../components/cactus/trichocereusBridgesii.vue"
   import trichocereusPachanoi from "../components/cactus/trichocereusPachanoi.vue"
   import trichocereusPeruvianus from "../components/cactus/trichocereusPeruvianus.vue"
@@ -37,6 +41,8 @@
       cactusDetails,
       astrophytumMyriostigma,
       lopophoraWilliamsii,
+      mammillariaPacifica,
+      opuntiaEngelmannii,
       trichocereusBridgesii,
       trichocereusPachanoi,
       trichocereusPeruvianus
