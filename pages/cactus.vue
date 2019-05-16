@@ -7,12 +7,13 @@
           <li><a href="#" @click='choose(cactus)'>{{cactus.latin_name}}</a></li>
         </span>
       </ul>
- 
+
     <span v-if="!cactus.slug">Click to view details for any species</span>
     <span v-else> <cactusDetails :cactus=cactus />  </span>
-   
-    
+
+
     <span v-if="cactus.slug=='astrophytum_myriostigma'"><astrophytumMyriostigma /></span>
+    <span v-if="cactus.slug=='carnegiea_gigantea'"><carnegieaGigantea /></span>
     <span v-if="cactus.slug=='lopophora_williamsii'"><lopophoraWilliamsii /></span>
     <span v-if="cactus.slug=='mammillaria_pacifica'"><mammillariaPacifica /></span>
     <span v-if="cactus.slug=='opuntia_engelmannii'"><opuntiaEngelmannii /></span>
@@ -20,7 +21,7 @@
     <span v-if="cactus.slug=='trichocereus_pachanoi'"><trichocereusPachanoi /></span>
     <span v-if="cactus.slug=='trichocereus_peruvianus'"><trichocereusPeruvianus /></span>
 
-     
+
   </div>
 </template>
 
@@ -28,6 +29,7 @@
   import list from '../assets/cactus.json';
   import cactusDetails from "../components/details.vue"
   import astrophytumMyriostigma from "../components/cactus/astrophytumMyriostigma.vue"
+  import carnegieaGigantea from "../components/cactus/carnegieaGigantea.vue"
   import lopophoraWilliamsii from "../components/cactus/lopophoraWilliamsii.vue"
   import mammillariaPacifica from "../components/cactus/mammillariaPacifica.vue"
   import opuntiaEngelmannii from "../components/cactus/opuntiaEngelmannii.vue"
@@ -36,10 +38,11 @@
   import trichocereusPeruvianus from "../components/cactus/trichocereusPeruvianus.vue"
 
   export default {
-    components: { 
+    components: {
       list,
       cactusDetails,
       astrophytumMyriostigma,
+      carnegieaGigantea,
       lopophoraWilliamsii,
       mammillariaPacifica,
       opuntiaEngelmannii,
@@ -63,7 +66,7 @@
     },
     head () {
       return {
-        title: 'Cactus', 
+        title: 'Cactus',
         data() { return {} },
         meta: [
           { hid: 'description', name: 'description', content: "See what cacti I'm growing" }
