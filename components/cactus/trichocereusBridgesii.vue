@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Trichocereus bridgesii</h1>
+    <img v-bind:src="image"  />
 
     <article>
       <h2>Notes on the species</h2>
@@ -44,14 +44,21 @@
 </template>
 
 <script>
+  import image from '../../assets/cacti/trichocereusBridgesii.jpeg';
+
   export default {
     head () {
       return {
-        name: 'test',
-        title: 'test'
+        name: 'trichocereusBridgesii',
+        title: 'Trichocereus bridgesii'
       }
-    }}
+    },
+    data() {
+      return {
+        image
+      };
+    }
+  }
 </script>
 
-<style>
-</style>
+<style lang="css" src="./logs.css" scoped></style>

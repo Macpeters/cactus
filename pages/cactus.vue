@@ -1,26 +1,26 @@
 <template>
-  <div>
-    <h1>Current Cactus List</h1>
-
+  <div class="container">
+    <div class="left-column">
       <ul>
          <span v-for="cactus in list" :key='cactus.slug'>
           <li><a href="#" @click='choose(cactus)'>{{cactus.latin_name}}</a></li>
         </span>
       </ul>
+    </div>
 
-    <span v-if="!cactus.slug">Click to view details for any species</span>
-    <span v-else> <cactusDetails :cactus=cactus />  </span>
+    <div>
+      <span v-if="!cactus.slug">Click to view details for any species</span>
+      <span v-else> <cactusDetails :cactus=cactus />  </span>
 
-
-    <span v-if="cactus.slug=='astrophytum_myriostigma'"><astrophytumMyriostigma /></span>
-    <span v-if="cactus.slug=='carnegiea_gigantea'"><carnegieaGigantea /></span>
-    <span v-if="cactus.slug=='lopophora_williamsii'"><lopophoraWilliamsii /></span>
-    <span v-if="cactus.slug=='mammillaria_pacifica'"><mammillariaPacifica /></span>
-    <span v-if="cactus.slug=='opuntia_engelmannii'"><opuntiaEngelmannii /></span>
-    <span v-if="cactus.slug=='trichocereus_bridgisii'"><trichocereusBridgesii /></span>
-    <span v-if="cactus.slug=='trichocereus_pachanoi'"><trichocereusPachanoi /></span>
-    <span v-if="cactus.slug=='trichocereus_peruvianus'"><trichocereusPeruvianus /></span>
-
+      <span v-if="cactus.slug=='astrophytum_myriostigma'"><astrophytumMyriostigma /></span>
+      <span v-if="cactus.slug=='carnegiea_gigantea'"><carnegieaGigantea /></span>
+      <span v-if="cactus.slug=='lopophora_williamsii'"><lopophoraWilliamsii /></span>
+      <span v-if="cactus.slug=='mammillaria_pacifica'"><mammillariaPacifica /></span>
+      <span v-if="cactus.slug=='opuntia_engelmannii'"><opuntiaEngelmannii /></span>
+      <span v-if="cactus.slug=='trichocereus_bridgisii'"><trichocereusBridgesii /></span>
+      <span v-if="cactus.slug=='trichocereus_pachanoi'"><trichocereusPachanoi /></span>
+      <span v-if="cactus.slug=='trichocereus_peruvianus'"><trichocereusPeruvianus /></span>
+    </div>
 
   </div>
 </template>
@@ -77,28 +77,49 @@
 </script>
 
 <style>
-  li {
-    display: inline;
+  .left-column {
+    float: left;
+    width: 25%;
     padding: 5px;
-    font-weight: 800;
+    font-weight: bold;
+    background-color: #c8e6c8;
   }
+  .right-column {
+    float: left;
+    width: 75%;
+    padding: 5px;
+  }
+
+  li {
+    list-style: none;
+    padding: 3px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* table {
+    padding: 5px;
+    background-color: #f0e6c7;
+  } */
 
   th, td {
     padding: 5px;
   }
 
-  h2, h3 {
+  /* h2, h3 {
     text-align: center;
     font-weight: bold
-  }
+  } */
 
-  .container {
+  /* .container {
     width: 80%;
     padding: 5%;
-  }
+  } */
 
-  article {
+  /* article {
     padding: 5px;
     margin-top: 15px;
-  }
+  } */
 </style>

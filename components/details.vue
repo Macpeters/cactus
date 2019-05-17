@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class='details'>
     <h2>{{ cactus.latin_name}}</h2>
     <h3>AKA {{cactus.aka}}</h3>
     
-    <article>
+    <article class="summary">
       <p><strong>Description:</strong> {{cactus.description}}</p>
       <p><strong>Distribution:</strong> {{cactus.distribution}}</p>
       <p><strong>Flowers:</strong> {{cactus.flowers}}</p>
@@ -42,5 +42,19 @@
     }}
 </script>
 
-<style>
+<style scoped>
+  .details {
+    background-color: #f0e6c7;
+    margin-left: 25%;
+  }
+
+  h2, h3 {
+    padding: 5px;
+  }
+
+  .summary {
+    width: 80%;
+    padding: 5px;
+    margin-left: 10px;
+  }
 </style>

@@ -1,5 +1,8 @@
 <template>
   <div>
+    <img v-bind:src="image"  />
+
+
     <article>
       <h2>Notes on the species</h2>
       <div>
@@ -27,14 +30,21 @@
 </template>
 
 <script>
+  import image from '../../assets/cacti/astrophytumMyriostigma.jpeg';
+
   export default {
     head () {
       return {
         name: 'astrophytumMyriostigma',
         title: 'Astrophytum myriostigma'
       }
-    }}
+    },
+    data() {
+      return {
+        image
+      };
+    },
+  }
 </script>
 
-<style>
-</style>
+<style lang="css" src="./logs.css" scoped></style>

@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <div class="cactus-log">
+     <img v-bind:src="image"  />
+
     <article>
       <h2>Notes on the species</h2>
       <div>
-       
       </div>
     </article>
 
@@ -26,14 +27,22 @@
 </template>
 
 <script>
+  import image from '../../assets/cacti/opuntiaEngelmannii.jpeg';
+
   export default {
     head () {
       return {
         name: 'opuntiaEngelmannii',
         title: 'Opuntia engelmannii'
       }
-    }}
+    },
+    data() {
+      return {
+        image
+      };
+    }
+  }
 </script>
 
-<style>
-</style>
+<style lang="css" src="./logs.css" scoped></style>
+

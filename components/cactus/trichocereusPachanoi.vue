@@ -1,9 +1,10 @@
 <template>
   <div>
+     <img v-bind:src="image"  />
+
     <article>
       <h2>Notes on the species</h2>
       <div>
-        
       </div>
     </article>
 
@@ -44,14 +45,21 @@
 </template>
 
 <script>
+  import image from '../../assets/cacti/trichocereusPachanoi.jpg';
+
   export default {
     head () {
       return {
         name: 'trichocereusPachanoi',
         title: 'Trichocereus pachanoi'
       }
-    }}
+    },
+    data() {
+      return {
+        image
+      };
+    }
+  }
 </script>
 
-<style>
-</style>
+<style lang="css" src="./logs.css" scoped></style>

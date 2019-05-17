@@ -1,5 +1,7 @@
 <template>
   <div>
+    <img v-bind:src="image"  />
+
     <article>
       <h2>Notes on the species</h2>
       <div>
@@ -39,14 +41,21 @@
 </template>
 
 <script>
+  import image from '../../assets/cacti/trichocereusPeruvianus.jpg';
+
   export default {
     head () {
       return {
         name: 'trichocereusPeruvianus',
         title: 'Trichocereus peruvianus'
       }
-    }}
+    },
+    data() {
+      return {
+        image
+      };
+    }
+  }
 </script>
 
-<style>
-</style>
+<style lang="css" src="./logs.css" scoped></style>

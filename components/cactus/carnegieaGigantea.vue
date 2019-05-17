@@ -1,9 +1,10 @@
 <template>
   <div>
+     <img v-bind:src="image"  />
+
     <article>
       <h2>Notes on the species</h2>
       <div>
-
       </div>
     </article>
 
@@ -27,14 +28,25 @@
 </template>
 
 <script>
+  import image from '../../assets/cacti/carnigieaGigantea.jpeg';
+
   export default {
     head () {
       return {
         name: 'carnegieaGigantea',
-        title: 'Carnegiea gigantea'
+        title: 'Carnegiea gigantea',
+        data() { return {} },
+        meta: [
+          { hid: 'description', name: 'description', content: "See what cacti I'm growing" }
+        ]
       }
-    }}
+    },
+    data() {
+      return {
+        image
+      };
+    }
+  }
 </script>
 
-<style>
-</style>
+<style lang="css" src="./logs.css" scoped></style>
