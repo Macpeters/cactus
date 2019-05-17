@@ -1,5 +1,7 @@
 <template>
   <div>
+    <img v-bind:src="image"  />
+
     <article>
       <h2>Notes on the species</h2>
       <div>
@@ -70,7 +72,7 @@
       <div>
         <h3>Born November 6, 2014</h3>
           <div>
-            This is one of the only cacti I own that I didn't plant. He was 2.5 years old when I picked him up (Spring 2016-ish).  
+            This is one of the only cacti I own that I didn't plant. He was 2.5 years old when I picked him up (Spring 2018-ish).  
             Still quite small, as these fellas tend to be, but seems happy enough.  I moved him from his tiny plastic pot to a 
             slightly larger clay pot. 
           </div>
@@ -80,6 +82,8 @@
 </template>
 
 <script>
+  import image from '../../assets/cacti/lopophoraWilliamsii.jpg';
+
   export default {
     head () {
       return {
@@ -89,9 +93,13 @@
           { hid: 'description', name: 'description', content: 'Lopophora grow log' }
         ]
       }
-    }}
+    },
+    data() {
+      return {
+        image
+      };
+    }
+  }
 </script>
 
-<style>
-
-</style>
+<style lang="css" src="./logs.css" scoped></style>
