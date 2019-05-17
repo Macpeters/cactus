@@ -19,6 +19,7 @@
         <th>Width</th>
         <th>Ribs</th>
         <th>Origin</th>
+        <th>Zone</th>
       </tr>
       <tr>
         <td>{{cactus.growth_pattern}}</td>
@@ -26,6 +27,7 @@
         <td>{{cactus.width}}</td>
         <td>{{cactus.ribs}}</td>
         <td>{{cactus.origin}}</td>
+        <td></td>
       </tr>
     </table>
   </div>
