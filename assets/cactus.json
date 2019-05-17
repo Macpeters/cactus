@@ -1,18 +1,20 @@
 [
   {
-    "aka": null,
+    "aka": "Armatocereus balsasensis, Armatocereus arduus",
     "description": "tall blueish/greyish green with upright branches",
-    "distribution": null,
-    "flowers": "carmine flowers",
+    "distribution": "rare",
+    "flowers": "carmine/white flowers",
     "fruit": null,
     "growth_pattern": "columnar",
-    "height": null,
+    "height": "8-10m",
     "latin_name": "Armatocereus rauhii",
     "origin": "Peru",
     "ribs": "6-12 ribs",
     "slug": "armatocereus_rauhii",
+    "seeds": "sphere-ish, black, rough - 1.9mm - 2mm",
     "spines": "6-7 short (1-2mm) spines per areole",
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
     "aka": "sand dollar cactus, sea urchin cactus, star cactus, star peyote",
@@ -25,39 +27,45 @@
     "latin_name": "Astrophytumn astaria",
     "origin": "Texas, Mexico",
     "ribs": "7-10",
+    "seeds": "",
     "slug": "astrophytumn_astaria",
     "spines": "spineless",
-    "width": "5-15cm"
+    "width": "5-15cm",
+    "zone": null
   },
   {
-    "aka": "Echinocactus myriostigma, A. prismaticum, A. columnare, Star cactus",
+    "aka": "Bishop's Cap, Echinocactus myriostigma, A. prismaticum, A. columnare, Star cactus",
     "description": "small, round, becomes cylindrical with age",
     "distribution": null,
     "flowers": "creamy yellow (could take up to 6 years to flower)",
-    "fruit": null,
+    "fruit": "hairy reddish - 2-2.5cm",
     "growth_pattern": "globular",
     "height": "70-100cm ",
     "latin_name": "Astrophytum myriostigma",
-    "origin": null,
+    "origin": "Mexico",
     "ribs": "3-7, more added with age",
+    "seeds": "",
     "slug": "astrophytum_myriostigma",
     "spines": "spineless",
-    "width": "20cm"
+    "width": "20cm",
+    "zone": null
   },
   {
-    "aka": "may not be a fully accepted species",
-    "description": null,
+    "aka": "",
+    "description": "light-green to grey-green, growing in tribes.  This may not be a fully accepted species.  The only descriptive source I could find was in german",
     "distribution": null,
-    "flowers": "yellow/green",
-    "fruit": null,
+    "flowers": "yellow/green, orange/red - 2.5cm, short-lived",
+    "fruit": "spherical fruit, small, ripening slowly from lightgreen to darker",
     "growth_pattern": null,
-    "height": null,
+    "height": "7-8cm",
     "latin_name": "Brasilicactus haselbergii",
     "origin": "Brazil",
-    "ribs": null,
+    "ribs": "30 or more, growing in a spiral",
+    "seeds": "elongated cap-shaped, glossy black seeds",
     "slug": "brasilicactus_haselbergii",
-    "spines": null,
-    "width": null
+    "spines": "white areoles, with 3-5 yellow mid-spines 1-1.5cm long, with 20-60 yellow-white edge-spines (like fur)",
+    "width": "7-8cm",
+    "zone": null
   },
   {
     "aka": "Cereus candelaris",
@@ -70,9 +78,11 @@
     "latin_name": "Browning candelaris",
     "origin": "northern Chile and southern Peru",
     "ribs": null,
+    "seeds": "",
     "slug": "browning_candelaris",
     "spines": "dense, straight, brown spines of 6-15cm (fewer in older growth)",
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
     "aka": "Saguaro",
@@ -85,9 +95,11 @@
     "latin_name": "Carnegiea gigantea",
     "origin": "arizona, mexico, california",
     "ribs": null,
+    "seeds": "",
     "slug": "carnegiea_gigantea",
     "spines": null,
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
     "aka": "Cereus smaragdiflorus",
@@ -100,9 +112,11 @@
     "latin_name": "Cleistocactus smaragdiflorus",
     "origin": null,
     "ribs": null,
+    "seeds": "",
     "slug": "cleistocactus_smaragdiflorus",
     "spines": null,
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
     "aka": "Golden barrel cactus, Golden ball",
@@ -115,9 +129,11 @@
     "latin_name": "Echinocactus grusonii",
     "origin": "east-central mexico",
     "ribs": "up to 35 ribs in mature plants, younger seem knobbly",
+    "seeds": "",
     "slug": "echinocactus_grusonii",
     "spines": "sharp spines, long",
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
     "aka": "scarlet hedgehog cactus",
@@ -130,9 +146,11 @@
     "latin_name": "Echinocereus coccineus",
     "origin": "south arizona, new mexico, west texas, san angelo, south colorado",
     "ribs": null,
+    "seeds": "",
     "slug": "echinocereus_coccineus",
     "spines": null,
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
     "aka": null,
@@ -145,12 +163,14 @@
     "latin_name": "Gymnocalycium pflanzii",
     "origin": "Bolivia and Paraguay",
     "ribs": null,
+    "seeds": "",
     "slug": "gymnocalycium_pflanzii",
     "spines": null,
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
-    "aka": "peyote",
+    "aka": "Peyote, Divine Messenger",
     "description": null,
     "distribution": null,
     "flowers": null,
@@ -158,41 +178,47 @@
     "growth_pattern": "globular",
     "height": null,
     "latin_name": "Lopophora williamsii",
-    "origin": null,
+    "origin": "Mexico, southwestern Texas",
     "ribs": null,
+    "seeds": "",
     "slug": "lopophora_williamsii",
     "spines": null,
-    "width": null
+    "width": null,
+    "zone": null
   },
   {
-    "aka": "Mammillaria petrophila",
-    "description": "solitary when young.  Prefer light shade",
+    "aka": "M. petrophila, M. arida, M. marshalliana, M. gatesii, M baxteriana",
+    "description": "solitary when young.  Prefer light shade.  Tubercles (fleshy lumps or warts) covering body",
     "distribution": null,
-    "flowers": "greenish flowers, 2cm diameter",
+    "flowers": "yellowish or greenish flowers, 2cm diameter in mid spring",
     "fruit": null,
     "growth_pattern": "globose, cylindrical",
     "height": "15cm",
     "latin_name": "Mammillaria pacifica",
     "origin": "california, mexico",
-    "ribs": null,
+    "ribs": "ribless",
+    "seeds": "",
     "slug": "mammillaria_pacifica",
     "spines": "1-2 central spines, 8-10 radials",
-    "width": "15cm"
+    "width": "15cm",
+    "zone": "USDA Zone 10a"
   },
   {
     "aka": "prickly pear, cow’s tongue",
-    "description": "dense clumps with no apparent trunk. Pads are green oval to round, 15-30cm long and 12-20 wide",
-    "distribution": null,
+    "description": "dense clumps with no apparent trunk. Pads are green oval to round, 15-30cm long and 12-20 wide.  High tolerance for humidity and rain",
+    "distribution": "widely cultivated, grows naturally in southern states, desert at Glenboro, Manitoba, protected plant in Ontario",
     "flowers": "1 day yellow flowers, occasionally redish, 5-8cm (april and may)",
-    "fruit": "purple fleshy fruits - edible",
+    "fruit": "purple fleshy fruits - edible, 3inch long",
     "growth_pattern": "shrubby",
     "height": "3.5m",
     "latin_name": "Opuntia engelmannii",
-    "origin": "southwestern US and northern Mexico",
+    "origin": "southwestern US and northern Mexico, or San Antonio, Texas",
     "ribs": null,
+    "seeds": "",
     "slug": "opuntia_engelmannii",
     "spines": "glochids (hair-like spines) are hellow, turning brown with age.  Variable - 1-8 per areole, yellow to white",
-    "width": null
+    "width": "30-40cm",
+    "zone": "6b, but survives -40"
   },
   {
     "aka": "Christmas cactus, Thanksgiving cactus",
@@ -201,58 +227,65 @@
     "flowers": " 6.5–8 long, 4-6cm across - red, orange, pink, white",
     "fruit": "red, pear-shaped, and about 1.2 cm",
     "growth_pattern": "stems growing from a central short trunk",
-    "height": "",
+    "height": "30cm",
     "latin_name": "Schlumbergera truncata",
     "origin": "Brazil",
-    "ribs": null,
+    "ribs": "no ribs",
     "seeds": "black, shiny, 1mm",
     "slug": "schlumbergera_truncata",
-    "spines": "",
-    "width": ""
+    "spines": "there are some truncated little spines on the outer corners of the sections",
+    "width": "30cm",
+    "zone": "11a"
   },
   {
     "aka": "bolivian torch, echinopsis lageniformis",
     "description": "greenish-blue",
     "distribution": null,
-    "flowers": null,
-    "fruit": null,
+    "flowers": "white, round flowers on stems near the crown.  Yellowish near the center",
+    "fruit": "no edible fruit - just a green seed pod",
     "growth_pattern": "columnar",
     "height": "2-5m",
     "latin_name": "Trichocereus bridgesii",
     "origin": "Bolivia",
     "ribs": "4-8",
+    "seeds": "small, round, shiny black",
     "slug": "trichocereus_bridgisii",
     "spines": "groups of up to 4, 6-7cm in length",
-    "width": "15-20cm"
+    "width": "15-20cm",
+    "zone": "8b-10"
   },
   {
     "aka": "san pedro cactus, echinopsis pachanoi",
-    "description": "light to dark green stems, sometimes glaucous (waxy). multiple branches from the base.  Avg 0.5m growth per year.",
+    "description": "light to dark green stems, sometimes glaucous (waxy). multiple branches from the base.  Avg 30cm growth per year.  Likes a little more water than most cacti.",
     "distribution": null,
-    "flowers": "white flowers, open at night, 19-24cm long and 20cm wide",
-    "fruit": null,
+    "flowers": "white flowers, open at night, 19-24cm long and 20cm wide.  Blooms in July",
+    "fruit": "no edible fruit - green seedpod, covered with scales and black curled hairs.  oblong 5-6cm long, 3cm in diameter.",
     "growth_pattern": "columnar",
     "height": "3-6m",
     "latin_name": "Trichocereus pachanoi",
     "origin": "Argentina, Bolivia, Chile, Ecuador, Peru",
-    "ribs": "6-8",
+    "ribs": "4-8, usual 5-7, broad at base, obtuse, rounded, with deep horizontal depression above areole.",
+    "seeds": "small, round, shiny black",
     "slug": "trichocereus_pachanoi",
-    "spines": null,
-    "width": "6-15cm "
+    "spines": "highly variable. Often not present, few (3-7), unequal, the longest 1-2cm.  Long, dark, yellow to light brown.  Spaced evenly along ribs.  Areoles white, close set.",
+    "width": "6-15cm",
+    "zone": "8b-10"
   },
   {
     "aka": "Peruvian torch cactus, Echinopsis peruviana",
-    "description": "bluish green, frosted stems",
+    "description": "bluish green, frosted stems.  Not to be confused with Cereus Peruvianus which has flattened ribs and produces red/pink flowers and a kiwi-like fruit (peruvian apple)",
     "distribution": null,
-    "flowers": "white flowers",
-    "fruit": null,
+    "flowers": "white flowers coming out of branches near the crown",
+    "fruit": "no edible fruit - just a green seed pod",
     "growth_pattern": "columnar",
     "height": "3-6m",
     "latin_name": "Trichocereus peruvianus",
     "origin": "Peru (western slope of Andes)",
     "ribs": "6-9 broadly rounded ribs",
+    "seeds": "small, round, shiny black",
     "slug": "trichocereus_peruvianus",
     "spines": "honey coloured/brown, rigid, 1-4cm in length",
-    "width": "8-18cm"
+    "width": "8-18cm",
+    "zone": "8b-10"
   }
 ]

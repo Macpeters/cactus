@@ -5,6 +5,10 @@
     <article>
       <h2>Notes on the species</h2>
       <div>
+        Used by the indegenous people of the andes for their alkaloid content and sold in markets.There are different 'kinds'
+        depending on the number of ribs. Cacti with seve ribs are the least potent and most common.
+        Cacti with four ribs are rare , considered the more potent and belived to have special power because each rib
+        corresponds with one of the “four winds" (4 cardinal directions), and its use dates back to 3000+ years ago.
       </div>
     </article>
 
@@ -17,7 +21,7 @@
       <div>
         <h3>Seedlings</h3>
           <div>
-            19 Seelings survive from this batch, still incubated and looking bigger and stronger than their slightly 
+            19 Seelings survive from this batch, still incubated and looking bigger and stronger than their slightly
             older siblings.
           </div>
       </div>
