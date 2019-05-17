@@ -127,27 +127,7 @@
     text-decoration: none;
   }
 
-  /* table {
-    padding: 5px;
-    background-color: #f0e6c7;
-  } */
-
   th, td {
     padding: 5px;
   }
-
-  /* h2, h3 {
-    text-align: center;
-    font-weight: bold
-  } */
-
-  /* .container {
-    width: 80%;
-    padding: 5%;
-  } */
-
-  /* article {
-    padding: 5px;
-    margin-top: 15px;
-  } */
 </style>

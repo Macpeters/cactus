@@ -43,5 +43,36 @@
     "slug": "sedum_adolphi",
     "spines": "",
     "width": "61cm"
+  },
+  {
+    "aka": "",
+    "description": "club shaped light green leaes clustered at branch tips",
+    "distribution": null,
+    "flowers": "barely open with greenish yellow petals and long green sepals - late winter",
+    "fruit": null,
+    "growth_pattern": "tree like",
+    "height": "1-2ft",
+    "latin_name": "Sedum corynephyllum",
+    "origin": "",
+    "ribs": "",
+    "slug": "sedum_corynephyllum",
+    "spines": "",
+    "width": "1-2ft"
+  },
+  {
+    "aka": "",
+    "description": "round blue spatula shaped leaves comprising rosettes, enjoys shade",
+    "distribution": null,
+    "flowers": "february/march - yellow",
+    "fruit": null,
+    "growth_pattern": "",
+    "height": "a few inches",
+    "latin_name": "Sedum palmeri",
+    "origin": "Mexico",
+    "ribs": "",
+    "slug": "sedum_palmeri",
+    "spines": "",
+    "width": "18inch",
+    "zone": "7a to 10b"
   }
 ]
