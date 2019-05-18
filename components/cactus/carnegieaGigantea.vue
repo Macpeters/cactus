@@ -1,34 +1,40 @@
 <template>
   <div>
-     <img v-bind:src="image"  />
-
     <article class="main-notes">
+      <img v-bind:src="image"  />
       <h2>Notes on the species</h2>
       <div>
       </div>
     </article>
 
-    <article>
-      <h2>Batch 1</h2>
-      <div>
-        <h3>Sowing the seeds: 04/2019</h3>
-          <div>16/25 have germinated and they're the biggest seedlings I've got, including those
-            I planted last year.  They have an interesting shape to them, as well.  I'm excited
-            to see what these do, but also worried that they'll become gigantic very quickly.
-          </div>
-      </div>
-      <div>
-        <h3>Seedlings</h3>
+    <div class="batch-logs">
+      <div class="row">
+        <article class="batch">
+          <h2>Batch 1</h2>
           <div>
-
+            <h3>Sowing the seeds: 04/2019</h3>
+              <div>
+                I planted 25 seeds, purchased from cactusstore.com
+              </div>
           </div>
+          <div>
+            <h3>Seedlings</h3>
+              <div>
+                16/25 have germinated and they're the biggest seedlings I've got, even compared with those
+                I planted last year.  They have an interesting shape to them, as well.  I'm excited
+                to see what these do, but also worried that they'll become gigantic very quickly.
+              </div>
+          </div>
+           <img v-bind:src="batch_01_seedlings"  />
+        </article>
       </div>
-    </article>
+    </div>
   </div>
 </template>
 
 <script>
-  import image from '../../assets/cacti/carnigieaGigantea.jpeg';
+  import image from '../../assets/cacti/carnigieaGigantea/carnigieaGigantea.jpeg';
+  import batch_01_seedlings from '../../assets/cacti/carnigieaGigantea/batch_01_seedlings.jpg';
 
   export default {
     head () {
@@ -43,7 +49,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }

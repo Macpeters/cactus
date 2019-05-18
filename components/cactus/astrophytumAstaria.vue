@@ -1,7 +1,5 @@
 <template>
   <div>
-   
-
     <article class="main-notes">
       <img v-bind:src="image"  />
       <h2>Notes on the species</h2>

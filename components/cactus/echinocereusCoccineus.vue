@@ -1,30 +1,36 @@
 <template>
   <div>
-    <img v-bind:src="image"  />
-
     <article class="main-notes">
+      <img v-bind:src="image"  />
       <h2>Notes on the species</h2>
       <div>
       </div>
     </article>
 
-    <article>
-      <h2>Batch 1</h2>
-      <div>
-        <h3>Sowing the seeds: 04/2019</h3>
-          <div>I planted 25 seeds</div>
-      </div>
-      <div>
-        <h3>Seedlings</h3>
+    <div class="batch-logs">
+      <div class="row">
+        <article>
+          <h2>Batch 1</h2>
           <div>
+            <h3>Sowing the seeds: 04/2019</h3>
+              <div>I planted 25 seeds from cactusstore.com - 18 have germinated.</div>
           </div>
+          <div>
+            <h3>Seedlings</h3>
+              <div>
+              </div>
+          </div>
+          <img v-bind:src="batch_01_seedlings"  />
+        </article>
       </div>
-    </article>
+    </div>
   </div>
 </template>
 
 <script>
-  import image from '../../assets/cacti/echinocereusCoccineus.jpg';
+  import image from '../../assets/cacti/echinocereusCoccineus/echinocereusCoccineus.jpg';
+  import batch_01_seedlings from '../../assets/cacti/echinocereusCoccineus/batch_01_seedlings.jpg';
+
   export default {
     head () {
       return {
@@ -34,7 +40,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }

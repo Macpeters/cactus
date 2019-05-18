@@ -19,7 +19,6 @@
     </article>
 
     <div class="batch-logs">
-
       <div class="row">
         <article class="batch">
           <h2>Batch 3: v caespitosa</h2>
@@ -33,7 +32,7 @@
                 It looks like about 64 have germinated.  I can't get an exact count because of the way they're scattered, and it looks like a few more 
                 are trying to put down roots.  We'll see what happens.
               </div>
-              <img v-bind:src="batch_01_seedlings"  />
+              <img v-bind:src="batch_03_seedlings"  />
           </div>
         </article>
 
@@ -71,7 +70,7 @@
                 with moving the seedlings further from the light, which led to yellowing and stretching.  They seem stable enough now - dark green, 
                 hardened, and under flourescent light.  My only flor light is 24 hrs.  <strong>Do cacti need to sleep?</strong>
               </div>
-              <img v-bind:src="batch_03_seedlings"  />
+              <img v-bind:src="batch_01_seedlings"  />
           </div>
         </article>
 
@@ -84,6 +83,7 @@
                 Still quite small, as these fellas tend to be, but seems happy enough.  I moved him from his tiny plastic pot to a 
                 slightly larger clay pot. 
               </div>
+              <img v-bind:src="charlie"  />
           </div>
         </article>
       </div>
@@ -93,6 +93,7 @@
 
 <script>
   import image from '../../assets/cacti/lopophoraWilliamsii/charlie_3years.jpg';
+  import charlie from '../../assets/cacti/lopophoraWilliamsii/charlie_2_5years.jpg';
   import batch_01_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings.jpg';
   import batch_02_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings.jpg';
   import batch_03_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings.jpg';
@@ -110,6 +111,7 @@
     data() {
       return {
         image,
+        charlie,
         batch_01_seedlings,
         batch_02_seedlings,
         batch_03_seedlings
