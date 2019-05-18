@@ -1,31 +1,58 @@
 <template>
-  <div>
-    <h1>Wish List</h1>
+  <div class="container">
+    <div class="left-column">
       <ul>
-        <li>Echinocereus rigidissimus (red spines)</li>
-        <li>Lithrops (succulent - living stones)</li>
-        <li>Cleistocactus Strausii (wooly torch)</li>
+         <span v-for="item in list" :key='item.slug'>
+          <li><a href="#" @click='choose(item)'>{{item.latin_name}}</a></li>
+        </span>
       </ul>
-    <nuxt-child v-if="$route.params.cactus"/>
+    </div>
+
+    <div>
+      <span v-if="!item.slug">Click to view details for any species</span>
+      <span v-else> <cactusDetails :cactus=item />  </span>
+
+      <span v-if="item.slug=='aloe_vera'"><aloeVera /></span>
+    </div>
+
   </div>
 </template>
 
 <script>
-export default {
-  head () {
-    return {
-      title: 'Team',
-      meta: [
-        { hid: 'description', name: 'description', content: 'Discover our team' }
-      ]
+  import list from '../assets/wishlist.json';
+  import cactusDetails from "../components/details.vue"
+  
+  import aloeVera from "../components/succulent/aloeVera.vue"
+
+  export default {
+    components: {
+      list,
+      cactusDetails,
+      aloeVera,
+    },
+    data() {
+      return {
+        item: {
+          slug: null
+        },
+        list: list
+      };
+    },
+    methods: {
+      choose(item) {
+        this.item = item;
+      }
+    },
+    head () {
+      return {
+        title: 'Succulents',
+        data() { return {} },
+        meta: [
+          { hid: 'description', name: 'description', content: "See what succulents I'm growing" }
+        ]
+      }
     }
-  }}
+  }
 </script>
 
-<style>
-  li {
-    display: inline;
-    padding: 5px;
-    font-weight: 800;
-  }
-</style>
+<style lang="css" src="./listViews.css" scoped></style>

@@ -2,7 +2,7 @@
   <div>
     <img v-bind:src="image"  />
 
-    <article>
+    <article class="main-notes">
       <h2>Notes on the species</h2>
       <div>
       </div>
@@ -35,4 +35,4 @@
   }
 </script>
 
-<style lang="css" src="./logs.css" scoped></style>
+<style lang="css" src="../logs.css" scoped></style>

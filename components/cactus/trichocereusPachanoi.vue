@@ -2,7 +2,7 @@
   <div>
      <img v-bind:src="image"  />
 
-    <article>
+    <article class="main-notes">
       <h2>Notes on the species</h2>
       <div>
         Used by the indegenous people of the andes for their alkaloid content and sold in markets.There are different 'kinds'
@@ -66,4 +66,4 @@
   }
 </script>
 
-<style lang="css" src="./logs.css" scoped></style>
+<style lang="css" src="../logs.css" scoped></style>

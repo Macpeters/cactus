@@ -12,7 +12,11 @@
       <span v-if="!succulent.slug">Click to view details for any species</span>
       <span v-else> <cactusDetails :cactus=succulent />  </span>
 
-      <span v-if="succulent.slug=='armatocereus_rauhii'"><armatocereusRauhii /></span>
+      <span v-if="succulent.slug=='aloe_vera'"><aloeVera /></span>
+      <span v-if="succulent.slug=='crassula_ovata'"><crassulaOvata /></span>
+      <span v-if="succulent.slug=='sedum_adolphi'"><sedumAdolphi /></span>
+      <span v-if="succulent.slug=='sedum_corynephyllum'"><sedumCornephyllum /></span>
+      <span v-if="succulent.slug=='sedum_palmeri'"><sedumPalmeri /></span>
     </div>
 
   </div>
@@ -22,13 +26,21 @@
   import list from '../assets/succulent.json';
   import cactusDetails from "../components/details.vue"
   
-  import armatocereusRauhii from "../components/cactus/armatocereusRauhii.vue"
+  import aloeVera from "../components/succulent/aloeVera.vue"
+  import crassulaOvata from "../components/succulent/crassulaOvata.vue"
+  import sedumAdolphi from "../components/succulent/sedumAdolphi.vue"
+  import sedumCornephyllum from "../components/succulent/sedumCornephyllum.vue"
+  import sedumPalmeri from "../components/succulent/sedumPalmeri.vue"
 
   export default {
     components: {
       list,
       cactusDetails,
-      armatocereusRauhii
+      aloeVera,
+      crassulaOvata,
+      sedumAdolphi,
+      sedumCornephyllum,
+      sedumPalmeri
     },
     data() {
       return {
@@ -55,31 +67,4 @@
   }
 </script>
 
-<style>
-  .left-column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-    font-weight: bold;
-    background-color: #c8e6c8;
-  }
-  .right-column {
-    float: left;
-    width: 75%;
-    padding: 5px;
-  }
-
-  li {
-    list-style: none;
-    padding: 3px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  th, td {
-    padding: 5px;
-  }
-
-</style>
+<style lang="css" src="./listViews.css" scoped></style>

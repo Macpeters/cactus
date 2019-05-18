@@ -2,7 +2,7 @@
   <div>
     <img v-bind:src="image"  />
 
-    <article>
+    <article class="main-notes">
       <h2>Notes on the species</h2>
       <div>
         All my seeds so far have been purchased from Magiccactus.com
@@ -61,4 +61,4 @@
   }
 </script>
 
-<style lang="css" src="./logs.css" scoped></style>
+<style lang="css" src="../logs.css" scoped></style>

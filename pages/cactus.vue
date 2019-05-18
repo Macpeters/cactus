@@ -104,30 +104,4 @@
   }
 </script>
 
-<style>
-  .left-column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-    font-weight: bold;
-    background-color: #c8e6c8;
-  }
-  .right-column {
-    float: left;
-    width: 75%;
-    padding: 5px;
-  }
-
-  li {
-    list-style: none;
-    padding: 3px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  th, td {
-    padding: 5px;
-  }
-</style>
+<style lang="css" src="./listViews.css" scoped></style>

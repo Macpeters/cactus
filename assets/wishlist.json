@@ -1,0 +1,51 @@
+[
+  {
+    "aka": "Arizona Rainbow Cactus, Rainbow Hedgehog Cactus",
+    "description": "Solitary. Prefers growing on slopes, soil with lots of stones",
+    "distribution": null,
+    "flowers": "bright pink with white throat, late April to early June",
+    "fruit": "green to dark purple, white flesh, ",
+    "growth_pattern": "",
+    "height": "30cm",
+    "latin_name": "Echinocereus rigidissimus",
+    "origin": "Mexico, Arizona, New Mexico",
+    "ribs": "",
+    "seeds": "dark brown to black",
+    "slug": "echinocereus_rigidissimus",
+    "spines": "radial spines curved slightly towards the stem, red/pink, fading to yellow with age",
+    "width": "11cm",
+    "zone": "-12 degrees"
+  },
+  {
+    "aka": "living stones",
+    "description": "a variety of succulent species - bulbous leaves opposite each other, hardly any stem.",
+    "distribution": null,
+    "flowers": "yellow or white, usually in autumn, sweetly scented",
+    "fruit": "a dry capsule that opens when it gets wet, closes again when dry.  May detach, or disintigrate after a few years",
+    "growth_pattern": "a single pair of leaves per plant",
+    "height": "stay close to ground, are mostly burried",
+    "latin_name": "Lithrops",
+    "origin": "Southern Africa",
+    "ribs": "none",
+    "slug": "lithrops",
+    "spines": "none",
+    "width": "",
+    "zone": ""
+  },
+  {
+    "aka": "Wooly torch",
+    "description": "slender, 6cm wide columns",
+    "distribution": "abundant",
+    "flowers": "over 45cm can produce deep red, burgundy 6cm flowers late summer",
+    "fruit": null,
+    "growth_pattern": "columnar",
+    "height": "3m",
+    "latin_name": "Cleistocactus strausii",
+    "origin": "Bolivia, Argentina",
+    "ribs": "25",
+    "slug": "cleistocactus_strausii",
+    "spines": "densely covered in areoles, each with 4 yellow-brown spines up to 4cm, and shorter white radials",
+    "width": "",
+    "zone": "-10 decrees"
+  }
+]
