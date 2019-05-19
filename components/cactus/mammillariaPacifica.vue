@@ -13,7 +13,7 @@
           <h2>Batch 1</h2>
           <div>
             <h3>Sowing the seeds: 04/2019</h3>
-              <div>I planted 25 seeds - 9 appear to have germinated</div>
+              <div>I planted 25 seeds from cactusstore.com- 9 appear to have germinated</div>
           </div>
           <div>
             <h3>Seedlings</h3>

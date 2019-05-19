@@ -4,7 +4,7 @@
       <img v-bind:src="image"  />
       <h2>Notes on the species</h2>
       <div>
-        All my seeds so far have been purchased from Magiccactus.com
+        All my tricho seeds so far have been purchased from Magiccactus.com
       </div>
     </article>
 

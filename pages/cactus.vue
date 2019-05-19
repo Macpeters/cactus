@@ -14,6 +14,7 @@
 
       <span v-if="cactus.slug=='armatocereus_rauhii'"><armatocereusRauhii /></span>
       <span v-if="cactus.slug=='astrophytumn_astaria'"><astrophytumAstaria /></span>
+      <span v-if="cactus.slug=='astrophytum_capricorne'"><astrophytumCapricorne /></span>
       <span v-if="cactus.slug=='astrophytum_myriostigma'"><astrophytumMyriostigma /></span>
       <span v-if="cactus.slug=='brasilicactus_haselbergii'"><brasilicactusHaselbergii /></span>
       <span v-if="cactus.slug=='browning_candelaris'"><browningCandelaris /></span>
@@ -40,6 +41,7 @@
   
   import armatocereusRauhii from "../components/cactus/armatocereusRauhii.vue"
   import astrophytumAstaria from "../components/cactus/astrophytumAstaria.vue"
+  import astrophytumCapricorne from "../components/cactus/astrophytumCapricorne.vue"
   import astrophytumMyriostigma from "../components/cactus/astrophytumMyriostigma.vue"
   import brasilicactusHaselbergii from "../components/cactus/brasilicactusHaselbergii.vue"
   import browningCandelaris from "../components/cactus/browningCandelaris.vue"
@@ -62,6 +64,7 @@
       cactusDetails,
       armatocereusRauhii,
       astrophytumAstaria,
+      astrophytumCapricorne,
       astrophytumMyriostigma,
       brasilicactusHaselbergii,
       browningCandelaris,

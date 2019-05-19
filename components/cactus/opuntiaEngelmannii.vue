@@ -16,7 +16,7 @@
           <div>
             <h3>Sowing the seeds: 04/2019</h3>
               <div>The seeds are unique as large discs which require 24 hours soaking in 
-                water before sowing.  So far only 1/25 has germinated.
+                water before sowing.  So far only 1/25 has germinated.  These are from cactusstore.com.
               </div>
           </div>
           <div>

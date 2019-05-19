@@ -5,7 +5,7 @@
     <article class="main-notes">
       <h2>Notes on the species</h2>
       <div>
-        All my seeds so far have come from magiccactus.com
+        All my trich seeds so far have come from magiccactus.com
       </div>
     </article>
 
