@@ -13,7 +13,7 @@
           <h2>Batch 1</h2>
           <div>
             <h3>Sowing the seeds: 04/2019</h3>
-              <div>I planted 25 seeds from cactusstore.com- 9 appear to have germinated</div>
+              <div>I planted 25 seeds from cactusstore.com- 27 appear to have germinated (guess they gave me extra - I didn't actually count) </div>
           </div>
           <div>
             <h3>Seedlings</h3>
@@ -21,6 +21,7 @@
                   It's still very early, but these are super tiny - barely visible
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings" alt="Mammillaria pacifica seedlings from 18/04/2019"  />
         </article>
       </div>
     </div>
@@ -28,7 +29,9 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/mammillariaPacifica.jpg';
+  import image from '../../assets/cacti/mammillariaPacifica/mammillariaPacifica.jpg';
+  import batch_01_seedlings from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings.jpg';
+  
   export default {
     head () {
       return {
@@ -38,7 +41,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }

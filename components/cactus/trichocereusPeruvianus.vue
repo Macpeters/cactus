@@ -38,7 +38,7 @@
                   This batch was dropped just after sowing :( and only one survived.  It is out of incubation early.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings"  />
+          <img v-bind:src="batch_01_seedlings" alt="Trichocereus peruvianus seedlings from 18/04/2019" />
         </article>
       </div>
     </div>

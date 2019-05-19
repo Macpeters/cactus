@@ -45,7 +45,7 @@
                   but I won't use it again for seedlings without a fully sealed container.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings"  />
+          <img v-bind:src="batch_01_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
         </article>
       </div>
      </div>

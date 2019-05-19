@@ -13,7 +13,7 @@
           <h2>Batch 1</h2>
           <div>
             <h3>Sowing the seeds: 04/2019</h3>
-              <div>I planted 25 seeds from cactusstore.com</div>
+              <div>I planted 25 seeds from cactusstore.com.  As of May 19, nothing has germinated. </div>
           </div>
           <div>
             <h3>Seedlings</h3>

@@ -32,7 +32,7 @@
                 It looks like about 64 have germinated.  I can't get an exact count because of the way they're scattered, and it looks like a few more 
                 are trying to put down roots.  We'll see what happens.
               </div>
-              <img v-bind:src="batch_03_seedlings"  />
+              <img v-bind:src="batch_03_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019"  />
           </div>
         </article>
 
@@ -49,7 +49,7 @@
                 and I am considering whether or not flourescent might be a better option in general, although I worry it might be too much for seedlings.
                 These ones seem happy enough and I don't really want to mess with that.  They'll be in plastic for a few more months, all going well.
               </div>
-              <img v-bind:src="batch_02_seedlings"  />
+              <img v-bind:src="batch_02_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
           </div>
         </article>
       </div>
@@ -70,7 +70,7 @@
                 with moving the seedlings further from the light, which led to yellowing and stretching.  They seem stable enough now - dark green, 
                 hardened, and under flourescent light.  My only flor light is 24 hrs.  <strong>Do cacti need to sleep?</strong>
               </div>
-              <img v-bind:src="batch_01_seedlings"  />
+              <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
           </div>
         </article>
 
@@ -83,7 +83,7 @@
                 Still quite small, as these fellas tend to be, but seems happy enough.  I moved him from his tiny plastic pot to a 
                 slightly larger clay pot. 
               </div>
-              <img v-bind:src="charlie"  />
+              <img v-bind:src="charlie"  alt="Lopophora williamsii fron Spring, 2018" />
           </div>
         </article>
       </div>

@@ -25,6 +25,7 @@
 
               </div>
           </div>
+           <img v-bind:src="batch_01_seedlings" alt="Opuntia engelmannii seedlings from 18/04/2019"  />
         </article>
       </div>
     </div>
@@ -32,7 +33,8 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/opuntiaEngelmannii.jpeg';
+  import image from '../../assets/cacti/opuntiaEngelmannii/opuntiaEngelmannii.jpeg';
+  import batch_01_seedlings from '../../assets/cacti/opuntiaEngelmannii/batch_01_seedlings.jpg';
 
   export default {
     head () {
@@ -43,7 +45,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }

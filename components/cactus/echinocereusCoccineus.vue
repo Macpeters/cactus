@@ -20,7 +20,7 @@
               <div>
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings"  />
+          <img v-bind:src="batch_01_seedlings" alt="echinocereus Coccineus seedlings from 18/04/2019"  />
         </article>
       </div>
     </div>

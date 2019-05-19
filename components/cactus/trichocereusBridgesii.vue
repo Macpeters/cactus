@@ -24,7 +24,7 @@
                 to form.  Still incubating.
               </div>
           </div>
-          <img v-bind:src="batch_02_seedlings"  />
+          <img v-bind:src="batch_02_seedlings"  alt="Trichocereus bridgesii seedlings from 18/04/2019" />
         </article>
 
         <article class="batch">

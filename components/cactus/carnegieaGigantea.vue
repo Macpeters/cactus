@@ -25,7 +25,7 @@
                 to see what these do, but also worried that they'll become gigantic very quickly.
               </div>
           </div>
-           <img v-bind:src="batch_01_seedlings"  />
+           <img v-bind:src="batch_01_seedlings" alt="Carnigiea Gigantea seedlings from 18/04/2019" />
         </article>
       </div>
     </div>
