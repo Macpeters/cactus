@@ -4,6 +4,8 @@
        <img v-bind:src="image"  />
       <h2>Notes on the species</h2>
       <div>
+        I don't have great hope for this species - my outdoor climate is unsuitable, and apparently
+        it doesn't like indoors.  I'm going to try it anyways, since I have the seeds.
       </div>
     </article>
 
@@ -22,6 +24,7 @@
                 All three sedum species I planted have these sorts of seedlings.
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings" alt="Sedum adophi seedlings from May 19, 2019" />
         </article>
       </div>
     </div>
@@ -29,7 +32,9 @@
 </template>
 
 <script>
-  import image from '../../assets/succulents/sedumAdolphi.jpeg';
+  import image from '../../assets/succulents/sedumAdolphi/sedumAdolphi.jpeg';
+  import batch_01_seedlings from '../../assets/succulents/sedumAdolphi/batch_01_seedlings.jpg';
+
   export default {
     head () {
       return {
@@ -39,7 +44,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }

@@ -22,6 +22,7 @@
                 All three sedum species I planted have these sorts of seedlings.
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings" alt="Sedum palmeri seedlings from May 19, 2019" />
         </article>
       </div>
      </div> 
@@ -29,7 +30,9 @@
 </template>
 
 <script>
-  import image from '../../assets/succulents/sedumPalmeri.jpeg';
+  import image from '../../assets/succulents/sedumPalmeri/sedumPalmeri.jpeg';
+  import batch_01_seedlings from '../../assets/succulents/sedumPalmeri/batch_01_seedlings.jpg';
+
   export default {
     head () {
       return {
@@ -39,7 +42,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }

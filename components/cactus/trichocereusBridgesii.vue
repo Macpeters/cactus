@@ -40,6 +40,7 @@
                 too early - hardened off and stuck under 24 hour flor lighting to see how he likes it.
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings"  alt="Trichocereus bridgesii seedlings from 18/04/2019" />
         </article>
       </div>
      </div>
@@ -48,6 +49,7 @@
 
 <script>
   import image from '../../assets/cacti/trichocereusBridgesii/trichocereusBridgesii.jpeg';
+  import batch_01_seedlings from '../../assets/cacti/trichocereusBridgesii/batch_01_seedlings.jpg';
   import batch_02_seedlings from '../../assets/cacti/trichocereusBridgesii/batch_02_seedlings.jpg';
 
   export default {
@@ -60,6 +62,7 @@
     data() {
       return {
         image,
+        batch_01_seedlings,
         batch_02_seedlings
       };
     }

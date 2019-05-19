@@ -27,6 +27,7 @@
                 older siblings.
               </div>
           </div>
+          <img v-bind:src="batch_02_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
         </article>
 
         <article class="batch">
@@ -55,6 +56,7 @@
 <script>
   import image from '../../assets/cacti/trichocereusPachanoi/trichocereusPachanoi.jpg';
   import batch_01_seedlings from '../../assets/cacti/trichocereusPachanoi/batch_01_seedlings.jpg';
+  import batch_02_seedlings from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings.jpg';
 
   export default {
     head () {
@@ -66,7 +68,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_02_seedlings
       };
     }
   }

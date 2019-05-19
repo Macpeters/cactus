@@ -45,6 +45,7 @@
                   until I have a better idea of what they actually are.
               </div>
           </div>
+           <img v-bind:src="batch_01_seedlings"  />
         </article>
       </div>
     </div>
@@ -52,7 +53,8 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/astrophytumMyriostigma.jpeg';
+  import image from '../../assets/cacti/astrophytumMyriostigma/astrophytumMyriostigma.jpeg';
+  import batch_01_seedlings from '../../assets/cacti/astrophytumMyriostigma/batch_01_seedlings.jpg';
 
   export default {
     head () {
@@ -63,7 +65,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     },
   }
