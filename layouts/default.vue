@@ -6,6 +6,7 @@
         <li class="nav-item"><a href="/cactus">Cacti</a></li>
         <li class="nav-item"><a href="/succulent">Succulents</a></li>
         <li class="nav-item"><a href="/wishList">Wishlist</a></li>
+         <li class="nav-item"><a href="/moreInfo">Info</a></li>
       </ul>
     </h2>
     <nuxt />
@@ -51,6 +52,7 @@
     font-weight: bolder;
     -webkit-transition: color 2s; /* Safari */
     transition: color 2s;
+    padding: 8px;
   }
   .nav-item a:hover {
     color: #8eb2f5;
