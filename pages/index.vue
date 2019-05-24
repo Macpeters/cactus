@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import cactus from '../assets/cacti/astrophytumAstaria.jpeg'
+import cactus from '../assets/cacti/astrophytumAstaria/astrophytumAstaria.jpeg'
 
 export default {
   components: {

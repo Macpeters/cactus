@@ -4,7 +4,9 @@
       <img v-bind:src="image"  />
       <h2>Notes on the species</h2>
       <div>
-       These seeds had the best germ rate at 100%
+       Some cultivars have red colouring - anywhere from subtle hints to entirely devoid of 
+       chlorophyl.  Plants without chlorophyl (entirely red/orange) will need to be grafted to 
+       to another cactus, such as Opuntia engelmannii
       </div>
     </article>
 
@@ -26,8 +28,13 @@
           <div>
             <h3>Seedlings</h3>
               <div>
+                  These were looking pretty orange for a few days - I moved them further from the
+                  light.  The orange has largely faded.  I wouldn't mind if these turn out to have
+                  some colour, but I would like to avoid having to graft until I have a bit more XP
+                  with cactusing.
               </div>
           </div>
+           <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from May 4, 2019" />
         </article>
 
         <article class="batch">
@@ -42,7 +49,9 @@
                   These are tall columnar looking seedlings.  I was expecting short, squat, little blobs like the lopophoras.  I
                   have a strong suspicion I didn't get the seeds I ordered from Magiccactus.com.  They were labeled correctly 
                   on the package.  Only time will tell what these baby cacti will become, but I'll call them Astrophytum myriostigma 
-                  until I have a better idea of what they actually are.
+                  until I have a better idea of what they actually are.  I don't love that they're growing
+                  sideways, but I don't want to expose them to anything yet, so as long as they're growing, I'll 
+                  leave them.
               </div>
           </div>
            <img v-bind:src="batch_01_seedlings"  />
@@ -55,6 +64,7 @@
 <script>
   import image from '../../assets/cacti/astrophytumMyriostigma/astrophytumMyriostigma.jpeg';
   import batch_01_seedlings from '../../assets/cacti/astrophytumMyriostigma/batch_01_seedlings.jpg';
+  import batch_02_seedlings from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings.jpg';
 
   export default {
     head () {
@@ -66,7 +76,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_02_seedlings
       };
     },
   }

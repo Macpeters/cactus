@@ -1,22 +1,5 @@
 [
   {
-    "aka": "Goat's Horn Cactus",
-    "description": "ball/oval shape, grey-green.  Some have white flecking",
-    "distribution": "widely distributed in Chihuahuan desert",
-    "flowers": "large yellow, with red centers",
-    "fruit": "",
-    "growth_pattern": "globular",
-    "height": "25cm",
-    "latin_name": "Astrophytumn capricorne",
-    "origin": "Northern Mexico",
-    "ribs": "7-9",
-    "seeds": "larger than lops or trichs",
-    "slug": "astrophytum_capricorne",
-    "spines": "curved spines resembling goat horns",
-    "width": "10cm",
-    "zone": null
-  },
-  {
     "aka": "Bishop's Cap, Echinocactus myriostigma, A. prismaticum, A. columnare, Star cactus",
     "description": "small, round, becomes cylindrical with age",
     "distribution": null,
@@ -31,6 +14,23 @@
     "slug": "astrophytum_astaria",
     "spines": "spineless",
     "width": "20cm",
+    "zone": null
+  },
+  {
+    "aka": "Goat's Horn Cactus",
+    "description": "ball/oval shape, grey-green.  Some have white flecking",
+    "distribution": "widely distributed in Chihuahuan desert",
+    "flowers": "large yellow, with red centers",
+    "fruit": "",
+    "growth_pattern": "globular",
+    "height": "25cm",
+    "latin_name": "Astrophytumn capricorne",
+    "origin": "Northern Mexico",
+    "ribs": "7-9",
+    "seeds": "larger than lops or trichs",
+    "slug": "astrophytum_capricorne",
+    "spines": "curved spines resembling goat horns",
+    "width": "10cm",
     "zone": null
   },
   {

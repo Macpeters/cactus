@@ -21,8 +21,11 @@
           <div>
             <h3>Seedlings</h3>
               <div>
+                It looks like everything has germinated, which is pretty solid.  They looked fairly
+                globular at first, but now some of them are looking more columnar.  
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings" alt="Astrophytum astaria seedlings from May 24, 2019" />
         </article>
       </div>
     </div>
@@ -30,7 +33,9 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/astrophytumAstaria.jpeg';
+  import image from '../../assets/cacti/astrophytumAstaria/astrophytumAstaria.jpeg';
+  import batch_01_seedlings from '../../assets/cacti/astrophytumAstaria/batch_01_seedlings.jpg';
+
   export default {
     head () {
       return {
@@ -40,7 +45,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }
