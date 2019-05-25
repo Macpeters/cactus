@@ -25,7 +25,7 @@
                 globular at first, but now some of them are looking more columnar.  
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Astrophytum astaria seedlings from May 24, 2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Astrophytum astaria seedlings from May 23, 2019" />
         </article>
       </div>
     </div>

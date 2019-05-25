@@ -34,7 +34,7 @@
                   with cactusing.
               </div>
           </div>
-           <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from May 4, 2019" />
+           <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from May 23, 2019" />
         </article>
 
         <article class="batch">

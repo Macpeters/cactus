@@ -23,7 +23,7 @@
                 pack.  Some of them still have seed hats.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Astrophytum capricorne seedlings from May 4, 2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Astrophytum capricorne seedlings from May 23, 2019" />
         </article>
       </div>
     </div>
