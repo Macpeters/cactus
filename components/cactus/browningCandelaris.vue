@@ -18,8 +18,12 @@
           <div>
             <h3>Seedlings</h3>
               <div>
+                These guys took their sweet time, but there are 4 popping up now - it's May 27.  
+                From the batch of seeds I got from cactusstore.com, all but 3 have germinated, 
+                and these ones took a couple of weeks longer than anything else that's germinated.
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings" alt="Browning candelaris seedlings from May 27" />
         </article>
       </div>
     </div>
@@ -27,7 +31,9 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/browningiaCandelaris.jpeg';
+  import image from '../../assets/cacti/browningiaCandelaris/browningiaCandelaris.jpeg';
+  import batch_01_seedlings from '../../assets/cacti/browningiaCandelaris/batch_01_seedlings.jpg';
+
   export default {
     head () {
       return {
@@ -37,7 +43,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings
       };
     }
   }

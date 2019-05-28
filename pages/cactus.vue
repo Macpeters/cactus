@@ -15,6 +15,7 @@
       <span v-if="cactus.slug=='astrophytum_astaria'"><astrophytumAstaria /></span>
       <span v-if="cactus.slug=='astrophytum_capricorne'"><astrophytumCapricorne /></span>
       <span v-if="cactus.slug=='astrophytum_myriostigma'"><astrophytumMyriostigma /></span>
+      <span v-if="cactus.slug=='browning_candelaris'"><browningCandelaris /></span>
       <span v-if="cactus.slug=='carnegiea_gigantea'"><carnegieaGigantea /></span>
       <span v-if="cactus.slug=='cleistocactus_smaragdiflorus'"><cleistocactusSmaragdiflorus /></span>
       <span v-if="cactus.slug=='echinocactus_grusonii'"><echinocactusGrusonii /></span>
@@ -26,6 +27,7 @@
       <span v-if="cactus.slug=='trichocereus_bridgisii'"><trichocereusBridgesii /></span>
       <span v-if="cactus.slug=='trichocereus_pachanoi'"><trichocereusPachanoi /></span>
       <span v-if="cactus.slug=='trichocereus_peruvianus'"><trichocereusPeruvianus /></span>
+      
     </div>
 
   </div>
@@ -37,6 +39,7 @@
   import astrophytumAstaria from "../components/cactus/astrophytumAstaria.vue"
   import astrophytumCapricorne from "../components/cactus/astrophytumCapricorne.vue"
   import astrophytumMyriostigma from "../components/cactus/astrophytumMyriostigma.vue"
+  import browningCandelaris from "../components/cactus/browningCandelaris.vue"
   import carnegieaGigantea from "../components/cactus/carnegieaGigantea.vue"
   import cleistocactusSmaragdiflorus from "../components/cactus/cleistocactusSmaragdiflorus.vue"
   import echinocactusGrusonii from "../components/cactus/echinocactusGrusonii.vue"
@@ -56,6 +59,7 @@
       astrophytumAstaria,
       astrophytumCapricorne,
       astrophytumMyriostigma,
+      browningCandelaris,
       carnegieaGigantea,
       cleistocactusSmaragdiflorus,
       echinocactusGrusonii,
