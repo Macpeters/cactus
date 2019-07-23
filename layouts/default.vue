@@ -58,4 +58,8 @@
     color: #8eb2f5;
   }
 
+  img {
+    padding: 5px;
+  }
+
 </style>

@@ -18,9 +18,13 @@
           <div>
             <h3>Seedlings</h3>
               <div>
+                These guys have done well.  All 18 remain, with little spikes and what could be arms, but we'll
+                see.  There's only one that looks stunted because it's hat never came off (a little piece of the seed
+                shell).  I've just knocked that off, gently, so maybe it'll perk up now.
               </div>
           </div>
           <img v-bind:src="batch_01_seedlings" alt="echinocereus Coccineus seedlings from 18/04/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="echinocereus Coccineus seedlings from 23/07/2019"  />
         </article>
       </div>
     </div>
@@ -30,6 +34,7 @@
 <script>
   import image from '../../assets/cacti/echinocereusCoccineus/echinocereusCoccineus.jpg';
   import batch_01_seedlings from '../../assets/cacti/echinocereusCoccineus/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/echinocereusCoccineus/batch_01_seedlings_02.jpg';
 
   export default {
     head () {
@@ -41,7 +46,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }

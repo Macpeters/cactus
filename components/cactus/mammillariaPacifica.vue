@@ -18,10 +18,12 @@
           <div>
             <h3>Seedlings</h3>
               <div>
-                  It's still very early, but these are super tiny - barely visible
+                  It's still very early, but these are super tiny - barely visible.  As of July 23, they are still quite small -
+                  smaller than any other seedling I've got, and still just globs with no real distinguishing features.  18 Remain.
               </div>
           </div>
           <img v-bind:src="batch_01_seedlings" alt="Mammillaria pacifica seedlings from 18/04/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="Mammillaria pacifica seedlings from 23/07/2019"  />
         </article>
       </div>
     </div>
@@ -31,6 +33,7 @@
 <script>
   import image from '../../assets/cacti/mammillariaPacifica/mammillariaPacifica.jpg';
   import batch_01_seedlings from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_02.jpg';
   
   export default {
     head () {
@@ -42,7 +45,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }

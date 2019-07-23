@@ -33,6 +33,7 @@
                 are trying to put down roots.  We'll see what happens.
               </div>
               <img v-bind:src="batch_03_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019"  />
+              <img v-bind:src="batch_03_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019"  />
           </div>
         </article>
 
@@ -50,6 +51,7 @@
                 These ones seem happy enough and I don't really want to mess with that.  They'll be in plastic for a few more months, all going well.
               </div>
               <img v-bind:src="batch_02_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
+              <img v-bind:src="batch_02_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
           </div>
         </article>
       </div>
@@ -71,6 +73,7 @@
                 hardened, and under flourescent light.  My only flor light is 24 hrs.  <strong>Do cacti need to sleep?</strong>
               </div>
               <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
+              <img v-bind:src="batch_01_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
           </div>
         </article>
 
@@ -83,7 +86,9 @@
                 Still quite small, as these fellas tend to be, but seems happy enough.  I moved him from his tiny plastic pot to a 
                 slightly larger clay pot. 
               </div>
-              <img v-bind:src="charlie"  alt="Lopophora williamsii fron Spring, 2018" />
+              <img v-bind:src="charlie"  alt="Lopophora williamsii, Spring, 2018" />
+              <img v-bind:src="charlie_3_5_above"  alt="Lopophora williamsii from above, Spring, 2019" />
+              <img v-bind:src="charlie_3_5_side"  alt="Lopophora williamsii fron the side, Spring, 2019" />
           </div>
         </article>
       </div>
@@ -94,9 +99,14 @@
 <script>
   import image from '../../assets/cacti/lopophoraWilliamsii/charlie_3years.jpg';
   import charlie from '../../assets/cacti/lopophoraWilliamsii/charlie_2_5years.jpg';
+  import charlie_3_5_above from '../../assets/cacti/lopophoraWilliamsii/charlie_3_5yearsAbove.jpg';
+  import charlie_3_5_side from '../../assets/cacti/lopophoraWilliamsii/charlie_3_5_yearsSide.jpg';
   import batch_01_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings.jpg';
   import batch_02_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings.jpg';
   import batch_03_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings_02.jpg';
+  import batch_02_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_02.jpg';
+  import batch_03_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_02.jpg';
 
   export default {
     head () {
@@ -112,9 +122,14 @@
       return {
         image,
         charlie,
+        charlie_3_5_above,
+        charlie_3_5_side,
         batch_01_seedlings,
         batch_02_seedlings,
-        batch_03_seedlings
+        batch_03_seedlings,
+        batch_01_seedlings_02,
+        batch_02_seedlings_02,
+        batch_03_seedlings_02
       };
     }
   }

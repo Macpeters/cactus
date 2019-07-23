@@ -20,10 +20,12 @@
             <h3>Seedlings</h3>
               <div>
                 I'm counting close to 30 seedlings - there must have been more than 25 seeds in the
-                pack.  Some of them still have seed hats.
+                pack.  Some of them still have seed hats.  There are still plenty kicking, and 
+                they look lively enough.  
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Astrophytum capricorne seedlings from May 23, 2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Astrophytum capricorne seedlings from 23/05/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Astrophytum capricorne seedlings from 23/07/2019" />
         </article>
       </div>
     </div>
@@ -33,6 +35,7 @@
 <script>
   import image from '../../assets/cacti/astrophytumCapricorne/astrophytumCapricorne.jpeg';
   import batch_01_seedlings from '../../assets/cacti/astrophytumCapricorne/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/astrophytumCapricorne/batch_01_seedlings_02.jpg';
 
   export default {
     head () {
@@ -44,7 +47,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }

@@ -31,10 +31,13 @@
                   These were looking pretty orange for a few days - I moved them further from the
                   light.  The orange has largely faded.  I wouldn't mind if these turn out to have
                   some colour, but I would like to avoid having to graft until I have a bit more XP
-                  with cactusing.
+                  with cactusing.  Even after switching to 12 hour flor lighting, they still seem 
+                  taller and floppier than seems right.  Maybe I just don't know astrophytum well 
+                  enough to say, though.
               </div>
           </div>
-           <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from May 23, 2019" />
+           <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019" />
+           <img v-bind:src="batch_02_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
         </article>
 
         <article class="batch">
@@ -51,10 +54,12 @@
                   on the package.  Only time will tell what these baby cacti will become, but I'll call them Astrophytum myriostigma 
                   until I have a better idea of what they actually are.  I don't love that they're growing
                   sideways, but I don't want to expose them to anything yet, so as long as they're growing, I'll 
-                  leave them.
+                  leave them.  I noticed a few were shrivelled.  I'm actually down to just the one, it seems.  I 
+                  transplanted it into a clay pot so it's easier to see and water.
               </div>
           </div>
-           <img v-bind:src="batch_01_seedlings"  />
+           <img v-bind:src="batch_01_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019"/>
+           <img v-bind:src="batch_01_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
         </article>
       </div>
     </div>
@@ -65,7 +70,9 @@
   import image from '../../assets/cacti/astrophytumMyriostigma/astrophytumMyriostigma.jpeg';
   import batch_01_seedlings from '../../assets/cacti/astrophytumMyriostigma/batch_01_seedlings.jpg';
   import batch_02_seedlings from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings.jpg';
-
+  import batch_01_seedlings_02 from '../../assets/cacti/astrophytumMyriostigma/batch_01_seedlings_02.jpg';
+  import batch_02_seedlings_02 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_02.jpg';
+  
   export default {
     head () {
       return {
@@ -77,7 +84,9 @@
       return {
         image,
         batch_01_seedlings,
-        batch_02_seedlings
+        batch_02_seedlings,
+        batch_01_seedlings_02,
+        batch_02_seedlings_02
       };
     },
   }

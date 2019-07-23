@@ -22,10 +22,14 @@
               <div>
                 16/25 have germinated and they're the biggest seedlings I've got, even compared with those
                 I planted last year.  They have an interesting shape to them, as well.  I'm excited
-                to see what these do, but also worried that they'll become gigantic very quickly.
+                to see what these do, but also worried that they'll become gigantic very quickly.  June 23 
+                checkin shows some yellow/orange colour - I've moved them around a bit, not sure if they want
+                more light or less.  There are a few that look like they're really struggling, but most 
+                appear to be thriving.  All 16 are still there.
               </div>
           </div>
            <img v-bind:src="batch_01_seedlings" alt="Carnigiea Gigantea seedlings from 18/04/2019" />
+           <img v-bind:src="batch_01_seedlings_02" alt="Carnigiea Gigantea seedlings from 23/07/2019" />
         </article>
       </div>
     </div>
@@ -35,6 +39,7 @@
 <script>
   import image from '../../assets/cacti/carnigieaGigantea/carnigieaGigantea.jpeg';
   import batch_01_seedlings from '../../assets/cacti/carnigieaGigantea/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/carnigieaGigantea/batch_01_seedlings_02.jpg';
 
   export default {
     head () {
@@ -50,7 +55,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }

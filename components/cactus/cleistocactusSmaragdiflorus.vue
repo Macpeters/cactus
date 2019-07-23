@@ -18,9 +18,14 @@
           <div>
             <h3>Seedlings</h3>
               <div>
+                I'm really glad these guys are doing so well - it looks like there are 18 of them, 
+                all perky, with little spikes growing.  There's a little red at the base of a few, 
+                which I want to keep an eye on.  I've moved them around a bit - they seem senstive 
+                to the light still.
               </div>
           </div>
           <img v-bind:src="batch_01_seedlings" alt="Cleistocactus smaragdiflorus seedlings from 18/04/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="Cleistocactus smaragdiflorus seedlings from 23/07/2019"  />
         </article>
       </div>
     </div>   
@@ -30,6 +35,7 @@
 <script>
   import image from '../../assets/cacti/cleistocactusSmaragdiflorus/cleistocactusSmaragdiflorus.jpeg';
   import batch_01_seedlings from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings_02.jpg';
 
   export default {
     head () {
@@ -41,7 +47,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }

@@ -20,9 +20,14 @@
           <div>
             <h3>Seedlings</h3>
               <div>
+                It looks like there are 10 of them, but most seem etoliated, and the rest look stunted.
+                I'm not sure I can reach in and pull the hat off that one at the back without disturbing 
+                others, so I'll leave it for now.  I don't have much faith in the futures of these sad 
+                looking cacti.
               </div>
           </div>
           <img v-bind:src="batch_01_seedlings" alt="echinocactus Grusonii seedlings from 18/04/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="echinocactus Grusonii seedlings from 23/07/2019"  />
         </article>
       </div>
      </div>   
@@ -32,6 +37,7 @@
 <script>
   import image from '../../assets/cacti/echinocactusGrusonii/echinocactusGrusonii.jpeg';
   import batch_01_seedlings from '../../assets/cacti/echinocactusGrusonii/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/echinocactusGrusonii/batch_01_seedlings_02.jpg';
 
   export default {
     head () {
@@ -43,7 +49,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }

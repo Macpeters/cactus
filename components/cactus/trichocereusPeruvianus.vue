@@ -20,11 +20,16 @@
           <div>
             <h3>Seedlings</h3>
               <div>
-                  28/30 seedlings are still going strong - they didn't seem to care how much light I gave them, and they 
-                  had a solid germ rate.  Still incubating.
+                  28/30 seedlings germinated - they didn't seem to care how much light I gave them, and they 
+                  had a solid germ rate.  Incubated until mid July, when I noticed some fungas and gnats
+                  around.  As of July 23, everyone is still alive.  I transplanted these guys into clay
+                  pots so I could water from below and bury them a little better, since a few were falling
+                  over or growing out of the side of the pot.  The extra couple months of incubation made
+                  a big difference.  I'd have liked to leave them in there longer.
               </div>
           </div>
           <img v-bind:src="batch_02_seedlings" alt="Trichocereus peruvianus seedlings from 18/04/2019" />
+          <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus peruvianus seedlings from 23/07/2019" />
         </article>
 
          <article class="batch">
@@ -36,10 +41,12 @@
           <div>
             <h3>Seedlings</h3>
               <div>
-                  This batch was dropped just after sowing :( and only one survived.  It is out of incubation early.
+                  This batch was dropped just after sowing :( and only one survived.  It came out of incubation after a
+                  only a month, due to fungal issues.
               </div>
           </div>
           <img v-bind:src="batch_01_seedlings" alt="Trichocereus peruvianus seedlings from 18/04/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus peruvianus seedlings from 23/07/2019" />
         </article>
       </div>
     </div>
@@ -50,6 +57,8 @@
   import image from '../../assets/cacti/trichocereusPeruvianus/trichocereusPeruvianus.jpg';
   import batch_01_seedlings from '../../assets/cacti/trichocereusPeruvianus/batch_01_seedlings.jpg';
   import batch_02_seedlings from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/cacti/trichocereusPeruvianus/batch_01_seedlings_02.jpg';
+  import batch_02_seedlings_02 from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings_02.jpg';
 
   export default {
     head () {
@@ -62,7 +71,9 @@
       return {
         image,
         batch_01_seedlings,
-        batch_02_seedlings
+        batch_02_seedlings,
+        batch_01_seedlings_02,
+        batch_02_seedlings_02
       };
     }
   }
