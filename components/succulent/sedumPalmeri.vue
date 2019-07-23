@@ -19,10 +19,13 @@
             <h3>Seedlings</h3>
               <div>
                 These are odd looking seedlings - like rigid stems with a couple of tiny leaves on top.  
-                All three sedum species I planted have these sorts of seedlings.
+                All three sedum species I planted have these sorts of seedlings.  As of July, these look
+                very etoliated.  I'm not sure they can recover, in that case.  If this is how they're
+                suppose to grow, then maybe they'll survive.  I'd really like them to.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Sedum palmeri seedlings from May 19, 2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Sedum palmeri seedlings from 19/05/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Sedum palmeri seedlings from 23/07/2019" />
         </article>
       </div>
      </div> 
@@ -32,6 +35,7 @@
 <script>
   import image from '../../assets/succulents/sedumPalmeri/sedumPalmeri.jpeg';
   import batch_01_seedlings from '../../assets/succulents/sedumPalmeri/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_02.jpg';
 
   export default {
     head () {
@@ -43,7 +47,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }

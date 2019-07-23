@@ -21,10 +21,13 @@
             <h3>Seedlings</h3>
               <div>
                 These are odd looking seedlings - like rigid stems with a couple of tiny leaves on top.  
-                All three sedum species I planted have these sorts of seedlings.
+                All three sedum species I planted have these sorts of seedlings.  Looks like maybe 12
+                are doing okay, with a handful of others that are... trying.  I never had much hope 
+                for them to grow well indoors.  
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Sedum adophi seedlings from May 19, 2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Sedum adophi seedlings from 19/05/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Sedum adophi seedlings from 23/07/2019" />
         </article>
       </div>
     </div>
@@ -34,6 +37,7 @@
 <script>
   import image from '../../assets/succulents/sedumAdolphi/sedumAdolphi.jpeg';
   import batch_01_seedlings from '../../assets/succulents/sedumAdolphi/batch_01_seedlings.jpg';
+  import batch_01_seedlings_02 from '../../assets/succulents/sedumAdolphi/batch_01_seedlings_02.jpg';
 
   export default {
     head () {
@@ -45,7 +49,8 @@
     data() {
       return {
         image,
-        batch_01_seedlings
+        batch_01_seedlings,
+        batch_01_seedlings_02
       };
     }
   }
