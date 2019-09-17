@@ -28,6 +28,7 @@
           </div>
           <img v-bind:src="batch_01_seedlings" alt="echinocactus Grusonii seedlings from 18/04/2019"  />
           <img v-bind:src="batch_01_seedlings_02" alt="echinocactus Grusonii seedlings from 23/07/2019"  />
+          <img v-bind:src="batch_01_seedlings_03" alt="echinocactus Grusonii seedlings from 17/09/2019"  />
         </article>
       </div>
      </div>   
@@ -35,9 +36,10 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/echinocactusGrusonii/echinocactusGrusonii.jpeg';
+  import image from '../../assets/cacti/echinocactusGrusonii/echinocactusGrusonii.jpg';
   import batch_01_seedlings from '../../assets/cacti/echinocactusGrusonii/batch_01_seedlings.jpg';
   import batch_01_seedlings_02 from '../../assets/cacti/echinocactusGrusonii/batch_01_seedlings_02.jpg';
+  import batch_01_seedlings_03 from '../../assets/cacti/echinocactusGrusonii/batch_01_seedlings_03.jpg';
 
   export default {
     head () {
@@ -50,7 +52,8 @@
       return {
         image,
         batch_01_seedlings,
-        batch_01_seedlings_02
+        batch_01_seedlings_02,
+        batch_01_seedlings_03
       };
     }
   }
