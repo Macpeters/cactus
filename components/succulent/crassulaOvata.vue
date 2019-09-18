@@ -13,12 +13,12 @@
         <article class="batch">
           <h2>Mature Plant</h2>
           <div>
-              <div>I got this plant as an adult.  It's developed an odd shape, and I'm trying to get it
-                to even out a bit, but we'll see what happens.  It is very top-heavy, and I'm using
-                rocks to weigh the pot down.
+              <div>I got this plant as an adult.  It had developed an odd shape, but a summer outside
+                with regular turning allowed it to flush out a lot. 
               </div>
-              <img v-bind:src="image_02"  />
-              <img v-bind:src="image_03"  />
+              <img v-bind:src="image_01" alt="crassula ovata as of March, 2019" />
+              <img v-bind:src="image_02" alt="crassula ovata closeup of leaves"  />
+              <img v-bind:src="image_03" alt="crassula ovata close up of branch"  />
           </div>
         </article>
       </div>
@@ -28,6 +28,7 @@
 
 <script>
   import image from '../../assets/succulents/crassulaOvata/crassulaOvata.jpg';
+  import image_01 from '../../assets/succulents/crassulaOvata/crassulaOvata_01.jpg';
   import image_02 from '../../assets/succulents/crassulaOvata/crassulaOvata_02.jpg';
   import image_03 from '../../assets/succulents/crassulaOvata/crassulaOvata_03.jpg';
 
@@ -41,6 +42,7 @@
     data() {
       return {
         image,
+        image_01,
         image_02,
         image_03
       };

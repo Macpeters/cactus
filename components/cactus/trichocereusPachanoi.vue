@@ -81,7 +81,7 @@
         batch_01_seedlings_02,
         batch_02_seedlings_02,
         batch_01_seedlings_03,
-        batch_02_seedlings_03
+        batch_02_seedlings_03,
       };
     }
   }
