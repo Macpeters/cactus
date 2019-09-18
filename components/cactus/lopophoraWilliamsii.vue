@@ -34,6 +34,7 @@
               </div>
               <img v-bind:src="batch_03_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019"  />
               <img v-bind:src="batch_03_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019"  />
+              <img v-bind:src="batch_03_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019"  />
           </div>
         </article>
 
@@ -52,6 +53,7 @@
               </div>
               <img v-bind:src="batch_02_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
               <img v-bind:src="batch_02_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
+              <img v-bind:src="batch_02_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019" />
           </div>
         </article>
       </div>
@@ -74,6 +76,7 @@
               </div>
               <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
               <img v-bind:src="batch_01_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
+              <img v-bind:src="batch_01_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019" />
           </div>
         </article>
 
@@ -107,6 +110,9 @@
   import batch_01_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings_02.jpg';
   import batch_02_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_02.jpg';
   import batch_03_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_02.jpg';
+  import batch_01_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings_03.jpg';
+  import batch_02_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_03.jpg';
+  import batch_03_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_03.jpg';
 
   export default {
     head () {
@@ -129,7 +135,10 @@
         batch_03_seedlings,
         batch_01_seedlings_02,
         batch_02_seedlings_02,
-        batch_03_seedlings_02
+        batch_03_seedlings_02,
+        batch_01_seedlings_03,
+        batch_02_seedlings_03,
+        batch_03_seedlings_03
       };
     }
   }
