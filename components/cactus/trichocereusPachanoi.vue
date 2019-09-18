@@ -29,6 +29,7 @@
           </div>
           <img v-bind:src="batch_02_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
           <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
+          <img v-bind:src="batch_02_seedlings_03" alt="Trichocereus pachanoi seedlings from 17/09/2019" />
         </article>
 
         <article class="batch">
@@ -49,6 +50,7 @@
           </div>
           <img v-bind:src="batch_01_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
           <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings_03" alt="Trichocereus pachanoi seedlings from 17/09/2019" />
         </article>
       </div>
      </div>
@@ -61,6 +63,8 @@
   import batch_02_seedlings from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings.jpg';
   import batch_01_seedlings_02 from '../../assets/cacti/trichocereusPachanoi/batch_01_seedlings_02.jpg';
   import batch_02_seedlings_02 from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings_02.jpg';
+  import batch_01_seedlings_03 from '../../assets/cacti/trichocereusPachanoi/batch_01_seedlings_03.jpg';
+  import batch_02_seedlings_03 from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings_03.jpg';
 
   export default {
     head () {
@@ -75,7 +79,9 @@
         batch_01_seedlings,
         batch_02_seedlings,
         batch_01_seedlings_02,
-        batch_02_seedlings_02
+        batch_02_seedlings_02,
+        batch_01_seedlings_03,
+        batch_02_seedlings_03
       };
     }
   }

@@ -16,7 +16,8 @@
           <div>
             I've never really tried growing new plants from cuttings, so I decided to experiment a little.
           </div>
-          <img v-bind:src="cuttings_01"  alt="several cuttings from a mature schlumberga plant" />
+          <img v-bind:src="cuttings_01"  alt="several cuttings from a mature schlumberga plant 23/07/2019" />
+          <img v-bind:src="cuttings_01_02"  alt="several cuttings from a mature schlumberga plant 17/09/2019" />
         </article>
 
         <article class="batch">
@@ -36,6 +37,7 @@
   import closeup from '../../assets/cacti/schlumbergaTruncata/closeup.jpg';
   import fullPlant from '../../assets/cacti/schlumbergaTruncata/fullPlant.jpg';
   import cuttings_01 from '../../assets/cacti/schlumbergaTruncata/cuttings_01.jpg';
+  import cuttings_01_02 from '../../assets/cacti/schlumbergaTruncata/cuttings_01_02.jpg';
 
   export default {
     head () {
@@ -48,7 +50,8 @@
       return {
         closeup,
         fullPlant,
-        cuttings_01
+        cuttings_01,
+        cuttings_01_02
       };
     }
   }

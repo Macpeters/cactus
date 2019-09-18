@@ -26,6 +26,7 @@
           </div>
           <img v-bind:src="batch_01_seedlings" alt="Sedum cornephyllum seedlings from 19/05/2019" />
           <img v-bind:src="batch_01_seedlings_02" alt="Sedum cornephyllum seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings_03" alt="Sedum cornephyllum seedlings from 17/09/2019" />
         </article>
       </div>
      </div>    
@@ -36,6 +37,7 @@
   import image from '../../assets/succulents/sedumCornephyllum/sedumCornephyllum.jpg';
   import batch_01_seedlings from '../../assets/succulents/sedumCornephyllum/batch_01_seedlings.jpg';
   import batch_01_seedlings_02 from '../../assets/succulents/sedumCornephyllum/batch_01_seedlings_02.jpg';
+  import batch_01_seedlings_03 from '../../assets/succulents/sedumCornephyllum/batch_01_seedlings_03.jpg';
 
   export default {
     head () {
@@ -48,7 +50,8 @@
       return {
         image,
         batch_01_seedlings,
-        batch_01_seedlings_02
+        batch_01_seedlings_02,
+        batch_01_seedlings_03
       };
     }
   }
