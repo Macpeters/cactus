@@ -28,9 +28,9 @@
                 appear to be thriving.  All 16 are still there.
               </div>
           </div>
-           <img v-bind:src="batch_01_seedlings" alt="Carnigiea Gigantea seedlings from 18/04/2019" />
-           <img v-bind:src="batch_01_seedlings_02" alt="Carnigiea Gigantea seedlings from 23/07/2019" />
-           <img v-bind:src="batch_01_seedlings_03" alt="Carnigiea Gigantea seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_03" alt="Carnigiea Gigantea seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Carnigiea Gigantea seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Carnigiea Gigantea seedlings from 18/04/2019" />  
         </article>
       </div>
     </div>

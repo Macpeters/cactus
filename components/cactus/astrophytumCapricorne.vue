@@ -24,9 +24,9 @@
                 they look lively enough.  
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Astrophytum capricorne seedlings from 23/05/2019" />
-          <img v-bind:src="batch_01_seedlings_02" alt="Astrophytum capricorne seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings_03" alt="Astrophytum capricorne seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Astrophytum capricorne seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Astrophytum capricorne seedlings from 23/05/2019" />
         </article>
       </div>
     </div>

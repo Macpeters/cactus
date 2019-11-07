@@ -25,9 +25,9 @@
                 to form.  Still incubating.  They came out of incubation mid-july
               </div>
           </div>
-          <img v-bind:src="batch_02_seedlings"  alt="Trichocereus bridgesii seedlings from 18/04/2019" />
-          <img v-bind:src="batch_02_seedlings_02"  alt="Trichocereus bridgesii seedlings from 23/07/2019" />
           <img v-bind:src="batch_02_seedlings_03"  alt="Trichocereus bridgesii seedlings from 17/09/2019" />
+          <img v-bind:src="batch_02_seedlings_02"  alt="Trichocereus bridgesii seedlings from 23/07/2019" />
+          <img v-bind:src="batch_02_seedlings"  alt="Trichocereus bridgesii seedlings from 18/04/2019" />
         </article>
 
         <article class="batch">
@@ -44,9 +44,9 @@
                 cacti are now under 12 hour flor sundblaster knockoffs.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings"  alt="Trichocereus bridgesii seedlings from 18/04/2019" />
-          <img v-bind:src="batch_01_seedlings_02"  alt="Trichocereus bridgesii seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings_03"  alt="Trichocereus bridgesii seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02"  alt="Trichocereus bridgesii seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings"  alt="Trichocereus bridgesii seedlings from 18/04/2019" />
         </article>
       </div>
      </div>

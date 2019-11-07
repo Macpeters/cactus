@@ -17,6 +17,7 @@
       <span v-if="cactus.slug=='astrophytum_myriostigma'"><astrophytumMyriostigma /></span>
       <span v-if="cactus.slug=='browning_candelaris'"><browningCandelaris /></span>
       <span v-if="cactus.slug=='carnegiea_gigantea'"><carnegieaGigantea /></span>
+      <span v-if="cactus.slug=='cleistocactus_colademononis'"><cleistocactusColademononis /></span>
       <span v-if="cactus.slug=='cleistocactus_smaragdiflorus'"><cleistocactusSmaragdiflorus /></span>
       <span v-if="cactus.slug=='echinocactus_grusonii'"><echinocactusGrusonii /></span>
       <span v-if="cactus.slug=='echinocereus_coccineus'"><echinocereusCoccineus /></span>
@@ -41,6 +42,7 @@
   import astrophytumMyriostigma from "../components/cactus/astrophytumMyriostigma.vue"
   import browningCandelaris from "../components/cactus/browningCandelaris.vue"
   import carnegieaGigantea from "../components/cactus/carnegieaGigantea.vue"
+  import cleistocactusColademononis from "../components/cactus/cleistocactusColademononis.vue"
   import cleistocactusSmaragdiflorus from "../components/cactus/cleistocactusSmaragdiflorus.vue"
   import echinocactusGrusonii from "../components/cactus/echinocactusGrusonii.vue"
   import echinocereusCoccineus from "../components/cactus/echinocereusCoccineus.vue"
@@ -61,6 +63,7 @@
       astrophytumMyriostigma,
       browningCandelaris,
       carnegieaGigantea,
+      cleistocactusColademononis,
       cleistocactusSmaragdiflorus,
       echinocactusGrusonii,
       echinocereusCoccineus,

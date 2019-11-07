@@ -24,9 +24,9 @@
                 to the light still.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Cleistocactus smaragdiflorus seedlings from 18/04/2019"  />
-          <img v-bind:src="batch_01_seedlings_02" alt="Cleistocactus smaragdiflorus seedlings from 23/07/2019"  />
           <img v-bind:src="batch_01_seedlings_03" alt="Cleistocactus smaragdiflorus seedlings from 17/09/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="Cleistocactus smaragdiflorus seedlings from 23/07/2019"  />
+          <img v-bind:src="batch_01_seedlings" alt="Cleistocactus smaragdiflorus seedlings from 18/04/2019"  />
         </article>
       </div>
     </div>   

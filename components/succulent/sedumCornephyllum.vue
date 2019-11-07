@@ -24,9 +24,9 @@
                 species I planted in May.  Looks like 19?  Hard to count these guys.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Sedum cornephyllum seedlings from 19/05/2019" />
-          <img v-bind:src="batch_01_seedlings_02" alt="Sedum cornephyllum seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings_03" alt="Sedum cornephyllum seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Sedum cornephyllum seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Sedum cornephyllum seedlings from 19/05/2019" />
         </article>
       </div>
      </div>    

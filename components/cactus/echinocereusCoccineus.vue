@@ -23,9 +23,9 @@
                 shell).  I've just knocked that off, gently, so maybe it'll perk up now.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="echinocereus Coccineus seedlings from 18/04/2019"  />
-          <img v-bind:src="batch_01_seedlings_02" alt="echinocereus Coccineus seedlings from 23/07/2019"  />
           <img v-bind:src="batch_01_seedlings_03" alt="echinocereus Coccineus seedlings from 17/09/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="echinocereus Coccineus seedlings from 23/07/2019"  />
+          <img v-bind:src="batch_01_seedlings" alt="echinocereus Coccineus seedlings from 18/04/2019"  />      
         </article>
       </div>
     </div>

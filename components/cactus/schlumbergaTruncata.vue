@@ -16,8 +16,8 @@
           <div>
             I've never really tried growing new plants from cuttings, so I decided to experiment a little.
           </div>
-          <img v-bind:src="cuttings_01"  alt="several cuttings from a mature schlumberga plant 23/07/2019" />
           <img v-bind:src="cuttings_01_02"  alt="several cuttings from a mature schlumberga plant 17/09/2019" />
+          <img v-bind:src="cuttings_01"  alt="several cuttings from a mature schlumberga plant 23/07/2019" /> 
         </article>
 
         <article class="batch">

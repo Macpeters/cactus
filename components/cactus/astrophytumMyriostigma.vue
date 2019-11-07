@@ -36,9 +36,11 @@
                   enough to say, though.
               </div>
           </div>
-           <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019" />
-           <img v-bind:src="batch_02_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
-           <img v-bind:src="batch_02_seedlings_03"  alt="Astrophytum myriostigma seedlings from 17/09/2019" />
+          <img v-bind:src="batch_02_seedlings_03"  alt="Astrophytum myriostigma seedlings from 17/09/2019" />
+          <img v-bind:src="batch_02_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
+          <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019" />
+           
+           
         </article>
 
         <article class="batch">
@@ -59,9 +61,11 @@
                   transplanted it into a clay pot so it's easier to see and water.
               </div>
           </div>
-           <img v-bind:src="batch_01_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019"/>
-           <img v-bind:src="batch_01_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
-           <img v-bind:src="batch_01_seedlings_03"  alt="Astrophytum myriostigma seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_03"  alt="Astrophytum myriostigma seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019"/>
+           
+           
         </article>
       </div>
     </div>

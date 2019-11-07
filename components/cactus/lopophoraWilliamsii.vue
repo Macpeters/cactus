@@ -51,9 +51,9 @@
                 and I am considering whether or not flourescent might be a better option in general, although I worry it might be too much for seedlings.
                 These ones seem happy enough and I don't really want to mess with that.  They'll be in plastic for a few more months, all going well.
               </div>
-              <img v-bind:src="batch_02_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
-              <img v-bind:src="batch_02_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
               <img v-bind:src="batch_02_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019" />
+              <img v-bind:src="batch_02_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
+              <img v-bind:src="batch_02_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />  
           </div>
         </article>
       </div>
@@ -74,9 +74,9 @@
                 with moving the seedlings further from the light, which led to yellowing and stretching.  They seem stable enough now - dark green, 
                 hardened, and under flourescent light.  My only flor light is 24 hrs.  <strong>Do cacti need to sleep?</strong>
               </div>
-              <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />
-              <img v-bind:src="batch_01_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
               <img v-bind:src="batch_01_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019" />
+              <img v-bind:src="batch_01_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
+              <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />  
           </div>
         </article>
 
@@ -89,9 +89,9 @@
                 Still quite small, as these fellas tend to be, but seems happy enough.  I moved him from his tiny plastic pot to a 
                 slightly larger clay pot. 
               </div>
-              <img v-bind:src="charlie"  alt="Lopophora williamsii, Spring, 2018" />
-              <img v-bind:src="charlie_3_5_above"  alt="Lopophora williamsii from above, Spring, 2019" />
               <img v-bind:src="charlie_3_5_side"  alt="Lopophora williamsii fron the side, Spring, 2019" />
+              <img v-bind:src="charlie_3_5_above"  alt="Lopophora williamsii from above, Spring, 2019" />
+              <img v-bind:src="charlie"  alt="Lopophora williamsii, Spring, 2018" />
           </div>
         </article>
       </div>

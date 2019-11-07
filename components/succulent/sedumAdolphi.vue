@@ -26,9 +26,9 @@
                 for them to grow well indoors.  
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Sedum adophi seedlings from 19/05/2019" />
-          <img v-bind:src="batch_01_seedlings_02" alt="Sedum adophi seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings_03" alt="Sedum adophi seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Sedum adophi seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Sedum adophi seedlings from 19/05/2019" />
         </article>
       </div>
     </div>

@@ -12,7 +12,24 @@
     "ribs": "none - ridged stems",
     "slug": "aloe_vera",
     "spines": null,
-    "width": null
+    "width": null, 
+    "zone": null
+  },
+  {
+    "aka": "Propeller plant, Airplane plant",
+    "description": "grey green, draught tolerant",
+    "distribution": null,
+    "flowers": "tiny, red clusters",
+    "fruit": null,
+    "growth_pattern": "",
+    "height": "2 ft",
+    "latin_name": "Crassula falcata",
+    "origin": "South Africa",
+    "ribs": "",
+    "slug": "crassula_falcata",
+    "spines": "",
+    "width": "", 
+    "zone": null
   },
   {
     "aka": "Jade plant, Lucky plant, Money tree",
@@ -27,7 +44,24 @@
     "ribs": "",
     "slug": "crassula_ovata",
     "spines": "",
-    "width": ""
+    "width": "", 
+    "zone": null
+  },
+  {
+    "aka": "living stones",
+    "description": "a variety of succulent species - bulbous leaves opposite each other, hardly any stem.",
+    "distribution": null,
+    "flowers": "yellow or white, usually in autumn, sweetly scented",
+    "fruit": "a dry capsule that opens when it gets wet, closes again when dry.  May detach, or disintigrate after a few years",
+    "growth_pattern": "a single pair of leaves per plant",
+    "height": "stay close to ground, are mostly burried",
+    "latin_name": "Lithops",
+    "origin": "Southern Africa",
+    "ribs": "none",
+    "slug": "lithops",
+    "spines": "none",
+    "width": "",
+    "zone": ""
   },
   {
     "aka": "Golden Sedum, Golden Glow",
@@ -42,7 +76,8 @@
     "ribs": "4-8",
     "slug": "sedum_adolphi",
     "spines": "",
-    "width": "61cm"
+    "width": "61cm", 
+    "zone": null
   },
   {
     "aka": "",
@@ -57,7 +92,8 @@
     "ribs": "",
     "slug": "sedum_corynephyllum",
     "spines": "",
-    "width": "1-2ft"
+    "width": "1-2ft", 
+    "zone": null
   },
   {
     "aka": "",
@@ -74,5 +110,21 @@
     "spines": "",
     "width": "18inch",
     "zone": "7a to 10b"
+  },
+  {
+    "aka": "Hens and Chicks, Houseleeks",
+    "description": "mats of tufted leaves forming monocarpic rosettes.  Sometimes confused with Echeveria.",
+    "distribution": null,
+    "flowers": "hermaphroditic, reddish, yellowish, pinkish, seldom whitish",
+    "fruit": null,
+    "growth_pattern": "",
+    "height": "2 ft",
+    "latin_name": "Sempervivum",
+    "origin": "Morocco to Iran, mountains of Iberia, Alps, Carpathians, Balkan mountains, Turkey, Sahara Desert",
+    "ribs": "",
+    "slug": "sempervivum",
+    "spines": "",
+    "width": "",
+    "zone": "4 - 8"
   }
 ]

@@ -28,9 +28,9 @@
                   a big difference.  I'd have liked to leave them in there longer.
               </div>
           </div>
-          <img v-bind:src="batch_02_seedlings" alt="Trichocereus peruvianus seedlings from 18/04/2019" />
-          <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus peruvianus seedlings from 23/07/2019" />
           <img v-bind:src="batch_02_seedlings_03" alt="Trichocereus peruvianus seedlings from 17/09/2019" />
+          <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus peruvianus seedlings from 23/07/2019" />
+          <img v-bind:src="batch_02_seedlings" alt="Trichocereus peruvianus seedlings from 18/04/2019" />
         </article>
 
          <article class="batch">
@@ -46,9 +46,9 @@
                   only a month, due to fungal issues.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Trichocereus peruvianus seedlings from 18/04/2019" />
-          <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus peruvianus seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings_03" alt="Trichocereus peruvianus seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus peruvianus seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Trichocereus peruvianus seedlings from 18/04/2019" />
         </article>
       </div>
     </div>

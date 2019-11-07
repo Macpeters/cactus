@@ -22,9 +22,9 @@
                   smaller than any other seedling I've got, and still just globs with no real distinguishing features.  18 Remain.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Mammillaria pacifica seedlings from 18/04/2019"  />
-          <img v-bind:src="batch_01_seedlings_02" alt="Mammillaria pacifica seedlings from 23/07/2019"  />
           <img v-bind:src="batch_01_seedlings_03" alt="Mammillaria pacifica seedlings from 17/09/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="Mammillaria pacifica seedlings from 23/07/2019"  />
+          <img v-bind:src="batch_01_seedlings" alt="Mammillaria pacifica seedlings from 18/04/2019"  />
         </article>
       </div>
     </div>

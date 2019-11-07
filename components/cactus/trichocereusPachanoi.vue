@@ -27,9 +27,9 @@
                 older siblings.  As of July 23, 18 still live.
               </div>
           </div>
-          <img v-bind:src="batch_02_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
-          <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
           <img v-bind:src="batch_02_seedlings_03" alt="Trichocereus pachanoi seedlings from 17/09/2019" />
+          <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
+          <img v-bind:src="batch_02_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
         </article>
 
         <article class="batch">
@@ -48,9 +48,9 @@
                   but I won't use it again for seedlings without a fully sealed container.  As of July 23, 8 still live.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
-          <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings_03" alt="Trichocereus pachanoi seedlings from 17/09/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
+          <img v-bind:src="batch_01_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
         </article>
       </div>
      </div>
