@@ -21,6 +21,8 @@
       <span v-if="cactus.slug=='cleistocactus_smaragdiflorus'"><cleistocactusSmaragdiflorus /></span>
       <span v-if="cactus.slug=='echinocactus_grusonii'"><echinocactusGrusonii /></span>
       <span v-if="cactus.slug=='echinocereus_coccineus'"><echinocereusCoccineus /></span>
+      <span v-if="cactus.slug=='echinocereus_poselgeri'"><echinocereusPoselgeri /></span>
+      <span v-if="cactus.slug=='echinofossulo'"><Echinofossulo /></span>
       <span v-if="cactus.slug=='lopophora_williamsii'"><lopophoraWilliamsii /></span>
       <span v-if="cactus.slug=='mammillaria_pacifica'"><mammillariaPacifica /></span>
       <span v-if="cactus.slug=='opuntia_engelmannii'"><opuntiaEngelmannii /></span>
@@ -46,6 +48,8 @@
   import cleistocactusSmaragdiflorus from "../components/cactus/cleistocactusSmaragdiflorus.vue"
   import echinocactusGrusonii from "../components/cactus/echinocactusGrusonii.vue"
   import echinocereusCoccineus from "../components/cactus/echinocereusCoccineus.vue"
+  import echinocereusPoselgeri from "../components/cactus/echinocereusPoselgeri.vue"
+  import Echinofossulo from "../components/cactus/echinofossulo.vue"
   import lopophoraWilliamsii from "../components/cactus/lopophoraWilliamsii.vue"
   import mammillariaPacifica from "../components/cactus/mammillariaPacifica.vue"
   import opuntiaEngelmannii from "../components/cactus/opuntiaEngelmannii.vue"
@@ -53,6 +57,7 @@
   import trichocereusBridgesii from "../components/cactus/trichocereusBridgesii.vue"
   import trichocereusPachanoi from "../components/cactus/trichocereusPachanoi.vue"
   import trichocereusPeruvianus from "../components/cactus/trichocereusPeruvianus.vue"
+  
 
   export default {
     components: {
@@ -67,6 +72,8 @@
       cleistocactusSmaragdiflorus,
       echinocactusGrusonii,
       echinocereusCoccineus,
+      echinocereusPoselgeri,
+      Echinofossulo,
       lopophoraWilliamsii,
       mammillariaPacifica,
       opuntiaEngelmannii,

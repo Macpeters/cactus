@@ -12,6 +12,7 @@
       <span v-if="!succulent.slug">Click to view details for any species</span>
       <span v-else> <cactusDetails :cactus=succulent />  </span>
       <span v-if="succulent.slug=='aloe_vera'"><aloeVera /></span>
+      <span v-if="succulent.slug=='astrolabe_corrugata'"><astrolabeCorrugata /></span>
       <span v-if="succulent.slug=='crassula_falcata'"><crassulaFalcata /></span>
       <span v-if="succulent.slug=='crassula_ovata'"><crassulaOvata /></span>
       <span v-if="succulent.slug=='lithops'"><lithops /></span>
@@ -29,6 +30,7 @@
   import cactusDetails from "../components/details.vue"
   
   import aloeVera from "../components/succulent/aloeVera.vue"
+  import astrolabeCorrugata from "../components/succulent/astrolabeCorrugata.vue"
   import crassulaFalcata from "../components/succulent/crassulaFalcata.vue"
   import crassulaOvata from "../components/succulent/crassulaOvata.vue"
   import lithops from "../components/succulent/lithops.vue"
@@ -41,6 +43,7 @@
     components: {
       list,
       cactusDetails,
+      astrolabeCorrugata,
       aloeVera,
       crassulaFalcata,
       crassulaOvata,

@@ -16,7 +16,7 @@
         <h2>Seeds</h2>
         <div>
             <div>I ordered some seeds from rareplant.me, and planted them in November, 2019.  
-                We'll see what happens.  The seeds were very tiny.
+                We'll see what happens.
             </div>
         </div>
       </article>

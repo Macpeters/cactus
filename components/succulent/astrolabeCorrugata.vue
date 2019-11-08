@@ -23,12 +23,12 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/cleistocactusColademonis.jpg';
+  import image from '../../assets/succulents/astrolabeCorrugata.jpg';
   export default {
     head () {
       return {
-        name: 'cleistocactus Colademononis',
-        title: 'cleistocactus Colademononis'
+        name: 'Astrolabe corrugata',
+        title: 'Astrolabe Corrugata'
       }
     },
     data() {

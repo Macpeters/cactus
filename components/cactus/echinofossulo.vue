@@ -23,12 +23,12 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/cleistocactusColademonis.jpg';
+  import image from '../../assets/cacti/Echinofossulo.jpeg';
   export default {
     head () {
       return {
-        name: 'cleistocactus Colademononis',
-        title: 'cleistocactus Colademononis'
+        name: 'Echinofossulo',
+        title: 'Echinofossulo'
       }
     },
     data() {
