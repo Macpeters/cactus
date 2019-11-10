@@ -1,0 +1,37 @@
+/* for when there is only one batch - fill the page */
+h3 {
+    clear: both;
+}
+
+img {
+    max-width: 300px;
+    max-height: 400px;
+    float: left;
+  }
+  
+  .cactus-log {
+    padding-bottom: 10px;
+  }
+  
+  .main-notes {
+    background-color: #f0e6c7;
+    display: block;
+  }
+  
+  .row {
+    display: block;
+    clear: both;
+    padding-bottom: 5px;
+    border-bottom: #3c3a33
+  }
+  
+  .batch-logs {
+    clear: both;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .batch {
+    text-align: center;
+    float: left;
+  }

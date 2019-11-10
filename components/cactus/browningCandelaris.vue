@@ -12,21 +12,27 @@
         <article class="batch">
           <h2>Batch 1</h2>
           <div>
-            <h3>Sowing the seeds: 04/2019</h3>
-              <div>I planted 25 seeds from cactusstore.com.  As of May 19, nothing has germinated.</div>
-          </div>
-          <div>
-            <h3>Seedlings</h3>
+            <h3>Seedlings: 11/2019</h3>
               <div>
-                These guys took their sweet time, but there are 4 popping up now - it's May 27.  
-                From the batch of seeds I got from cactusstore.com, all but 3 have germinated, 
-                and these ones took a couple of weeks longer than anything else that's germinated. 
-                A couple of months later, and this does not look like a happy group of cacti.  Of 
-                those remaining, almost all are falling over, or shrivelled.  I'm not sure if any 
-                will survive.
+                This one sad little guy is still there - he hasn't grown much.
+              </div>
+          </div> 
+          <img v-bind:src="batch_01_seedlings_03" alt="Browning candelaris seedlings from 17/09/2019" />
+          
+          <div>
+            <h3>Sowing the seeds: 04/2019</h3>
+              <div>
+                <p>I planted 25 seeds from cactusstore.com.  As of May 19, nothing has germinated.</p>
+                <p>
+                  These guys took their sweet time, but there are 4 popping up now - it's May 27.  
+                  From the batch of seeds I got from cactusstore.com, all but 3 have germinated, 
+                  and these ones took a couple of weeks longer than anything else that's germinated. 
+                  A couple of months later, and this does not look like a happy group of cacti.  Of 
+                  those remaining, almost all are falling over, or shrivelled.  I'm not sure if any 
+                  will survive.
+                </p>
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings_03" alt="Browning candelaris seedlings from 17/09/2019" />
           <img v-bind:src="batch_01_seedlings_02" alt="Browning candelaris seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings" alt="Browning candelaris seedlings from 27/05/2019" />
         </article>
@@ -59,4 +65,4 @@
   }
 </script>
 
-<style lang="css" src="../logs.css" scoped></style>
+<style lang="css" src="../miniLog.css" scoped></style>

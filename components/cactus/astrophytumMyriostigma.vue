@@ -15,6 +15,19 @@
         <article class="batch">
           <h2>Batch 2</h2>
           <div>
+            <h3>Seedlings: 11/2019</h3>
+              <div>
+                  These were looking pretty orange for a few days - I moved them further from the
+                  light.  The orange has largely faded.  I wouldn't mind if these turn out to have
+                  some colour, but I would like to avoid having to graft until I have a bit more XP
+                  with cactusing.  Even after switching to 12 hour flor lighting, they still seem 
+                  taller and floppier than seems right.  Maybe I just don't know astrophytum well 
+                  enough to say, though.
+              </div>
+          </div>
+          <img v-bind:src="batch_02_seedlings_04"  alt="Astrophytum myriostigma seedlings from 2019/11/10" />
+          <img v-bind:src="batch_02_seedlings_03"  alt="Astrophytum myriostigma seedlings from 2019/09/17" />
+          <div>
             <h3>Sowing the seeds: 05/2019</h3>
               <div>I planted 25 seeds.  Actually, I ordered 100 A. astaria from Seed World 
                 on Amazon (they were super cheap), they took forever to show up, and then it 
@@ -25,33 +38,25 @@
                 they were all mostly sherical.
               </div>
           </div>
-          <div>
-            <h3>Seedlings</h3>
-              <div>
-                  These were looking pretty orange for a few days - I moved them further from the
-                  light.  The orange has largely faded.  I wouldn't mind if these turn out to have
-                  some colour, but I would like to avoid having to graft until I have a bit more XP
-                  with cactusing.  Even after switching to 12 hour flor lighting, they still seem 
-                  taller and floppier than seems right.  Maybe I just don't know astrophytum well 
-                  enough to say, though.
-              </div>
-          </div>
-          <img v-bind:src="batch_02_seedlings_03"  alt="Astrophytum myriostigma seedlings from 17/09/2019" />
-          <img v-bind:src="batch_02_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
-          <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019" />
-           
-           
+          <img v-bind:src="batch_02_seedlings_02"  alt="Astrophytum myriostigma seedlings from 2019/07/23" />
+          <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from 2019/05/23" /> 
         </article>
 
         <article class="batch">
           <h2>Batch 1</h2>
           <div>
-            <h3>Sowing the seeds: 04/2019</h3>
-              <div>I planted 10 seeds - all 10 germinated</div>
-          </div>
-          <div>
-            <h3>Seedlings</h3>
+            <h3>Seedlings: 11/2019</h3>
               <div>
+                  I lost the one seedling I had left &#128546; I think in future I'll have to be more careful about
+                  clearing soil from the edges of the container.  All my astrophytum seedlings grew tall and 
+                  thin - it's possible they like more light at that age than most cactus seedlings.  I'll try
+                  again with another batch and see if I have better luck.   This one is dead.
+              </div>
+          </div>
+          <img v-bind:src="batch_01_seedlings_03"  alt="Astrophytum myriostigma seedlings from 17/09/2019" />
+          <div>
+            <h3>Sowing the seeds: 04/2019</h3>
+              <div>I planted 10 seeds - all 10 germinated
                   These are tall columnar looking seedlings.  I was expecting short, squat, little blobs like the lopophoras.  I
                   have a strong suspicion I didn't get the seeds I ordered from Magiccactus.com.  They were labeled correctly 
                   on the package.  Only time will tell what these baby cacti will become, but I'll call them Astrophytum myriostigma 
@@ -61,11 +66,8 @@
                   transplanted it into a clay pot so it's easier to see and water.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings_03"  alt="Astrophytum myriostigma seedlings from 17/09/2019" />
           <img v-bind:src="batch_01_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019"/>
-           
-           
         </article>
       </div>
     </div>
@@ -80,6 +82,7 @@
   import batch_02_seedlings_02 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/cacti/astrophytumMyriostigma/batch_01_seedlings_03.jpg';
   import batch_02_seedlings_03 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_03.jpg';
+  import batch_02_seedlings_04 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_04.jpg';
   
   export default {
     head () {
@@ -96,7 +99,8 @@
         batch_01_seedlings_02,
         batch_02_seedlings_02,
         batch_01_seedlings_03,
-        batch_02_seedlings_03
+        batch_02_seedlings_03,
+        batch_02_seedlings_04
       };
     },
   }

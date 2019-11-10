@@ -23,38 +23,47 @@
         <article class="batch">
           <h2>Batch 3: v caespitosa</h2>
           <div>
-            <h3>Sowing the seeds: 05/2019</h3>
-              <div>100 seeds - 3 X 2 inch plastic pots in a plastic bin with lid</div>
-          </div>
-          <div>
             <h3>Seedlings</h3>
               <div>
-                It looks like about 64 have germinated.  I can't get an exact count because of the way they're scattered, and it looks like a few more 
-                are trying to put down roots.  We'll see what happens.
+                Only 49 remain, which seems pretty sad.  To be fair, though, this is still a lot of cacti,
+                if they all survive and reach maturity.
               </div>
-              <img v-bind:src="batch_03_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019"  />
-              <img v-bind:src="batch_03_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019"  />
-              <img v-bind:src="batch_03_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019"  />
+              <img v-bind:src="batch_03_seedlings_04" alt="Lopophora williamsii seedlings from 2019/11/10" />
+              <img v-bind:src="batch_03_seedlings_03" alt="Lopophora williamsii seedlings from 2019/09/17" />  
           </div>
+           <div>
+            <h3>Sowing the seeds: 05/2019</h3>
+              <div>100 seeds - 3 X 2 inch plastic pots in a plastic bin with lid.  It looks like about 64 
+                have germinated.  I can't get an exact count because of the way they're scattered, and it 
+                looks like a few more  are trying to put down roots.  We'll see what happens.</div>
+          </div>
+          <img v-bind:src="batch_03_seedlings_02" alt="Lopophora williamsii seedlings from 2019/07/23" />
+          <img v-bind:src="batch_03_seedlings" alt="Lopophora williamsii seedlings from 2019/04/18"  />
         </article>
 
         <article class="batch">
           <h2>Batch 2: v caespitosa</h2>
           <div>
-            <h3>Sowing the seeds: 03/2019</h3>
-              <div>20 seeds - a 2 inch plastic pot in a baggy</div>
-          </div>
-          <div>
             <h3>Seedlings</h3>
               <div>
+                I have had better luck keeping tiny pots in a clear tupperware container for a longer 
+                incubation period.  I'll do that from now on and probably do a lot better.  As it is, 12
+                individuals remain from this batch.
+              </div>
+              <img v-bind:src="batch_02_seedlings_04" alt="Lopophora williamsii seedlings from 2019/11/10" />
+              <img v-bind:src="batch_02_seedlings_03" alt="Lopophora williamsii seedlings from 2019/09/17" />  
+          </div>
+          <div>
+            <h3>Sowing the seeds: 03/2019</h3>
+              <div>
+                20 seeds - a 2 inch plastic pot in a baggy
                 15 seedlings remain as of 05/2019.  They are bright green and lush.  A couple are oddly shaped.  I am currenly using an LED grow light,
                 and I am considering whether or not flourescent might be a better option in general, although I worry it might be too much for seedlings.
                 These ones seem happy enough and I don't really want to mess with that.  They'll be in plastic for a few more months, all going well.
               </div>
-              <img v-bind:src="batch_02_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019" />
-              <img v-bind:src="batch_02_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
-              <img v-bind:src="batch_02_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />  
           </div>
+          <img v-bind:src="batch_02_seedlings_02" alt="Lopophora williamsii seedlings from 2019/07/23" />
+          <img v-bind:src="batch_02_seedlings" alt="Lopophora williamsii seedlings from 2019/04/18" /> 
         </article>
       </div>
 
@@ -62,22 +71,27 @@
         <article class="batch">
           <h2>Batch 1: v caespitosa</h2>
           <div>
-            <h3>Sowing the seeds: 09/2018</h3>
-              <div>30 seeds - half in a plastic icecube tray with a plastic cover and half in a 2 inch clay pot in a baggy</div>
+          <h3>Seedlings</h3>
+            <div>
+              There are only 2 left of this batch - there are a lot of things I could have done better.  I hope future 
+              batches are much more successful.
+            </div>
+            <img v-bind:src="batch_01_seedlings_04" alt="Lopophora williamsii seedlings from 2019/11/10" />
+            <img v-bind:src="batch_01_seedlings_03" alt="Lopophora williamsii seedlings from 2019/09/17" />  
           </div>
           <div>
-            <h3>Seedlings</h3>
+            <h3>Sowing the seeds: 09/2018</h3>
               <div>
+                30 seeds - half in a plastic icecube tray with a plastic cover and half in a 2 inch clay pot in a baggy
                 16 seedlings remain as of 05/2019.  Many are misshapen and odd looking.  I took the seedlings out of plastic much earlier
                 than I needed to and they seem small and stunted compared to other seedlings which were planted later.  They are alive, though.
                 The ones in the icecube tray had a much better germination rate.  There were some redish tinges for a little while, and I experimented 
                 with moving the seedlings further from the light, which led to yellowing and stretching.  They seem stable enough now - dark green, 
                 hardened, and under flourescent light.  My only flor light is 24 hrs.  <strong>Do cacti need to sleep?</strong>
               </div>
-              <img v-bind:src="batch_01_seedlings_03" alt="Lopophora williamsii seedlings from 17/09/2019" />
-              <img v-bind:src="batch_01_seedlings_02" alt="Lopophora williamsii seedlings from 23/07/2019" />
-              <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 18/04/2019" />  
           </div>
+          <img v-bind:src="batch_01_seedlings_02" alt="Lopophora williamsii seedlings from 2019/07/23" />
+          <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 2019/04/18" /> 
         </article>
 
         <article class="batch">
@@ -113,6 +127,9 @@
   import batch_01_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings_03.jpg';
   import batch_02_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_03.jpg';
   import batch_03_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_03.jpg';
+  import batch_01_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings_04.jpg';
+  import batch_02_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_04.jpg';
+  import batch_03_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_04.jpg';
 
   export default {
     head () {
@@ -138,7 +155,10 @@
         batch_03_seedlings_02,
         batch_01_seedlings_03,
         batch_02_seedlings_03,
-        batch_03_seedlings_03
+        batch_03_seedlings_03,
+        batch_01_seedlings_04,
+        batch_02_seedlings_04,
+        batch_03_seedlings_04
       };
     }
   }

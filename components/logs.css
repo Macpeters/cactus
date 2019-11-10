@@ -1,8 +1,6 @@
-/* article {
-  text-align: center;
-  width: 50%;
-  float: left;
-} */
+h3 {
+  clear: both;
+}
 
 img {
   max-width: 300px;
@@ -35,6 +33,3 @@ img {
   width: 50%;
   float: left;
 }
-/* .batch:nth-child(even) {
-  background-color: #ddd;
-} */

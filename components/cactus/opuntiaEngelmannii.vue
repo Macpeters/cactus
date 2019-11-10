@@ -14,13 +14,6 @@
         <article class="batch">
           <h2>Rescued Prickly Pear</h2>
           <div>
-            <h3>Purchased June/19</h3>
-              <div>When I got this plant it was dripping with water, and drooping with sadness.  I transplanted
-                it into dryer soil, and propped it up, and now there's fresh growth happening.  I'm not
-                certain of the species - it's some kind of Opuntia. 
-              </div>
-          </div>
-          <div>
             <h3>Cuttings</h3>
               <div>
                 The long growth turned out to be simple etoliated plant growth.  It didn't look 
@@ -30,14 +23,32 @@
                 dry for a week.  I tried both ways.
               </div>
           </div>
-           <img v-bind:src="adult_01" alt="Opuntia plant 20/07/2019"  />
-           <img v-bind:src="adult_02" alt="Opuntia - is this a flower? 20/07/2019"  />
-           <img v-bind:src="small_cutting_01" alt="Cutting planted straight away 17/09/2019"  />
+          <img v-bind:src="small_cutting_01" alt="Cutting planted straight away 17/09/2019"  />
            <img v-bind:src="large_cutting_01" alt="Cutting left to dry for a week 17/09/2019"  />
+          <div>
+            <h3>Purchased June/19</h3>
+              <div>When I got this plant it was dripping with water, and drooping with sadness.  I transplanted
+                it into dryer soil, and propped it up, and now there's fresh growth happening.  I'm not
+                certain of the species - it's some kind of Opuntia. 
+              </div>
+          </div>
+          <img v-bind:src="adult_01" alt="Opuntia plant 20/07/2019"  />
+          <img v-bind:src="adult_02" alt="Opuntia - is this a flower? 20/07/2019"  />   
         </article>
 
         <article class="batch">
           <h2>Batch 1</h2>
+          
+          <div>
+            <h3>Seedlings: 11/2019</h3>
+              <div>
+                Is this guy super etoliated?  I've moved him closer to the light, just in case. I'm not
+                seeing the tell-tale pads of opuntia, but maybe it's still early.  That other mystery cactus
+                is still there, not doing much.
+              </div>
+          </div>
+          <img v-bind:src="batch_01_seedlings_04" alt="Opuntia engelmannii seedlings from 2019/11/10"  />
+          <img v-bind:src="batch_01_seedlings_03" alt="Opuntia engelmannii seedlings from 2019/09/17"  />
           <div>
             <h3>Sowing the seeds: 04/2019</h3>
               <div>The seeds are unique as large discs which require 24 hours soaking in 
@@ -48,15 +59,8 @@
                 properly.
               </div>
           </div>
-          <div>
-            <h3>Seedlings</h3>
-              <div>
-
-              </div>
-          </div>
-          <img v-bind:src="batch_01_seedlings_03" alt="Opuntia engelmannii seedlings from 17/09/2019"  />
-          <img v-bind:src="batch_01_seedlings_02" alt="Opuntia engelmannii seedlings from 23/07/2019"  />
-          <img v-bind:src="batch_01_seedlings" alt="Opuntia engelmannii ? seedlings from 18/04/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="Opuntia engelmannii seedlings from 2019/07/23"  />
+          <img v-bind:src="batch_01_seedlings" alt="Opuntia engelmannii ? seedlings from 2019/04/189"  />
         </article>
       </div>
     </div>
@@ -68,6 +72,7 @@
   import batch_01_seedlings from '../../assets/cacti/opuntiaEngelmannii/batch_01_seedlings.jpg';
   import batch_01_seedlings_02 from '../../assets/cacti/opuntiaEngelmannii/batch_01_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/cacti/opuntiaEngelmannii/batch_01_seedlings_03.jpg';
+  import batch_01_seedlings_04 from '../../assets/cacti/opuntiaEngelmannii/batch_01_seedlings_04.jpg';
   import adult_01 from '../../assets/cacti/opuntiaEngelmannii/adult_01.jpg';
   import adult_02 from '../../assets/cacti/opuntiaEngelmannii/adult_02.jpg';
   import small_cutting_01 from '../../assets/cacti/opuntiaEngelmannii/small_cutting_01.jpg';
@@ -86,6 +91,7 @@
         batch_01_seedlings,
         batch_01_seedlings_02,
         batch_01_seedlings_03,
+        batch_01_seedlings_04,
         adult_01,
         adult_02,
         small_cutting_01,

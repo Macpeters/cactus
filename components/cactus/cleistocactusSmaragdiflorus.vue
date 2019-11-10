@@ -12,21 +12,27 @@
         <article class="batch">
           <h2>Batch 1</h2>
           <div>
-            <h3>Sowing the seeds: 04/2019</h3>
-              <div>I planted 25 seeds from cactusstore.com, 18 have germinated.</div>
-          </div>
-          <div>
-            <h3>Seedlings</h3>
+            <h3>Seedlings: 11/2019</h3>
               <div>
+                I love how these guys are thriving.  I count 16 still in attendance at this time.  Is this 
+                and easier cactus to grow?  Does it just love the conditions I'm providing?  I've planted a
+                second cleistocactus species - so I'll see if the genus in general is this prolific.  
+              </div>
+          </div>
+          <img v-bind:src="batch_01_seedlings_04" alt="Cleistocactus smaragdiflorus seedlings from 2019/11/10"  />
+          <img v-bind:src="batch_01_seedlings_03" alt="Cleistocactus smaragdiflorus seedlings from 2019/09/17"  />
+          <div>
+            <h3>Sowing the seeds: 04/2019</h3>
+              <div>
+                I planted 25 seeds from cactusstore.com, 18 have germinated. 
                 I'm really glad these guys are doing so well - it looks like there are 18 of them, 
                 all perky, with little spikes growing.  There's a little red at the base of a few, 
                 which I want to keep an eye on.  I've moved them around a bit - they seem senstive 
                 to the light still.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings_03" alt="Cleistocactus smaragdiflorus seedlings from 17/09/2019"  />
-          <img v-bind:src="batch_01_seedlings_02" alt="Cleistocactus smaragdiflorus seedlings from 23/07/2019"  />
-          <img v-bind:src="batch_01_seedlings" alt="Cleistocactus smaragdiflorus seedlings from 18/04/2019"  />
+          <img v-bind:src="batch_01_seedlings_02" alt="Cleistocactus smaragdiflorus seedlings from 2019/07/23"  />
+          <img v-bind:src="batch_01_seedlings" alt="Cleistocactus smaragdiflorus seedlings from 2019/04/18"  />
         </article>
       </div>
     </div>   
@@ -38,6 +44,7 @@
   import batch_01_seedlings from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings.jpg';
   import batch_01_seedlings_02 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings_03.jpg';
+  import batch_01_seedlings_04 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings_04.jpg';
 
   export default {
     head () {
@@ -51,10 +58,11 @@
         image,
         batch_01_seedlings,
         batch_01_seedlings_02,
-        batch_01_seedlings_03
+        batch_01_seedlings_03,
+        batch_01_seedlings_04
       };
     }
   }
 </script>
 
-<style lang="css" src="../logs.css" scoped></style>
+<style lang="css" src="../miniLog.css" scoped></style>

@@ -17,40 +17,53 @@
         <article class="batch">
           <h2>Batch 2</h2>
           <div>
-            <h3>Sowing the seeds: 04/2019</h3>
-              <div>I planted 30 seeds in batches of 10 and 20. </div>
-          </div>
-          <div>
             <h3>Seedlings</h3>
               <div>
-                19 Seelings germinated from this batch, still incubated and looking bigger and stronger than their slightly
-                older siblings.  As of July 23, 18 still live.
+                14 remain of this batch.
               </div>
           </div>
-          <img v-bind:src="batch_02_seedlings_03" alt="Trichocereus pachanoi seedlings from 17/09/2019" />
-          <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
-          <img v-bind:src="batch_02_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
+          <img v-bind:src="batch_02_seedlings_04" alt="Trichocereus pachanoi seedlings from 2019/11/10" />
+          <img v-bind:src="batch_02_seedlings_03" alt="Trichocereus pachanoi seedlings from 2019/09/17" />
+          <div>
+            <h3>Sowing the seeds: 04/2019</h3>
+              <div>
+                <p>
+                  I planted 30 seeds in batches of 10 and 20. 19 Seelings germinated from this batch, still incubated and looking bigger and stronger than their slightly
+                older siblings.
+                </p>  
+                <p>As of July 23, 18 still live, out of incubation</p>  
+              </div>
+          </div>
+          <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus pachanoi seedlings from 2019/07/23" />
+          <img v-bind:src="batch_02_seedlings" alt="Trichocereus pachanoi seedlings from 2019/04/18" />
         </article>
 
         <article class="batch">
           <h2>Batch 1</h2>
           <div>
-            <h3>Sowing the seeds: 03/2019</h3>
-              <div>I planted 20 seeds, 9 germinated</div>
-          </div>
-          <div>
             <h3>Seedlings</h3>
               <div>
+                  6 Remain of this batch.
+              </div>
+          </div>
+          <img v-bind:src="batch_01_seedlings_04" alt="Trichocereus pachanoi seedlings from 2019/11/10" />
+          <img v-bind:src="batch_01_seedlings_03" alt="Trichocereus pachanoi seedlings from 2019/09/17" />
+          <div>
+            <h3>Sowing the seeds: 03/2019</h3>
+              <div>
+                <p>I planted 20 seeds, 9 germinated</p>
+                <p>
                   This first batch was in the unfortunate group of freshly sown seeds that I knocked over.  I was surprised
                   to see anything germitate.  Their little spines are adorable.  I did take them out of incubation long before
                   I would have liked - I was concerned about fungus, and the baggies I used weren't sealed well around the
                   2 inch clay pots - I forgot how quickly those guys can leach out moisture.  Clay is good for hardened cacti,
-                  but I won't use it again for seedlings without a fully sealed container.  As of July 23, 8 still live.
+                  but I won't use it again for seedlings without a fully sealed container.  
+                </p>
+                <p>As of July 23, 8 still live.</p>
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings_03" alt="Trichocereus pachanoi seedlings from 17/09/2019" />
-          <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus pachanoi seedlings from 23/07/2019" />
-          <img v-bind:src="batch_01_seedlings" alt="Trichocereus pachanoi seedlings from 18/04/2019" />
+          <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus pachanoi seedlings from 2019/07/23" />
+          <img v-bind:src="batch_01_seedlings" alt="Trichocereus pachanoi seedlings from 2019/04/18" />
         </article>
       </div>
      </div>
@@ -65,6 +78,9 @@
   import batch_02_seedlings_02 from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/cacti/trichocereusPachanoi/batch_01_seedlings_03.jpg';
   import batch_02_seedlings_03 from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings_03.jpg';
+  import batch_01_seedlings_04 from '../../assets/cacti/trichocereusPachanoi/batch_01_seedlings_04.jpg';
+  import batch_02_seedlings_04 from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings_04.jpg';
+  
 
   export default {
     head () {
@@ -82,6 +98,8 @@
         batch_02_seedlings_02,
         batch_01_seedlings_03,
         batch_02_seedlings_03,
+        batch_01_seedlings_04,
+        batch_02_seedlings_04
       };
     }
   }
