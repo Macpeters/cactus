@@ -39,4 +39,4 @@
   }
 </script>
 
-<style lang="css" src="../logs.css" scoped></style>
+<style lang="css" src="../miniLog.css" scoped></style>

@@ -16,7 +16,7 @@
         <h2>Seeds</h2>
         <div>
             <div>I ordered some seeds from rareplant.me, and planted them in November, 2019.  
-                We'll see what happens.
+                We'll see what happens.  As of 2019/11/10 I see signs of growth already.  
             </div>
         </div>
       </article>
@@ -42,4 +42,4 @@
   }
 </script>
 
-<style lang="css" src="../logs.css" scoped></style>
+<style lang="css" src="../miniLog.css" scoped></style>

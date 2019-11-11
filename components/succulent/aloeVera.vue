@@ -17,6 +17,7 @@
               side down with rocks for stability.
             </div>
         </div>
+        <img v-bind:src="aloe_01" alt="aloe vera as of 2019/11/10" />
       </article>
       </div>
     </div>
@@ -25,6 +26,8 @@
 
 <script>
   import image from '../../assets/succulents/aloeVera.jpg';
+  import aloe_01 from '../../assets/succulents/aloeVera/aloeVera_01.jpg';
+
   export default {
     head () {
       return {
@@ -34,10 +37,11 @@
     },
     data() {
       return {
-        image
+        image,
+        aloe_01
       };
     }
   }
 </script>
 
-<style lang="css" src="../logs.css" scoped></style>
+<style lang="css" src="../miniLog.css" scoped></style>
