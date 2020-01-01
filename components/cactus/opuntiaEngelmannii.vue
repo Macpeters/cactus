@@ -6,6 +6,9 @@
       <img v-bind:src="image"  />
       <h2>Notes on the species</h2>
       <div>
+        Opuntia don’t germinate easily unlike most cacti. Soaking the in lemon juice for 24 hrs
+        before planting helps break down the hard outer shell so that the seeds can germanate 
+        more easily.  I was recommended soaking in water, but lemon juice would be more acidic.  
       </div>
     </article>
 

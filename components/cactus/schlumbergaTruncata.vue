@@ -11,26 +11,13 @@
 
     <div class="batch-logs">
       <div class="row">
-        <article class="batch">
-          <h2>Cuttings</h2>
-          <div>
-            I've never really tried growing new plants from cuttings, so I decided to experiment a little.  They 
-            seem to have put down roots easily, and appear to be thriving and growing.  This was super easy.  I 
-            let the cuttings dry out for a few days, then stuck them in cactus soil, and kept them about as 
-            damp as I would an adult plant.
-          </div>
-          <img v-bind:src="cuttings_01_03"  alt="several cuttings from a mature schlumberga plant 2019/11/10" />
-          <img v-bind:src="cuttings_01_02"  alt="several cuttings from a mature schlumberga plant 2019/09/17" />
-          <img v-bind:src="cuttings_01"  alt="several cuttings from a mature schlumberga plant 2019/07/23" /> 
-        </article>
 
         <article class="batch">
           <h2>Mature Plant</h2>
           <div>
-            This was a fully mature plant when I bought it - it is one of the few plants I have that 
-            didn't start from seed.  I have seen it produce a single flower, once.
+            This was a fully mature plant when I bought it.
           </div>
-          <img v-bind:src="fullPlant"  alt="photo of schlumberga enjoying the outdoors 2019/07/23" />
+          <img v-bind:src="fullPlant"  alt="" />
         </article>
       </div>
     </div>
@@ -38,11 +25,7 @@
 </template>
 
 <script>
-  import closeup from '../../assets/cacti/schlumbergaTruncata/closeup.jpg';
-  import fullPlant from '../../assets/cacti/schlumbergaTruncata/fullPlant.jpg';
-  import cuttings_01 from '../../assets/cacti/schlumbergaTruncata/cuttings_01.jpg';
-  import cuttings_01_02 from '../../assets/cacti/schlumbergaTruncata/cuttings_01_02.jpg';
-  import cuttings_01_03 from '../../assets/cacti/schlumbergaTruncata/cuttings_01_03.jpg';
+  import fullPlant from '../../assets/cacti/schlumbergaBuckleyi/fullPlant.jpg';
 
   export default {
     head () {
@@ -53,11 +36,7 @@
     },
     data() {
       return {
-        closeup,
-        fullPlant,
-        cuttings_01,
-        cuttings_01_02,
-        cuttings_01_03
+        fullPlant
       };
     }
   }

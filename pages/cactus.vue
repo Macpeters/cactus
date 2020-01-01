@@ -3,7 +3,12 @@
     <div class="left-column">
       <ul>
          <span v-for="cactus in list" :key='cactus.slug'>
-          <li><a href="#" @click='choose(cactus)'>{{cactus.latin_name}}</a></li>
+          <li>
+            <a href="#" @click='choose(cactus)'>
+              <p class="latin-name">{{cactus.latin_name}}</p>
+              <p class="latin-name-short">{{cactus.latin_name_short}}</p>
+            </a>
+          </li>
         </span>
       </ul>
     </div>
@@ -26,6 +31,7 @@
       <span v-if="cactus.slug=='lopophora_williamsii'"><lopophoraWilliamsii /></span>
       <span v-if="cactus.slug=='mammillaria_pacifica'"><mammillariaPacifica /></span>
       <span v-if="cactus.slug=='opuntia_engelmannii'"><opuntiaEngelmannii /></span>
+      <span v-if="cactus.slug=='schlumbergera_buckleyi'"><schlumbergaBuckleyi /></span>
       <span v-if="cactus.slug=='schlumbergera_truncata'"><schlumbergaTruncata /></span>
       <span v-if="cactus.slug=='trichocereus_bridgisii'"><trichocereusBridgesii /></span>
       <span v-if="cactus.slug=='trichocereus_pachanoi'"><trichocereusPachanoi /></span>
@@ -53,6 +59,7 @@
   import lopophoraWilliamsii from "../components/cactus/lopophoraWilliamsii.vue"
   import mammillariaPacifica from "../components/cactus/mammillariaPacifica.vue"
   import opuntiaEngelmannii from "../components/cactus/opuntiaEngelmannii.vue"
+  import schlumbergaBuckleyi from "../components/cactus/schlumbergaBuckleyi.vue"
   import schlumbergaTruncata from "../components/cactus/schlumbergaTruncata.vue"
   import trichocereusBridgesii from "../components/cactus/trichocereusBridgesii.vue"
   import trichocereusPachanoi from "../components/cactus/trichocereusPachanoi.vue"
@@ -77,6 +84,7 @@
       lopophoraWilliamsii,
       mammillariaPacifica,
       opuntiaEngelmannii,
+      schlumbergaBuckleyi,
       schlumbergaTruncata,
       trichocereusBridgesii,
       trichocereusPachanoi,

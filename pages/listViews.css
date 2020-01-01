@@ -1,10 +1,29 @@
 .left-column {
   float: left;
   width: 25%;
-  padding: 5px;
+  padding: 5px 0 5px 0;
   font-weight: bold;
   background-color: #c8e6c8;
 }
+
+.latin-name-short {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .latin-name {
+    display: none;
+  }
+
+  .latin-name-short {
+    display: contents;
+  }
+
+  .left-column {
+    overflow: scroll;
+  }
+}
+
 .right-column {
   float: left;
   width: 75%;

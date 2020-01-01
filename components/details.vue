@@ -9,9 +9,8 @@
       <p><strong>Flowers:</strong> {{cactus.flowers}}</p>
       <p><strong>Fruit:</strong> {{cactus.fruit}}</p>
       <p><strong>Spines:</strong> {{cactus.spines}}</p>
-      <img :src="cactus.image" />
     </article>
-    
+     
     <table>
       <tr>
         <th>Growth Pattern</th>
@@ -52,6 +51,10 @@
 
   h2, h3 {
     padding: 5px;
+  }
+
+  .main-image {
+    width: 400px;
   }
 
   .summary {

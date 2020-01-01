@@ -1,3 +1,4 @@
+/* used for species with multiple batches - half width logs */
 h3 {
   clear: both;
 }
@@ -15,13 +16,13 @@ img {
 .main-notes {
   background-color: #f0e6c7;
   display: block;
+  min-height: 300px;
 }
 
 .row {
   display: block;
   clear: both;
-  padding-bottom: 5px;
-  border-bottom: #3c3a33
+  padding: 10px 0 10px 0;
 }
 
 .batch-logs {
