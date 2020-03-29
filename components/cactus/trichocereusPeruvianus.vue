@@ -12,24 +12,24 @@
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>Batch 2</h2>
+          <h2>03/2019 - 23 remain</h2>
           <div>
             <h3>Seedlings</h3>
               <div>
-                  I count 27 still alive, with many clearly thriving, and a few lagging behind.
+                  These are clearly thriving.  I'm not sure if they're too crowded, or if they
+                  enjoy each other's company, but I'll leave them in there a little longer.
               </div>
           </div>
+          <img v-bind:src="batch_02_seedlings_05" alt="Trichocereus peruvianus seedlings from 2020/03/29" />
           <img v-bind:src="batch_02_seedlings_04" alt="Trichocereus peruvianus seedlings from 2019/11/10" />
           <img v-bind:src="batch_02_seedlings_03" alt="Trichocereus peruvianus seedlings from 2019/09/17" />
           <div>
-            <h3>Sowing the seeds: 04/2019</h3>
+            <h3>Sowing the seeds</h3>
               <div>
-                I planted 30 seeds in batches of 10 with varying light levels.
-                <p>
-                  28/30 seedlings germinated - they didn't seem to care how much light I gave them, and they 
-                  had a solid germ rate.  Incubated until mid July, when I noticed some fungas and gnats
-                  around.
-                </p>  
+                I planted 30 seeds in batches of 10 with varying light levels.  28/30 seedlings germinated -
+                they didn't seem to care how much light I gave them, and they had a solid germ rate.  Incubated
+                until mid July, when I noticed some fungas and gnats around.
+                </p>
                 <p>
                   As of July 23, everyone is still alive.  I transplanted these guys into clay
                   pots so I could water from below and bury them a little better, since a few were falling
@@ -43,24 +43,25 @@
         </article>
 
          <article class="batch">
-          <h2>Batch 1</h2>
+          <h2>03/2019 - 1 remains</h2>
           <div>
-            <h3>Seedlings: 11/2019</h3>
+            <h3>Seedlings</h3>
               <div>
-                 The one cactus is still kicking, and looking properly spikey 
+                 The one cactus is still kicking, and looking properly spikey
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings_05" alt="Trichocereus peruvianus seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings_04" alt="Trichocereus peruvianus seedlings from 2019/11/10" />
           <img v-bind:src="batch_01_seedlings_03" alt="Trichocereus peruvianus seedlings from 2019/09/17" />
           <div>
-            <h3>Sowing the seeds: 03/2019</h3>
+            <h3>Sowing the seeds</h3>
               <div>
-                I planted 30 seeds, 1 still lives. This batch was dropped just after sowing &#128546;  and only one survived.  
+                I planted 30 seeds, 1 still lives. This batch was dropped just after sowing &#128546;  and only one survived.
                 It came out of incubation after a only a month, due to fungal issues.
               </div>
           </div>
           <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus peruvianus seedlings from 2019/07/23" />
-          <img v-bind:src="batch_01_seedlings" alt="Trichocereus peruvianus seedlings from 2019/04/18" /> 
+          <img v-bind:src="batch_01_seedlings" alt="Trichocereus peruvianus seedlings from 2019/04/18" />
         </article>
       </div>
     </div>
@@ -70,13 +71,16 @@
 <script>
   import image from '../../assets/cacti/trichocereusPeruvianus/trichocereusPeruvianus.jpg';
   import batch_01_seedlings from '../../assets/cacti/trichocereusPeruvianus/batch_01_seedlings.jpg';
-  import batch_02_seedlings from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings.jpg';
   import batch_01_seedlings_02 from '../../assets/cacti/trichocereusPeruvianus/batch_01_seedlings_02.jpg';
-  import batch_02_seedlings_02 from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/cacti/trichocereusPeruvianus/batch_01_seedlings_03.jpg';
-  import batch_02_seedlings_03 from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/cacti/trichocereusPeruvianus/batch_01_seedlings_04.jpg';
+  import batch_01_seedlings_05 from '../../assets/cacti/trichocereusPeruvianus/batch_01_seedlings_05.jpg';
+
+  import batch_02_seedlings from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings.jpg';
+  import batch_02_seedlings_02 from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings_02.jpg';
+  import batch_02_seedlings_03 from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings_03.jpg';
   import batch_02_seedlings_04 from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings_04.jpg';
+  import batch_02_seedlings_05 from '../../assets/cacti/trichocereusPeruvianus/batch_02_seedlings_05.jpg';
 
   export default {
     head () {
@@ -89,13 +93,15 @@
       return {
         image,
         batch_01_seedlings,
-        batch_02_seedlings,
         batch_01_seedlings_02,
-        batch_02_seedlings_02,
         batch_01_seedlings_03,
-        batch_02_seedlings_03,
         batch_01_seedlings_04,
-        batch_02_seedlings_04
+        batch_01_seedlings_05,
+        batch_02_seedlings,
+        batch_02_seedlings_02,
+        batch_02_seedlings_03,
+        batch_02_seedlings_04,
+        batch_02_seedlings_05
       };
     }
   }

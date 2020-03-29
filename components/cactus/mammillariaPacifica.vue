@@ -10,20 +10,22 @@
     <div class="batch-logs">
       <div class="row">
         <article>
-          <h2>Batch 1</h2>
+          <h2>04/2019 - 6 remain</h2>
           <div>
-            <h3>Seedlings: 11/2019</h3>
+            <h3>Seedlings</h3>
               <div>
                   Only 6 remain at this time, and they haven't grown much at all. I'm not sure if these guys
-                  are just super slow, or very unhappy with the life I've given them.
+                  are just super slow, or very unhappy with the life I've given them.  I've moved them a bit
+                  further from the light - maybe they'll like that better.
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings_05" alt="Mammillaria pacifica seedlings from 2020/03/29"  />
           <img v-bind:src="batch_01_seedlings_04" alt="Mammillaria pacifica seedlings from 2019/11/10"  />
           <img v-bind:src="batch_01_seedlings_03" alt="Mammillaria pacifica seedlings from 2019/09/17"  />
           <div>
-            <h3>Sowing the seeds: 04/2019</h3>
+            <h3>Sowing the seeds</h3>
               <div>
-                I planted 25 seeds from cactusstore.com- 27 appear to have germinated (guess they gave me extra - I didn't actually count) 
+                I planted 25 seeds from cactusstore.com- 27 germinated (guess they gave me extra - I didn't actually count)
                 It's still very early, but these are super tiny - barely visible.  As of July 23, they are still quite small -
                 smaller than any other seedling I've got, and still just globs with no real distinguishing features.  18 Remain.
               </div>
@@ -42,7 +44,8 @@
   import batch_01_seedlings_02 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_04.jpg';
-  
+  import batch_01_seedlings_05 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_05.jpg';
+
   export default {
     head () {
       return {
@@ -56,7 +59,8 @@
         batch_01_seedlings,
         batch_01_seedlings_02,
         batch_01_seedlings_03,
-        batch_01_seedlings_04
+        batch_01_seedlings_04,
+        batch_01_seedlings_05
       };
     }
   }

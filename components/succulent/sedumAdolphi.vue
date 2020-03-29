@@ -12,26 +12,29 @@
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>Batch 1</h2>
+          <h2>05/2019 - 10 remain</h2>
           <div>
-            <h3>Seedlings: 11/2019</h3>
+            <h3>Seedlings</h3>
               <div>
                 Of the three sedum species I planted, this one is lagging far behind.  It's growing, but
-                very slowly.  I wasn't expecting it to thrive indoors, so that's fine, I guess.  I do 
-                feel bad for the little guys - I wouldn't try growing them again.
+                very slowly.  I wasn't expecting it to thrive indoors, so that's fine, I guess.  I do
+                feel bad for the little guys - I wouldn't try growing them again.  I'm actually surprised
+                by how well it's doing, given that it doesn't like indoors.  I'll stick it outside as
+                soon as it's warm enough - it might do much better out there.
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings_05" alt="Sedum adophi seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings_04" alt="Sedum adophi seedlings from 2019/11/10" />
           <img v-bind:src="batch_01_seedlings_03" alt="Sedum adophi seedlings from 2019/09/17" />
           <div>
-            <h3>Sowing the seeds: 04/2019</h3>
+            <h3>Sowing the seeds</h3>
               <div>
                 <p>I planted 25 seeds from cactusstore.com  It looks like 9 have germinated</p>
                 <p>
-                   These are odd looking seedlings - like rigid stems with a couple of tiny leaves on top.  
+                   These are odd looking seedlings - like rigid stems with a couple of tiny leaves on top.
                   All three sedum species I planted have these sorts of seedlings.  Looks like maybe 12
-                  are doing okay, with a handful of others that are... trying.  I never had much hope 
-                  for them to grow well indoors. 
+                  are doing okay, with a handful of others that are... trying.  I never had much hope
+                  for them to grow well indoors.
                 </p>
               </div>
           </div>
@@ -49,6 +52,7 @@
   import batch_01_seedlings_02 from '../../assets/succulents/sedumAdolphi/batch_01_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/succulents/sedumAdolphi/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/succulents/sedumAdolphi/batch_01_seedlings_04.jpg';
+  import batch_01_seedlings_05 from '../../assets/succulents/sedumAdolphi/batch_01_seedlings_05.jpg';
 
   export default {
     head () {
@@ -63,7 +67,8 @@
         batch_01_seedlings,
         batch_01_seedlings_02,
         batch_01_seedlings_03,
-        batch_01_seedlings_04
+        batch_01_seedlings_04,
+        batch_01_seedlings_05
       };
     }
   }

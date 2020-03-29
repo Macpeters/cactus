@@ -10,11 +10,13 @@
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-        <h2>Seeds</h2>
+        <h2>11/2019 - 2 remain</h2>
         <div>
-            <div>I ordered some seeds from rareplant.me, and planted them in November, 2019.  
-                We'll see what happens.
+            <div>I ordered some seeds from rareplant.me, and planted them in November, 2019.
+                There were a bunch more, but I neglected them a bit, and many died of thirst,
+                because they were too small still to handle it.
             </div>
+            <img v-bind:src="batch_01_seedlings_01" alt="Echinocereus poselgeri seedlings 2019/03/29"  />
         </div>
       </article>
       </div>
@@ -23,7 +25,8 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/echinocereusPoselgeri.jpeg';
+  import image from '../../assets/cacti/echinocereusPoselgeri/echinocereusPoselgeri.jpeg';
+  import batch_01_seedlings_01 from '../../assets/cacti/echinocereusPoselgeri/batch_01_seedlings_01.jpg';
   export default {
     head () {
       return {
@@ -33,7 +36,8 @@
     },
     data() {
       return {
-        image
+        image,
+        batch_01_seedlings_01
       };
     }
   }

@@ -14,10 +14,12 @@
           <div>
             <h3>Seedlings: 11/2019</h3>
               <div>
-                These guys are doing fantastic - I'm really excited to see how they progress.  I may have to
-                divide them into separate containers.
+                These guys are doing fantastic - I'm really excited to see how they progress.  I have had
+                to divide them into three separate containers - the biggest one is on its own and
+                will likely outgrow the small pot in a few months at this rate.
               </div>
           </div>
+          <img v-bind:src="batch_01_seedlings_05" alt="Sedum palmeri seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings_04" alt="Sedum palmeri seedlings from 2019/11/10" />
           <img v-bind:src="batch_01_seedlings_03" alt="Sedum palmeri seedlings from 2019/09/17" />
           <div>
@@ -25,7 +27,7 @@
               <div>
                 <p>I planted 25 seeds from cactusstore.com.  It looks like 12 have germinated</p>
                 <p>
-                  These are odd looking seedlings - like rigid stems with a couple of tiny leaves on top.  
+                  These are odd looking seedlings - like rigid stems with a couple of tiny leaves on top.
                   All three sedum species I planted have these sorts of seedlings.  As of July, these look
                   very etoliated.  I'm not sure they can recover, in that case.  If this is how they're
                   suppose to grow, then maybe they'll survive.  I'd really like them to.
@@ -36,7 +38,7 @@
           <img v-bind:src="batch_01_seedlings" alt="Sedum palmeri seedlings from 2019/05/19" />
         </article>
       </div>
-     </div> 
+     </div>
   </div>
 </template>
 
@@ -46,6 +48,7 @@
   import batch_01_seedlings_02 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_02.jpg';
   import batch_01_seedlings_03 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_04.jpg';
+  import batch_01_seedlings_05 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_05.jpg';
 
   export default {
     head () {
@@ -60,7 +63,8 @@
         batch_01_seedlings,
         batch_01_seedlings_02,
         batch_01_seedlings_03,
-        batch_01_seedlings_04
+        batch_01_seedlings_04,
+        batch_01_seedlings_05
       };
     }
   }
