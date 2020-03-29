@@ -1,7 +1,7 @@
 <template>
   <div>
     <article class="main-notes">
-      <img v-bind:src="closeup"  />
+      <!-- <img v-bind:src="closeup"  /> -->
       <h2>Notes on the species</h2>
       <div>
         This cactus flowers around the U.S. Thanksgiving, so is often sold for
@@ -29,7 +29,7 @@
 
 <script>
   import fullPlant from '../../assets/cacti/schlumbergaTruncata/fullPlant.jpg';
-  import closeup from '../../assets/cacti/schlumbergaTruncata/closeUp.jpg';
+  // import closeup from '../../assets/cacti/schlumbergaTruncata/closeUp.jpg';
   import flowers from '../../assets/cacti/schlumbergaTruncata/flowers.jpg';
 
   export default {
@@ -42,7 +42,7 @@
     data() {
       return {
         fullPlant,
-        closeup,
+        // closeup,
         flowers
       };
     }
