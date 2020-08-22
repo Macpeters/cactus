@@ -10,15 +10,24 @@
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>05/2019 - 32 remain</h2>
+          <h2>05/2019 - 29 remain</h2>
           <div>
             <h3>Seedlings</h3>
               <div>
-                The seedlings have begun to grow more stocky, which I'm happy about.  This is closer to
-                what I expect these guys to look like.  They are starting to straighten up and settle in,
-                developing into beautiful geometric shapes.
+                <p>
+                  The seedlings have begun to grow more stocky, which I'm happy about.  This is closer to
+                  what I expect these guys to look like.  They are starting to straighten up and settle in,
+                  developing into beautiful geometric shapes.  32 Remain.
+                </p>
+                <p>
+                  It's august now, and these guys are definitely starting to look like I expect them to - beautiful
+                  geometric globs with striking spots of wool.  The dots around the wool are just starting to appear
+                  as well.  Theres one that has a strange colouring/marking scheme going on - I don't know if he's
+                  sick, or just odd. 29 Remain, which means I had 3 losses over the summer.  Not terrible, considering.
+                </p>
               </div>
           </div>
+          <img v-bind:src="batch_01_plants_01" alt="Astrophytum astaria from 2020/08/21" />
           <img v-bind:src="batch_01_seedlings_05" alt="Astrophytum astaria seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings_04" alt="Astrophytum astaria seedlings from 2019/11/10" />
           <img v-bind:src="batch_01_seedlings_03" alt="Astrophytum astaria seedlings from 2019/09/17" />
@@ -52,6 +61,7 @@
   import batch_01_seedlings_03 from '../../assets/cacti/astrophytumAstaria/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/cacti/astrophytumAstaria/batch_01_seedlings_04.jpg';
   import batch_01_seedlings_05 from '../../assets/cacti/astrophytumAstaria/batch_01_seedlings_05.jpg';
+  import batch_01_plants_01 from '../../assets/cacti/astrophytumAstaria/batch_01_plants_01.jpg';
 
   export default {
     head () {
@@ -67,7 +77,8 @@
         batch_01_seedlings_02,
         batch_01_seedlings_03,
         batch_01_seedlings_04,
-        batch_01_seedlings_05
+        batch_01_seedlings_05,
+        batch_01_plants_01
       };
     }
   }

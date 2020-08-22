@@ -1,27 +1,36 @@
 <template>
   <div>
     <article class="main-notes">
-      <img v-bind:src="image"  />
+      <img v-bind:src="charlie_04"  />
       <h2>Notes on the species</h2>
       <div>
         They seem to have a fairly good germ rate, and are quick to show it.  All my seeds so far have been purchased
-        from Sacred Seed in Toronto
+        from Sacred Seed in Toronto or https://magicactus.com/.  I find magicactus has more varieties available, but I've
+        only ever bought seeds from him.  He sells mature plants, but the price of even a 2 year old l. Williamsii is
+        encouragement to keep growing from seed as much as possible.  Only charlie I bought as a 2.5 year old - at $150 CA.
 
-        <div>
-          <h3>Varieties</h3>
-          <ul>
-            <li><strong>Caespitosa</strong>: will easily grow multiple heads without any decapitation happening.  This makes them very easy
-            to propogate.  These head form large clusters known as 'planchas'</li>
-            <li><strong>Menchaka</strong>: tend to have only one head, unless decapitation occurs.</li>
-          </ul>
-        </div>
+        <h3>Varieties</h3>
+        <ul>
+          <li><strong>Caespitosa</strong>: will easily grow multiple heads without any decapitation happening.  This makes them very easy
+          to propogate.  These head form large clusters known as 'planchas'</li>
+          <li><strong>Menchaka</strong>: tend to have only one head, unless decapitation occurs.</li>
+        </ul>
       </div>
     </article>
 
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>05/2019: v caespitosa</h2>
+          <h2>05/2019 Batch 3: v caespitosa</h2>
+          <div>
+            <h3>Plants - 52 Remaining</h3>
+              <div>
+                These have really enjoyed the summer.  I put them all together in a wide, shallow clay pot, and
+                they're thriving.  Should I just plant the seeds in a pot like this?  Maybe I'll try that with
+                the next batch.
+              </div>
+              <img v-bind:src="batch_03_plants_01" alt="Lopophora williamsii seedlings from 2020/08/21" />
+          </div>
           <div>
             <h3>Seedlings - 69 remaining</h3>
               <div>
@@ -30,7 +39,6 @@
               </div>
               <img v-bind:src="batch_03_seedlings_05" alt="Lopophora williamsii seedlings from 2020/03/29" />
               <img v-bind:src="batch_03_seedlings_04" alt="Lopophora williamsii seedlings from 2019/11/10" />
-              <img v-bind:src="batch_03_seedlings_03" alt="Lopophora williamsii seedlings from 2019/09/17" />
           </div>
            <div>
             <h3>Sowing the seeds: 05/2019</h3>
@@ -43,7 +51,15 @@
         </article>
 
         <article class="batch">
-          <h2>03/2019: v caespitosa</h2>
+          <h2>03/2018 Batch 2: v caespitosa</h2>
+          <div>
+            <h3>Plants - 5-6 Remain</h3>
+            <div>These have largely matured.  They grow slowly, but they have the proper shape of the species, and
+              they're showing the tiny tufts of hair common to the species.  One individual looks like it's passed,
+              but the rest seem healthy, if drastically different in size.
+            </div>
+            <img v-bind:src="batch_02_plants_01" alt="Lopophora williamsii seedlings from 2020/08/21" />
+          </div>
           <div>
             <h3>Seedlings - 9 remaining</h3>
               <div>
@@ -52,7 +68,6 @@
               </div>
               <img v-bind:src="batch_02_seedlings_05" alt="Lopophora williamsii seedlings from 2020/03/29" />
               <img v-bind:src="batch_02_seedlings_04" alt="Lopophora williamsii seedlings from 2019/11/10" />
-              <img v-bind:src="batch_02_seedlings_03" alt="Lopophora williamsii seedlings from 2019/09/17" />
           </div>
           <div>
             <h3>Sowing the seeds</h3>
@@ -70,19 +85,27 @@
 
       <div class="row">
         <article class="batch">
-          <h2>09/2018: v caespitosa</h2>
+          <h2>Charlie: v menchaka</h2>
           <div>
-          <h3>Seedlings - 2 remaining</h3>
-            <div>
-              There are a lot of things I could have done better.  I hope future batches are much more successful.
-            </div>
-            <img v-bind:src="batch_01_seedlings_05" alt="Lopophora williamsii seedlings from 2020/03/29" />
-            <img v-bind:src="batch_01_seedlings_04" alt="Lopophora williamsii seedlings from 2019/11/10" />
-            <img v-bind:src="batch_01_seedlings_03" alt="Lopophora williamsii seedlings from 2019/09/17" />
-          </div>
-          <div>
-            <h3>Sowing the seeds</h3>
+            <h3>Born November 6, 2014</h3>
               <div>
+                This is one of the only cacti I own that I didn't plant. He was 2.5 years old when I picked him up (Spring 2018-ish).
+                Still quite small, as these fellas tend to be, but seems happy enough.  I have upgraded his pot a couple of times, and
+                he's starting to show fresh bulges of growth on top, so I'm excited to see how those play out.
+              </div>
+              <img v-bind:src="charlie_04"  alt="Lopophora williamsii late Summer, 2020" />
+              <img v-bind:src="charlie_03"  alt="Lopophora williamsii from the side, Spring, 2019" />
+              <img v-bind:src="charlie_02"  alt="Lopophora williamsii from above, Spring, 2019" />
+              <img v-bind:src="charlie"  alt="Lopophora williamsii, Spring, 2018" />
+          </div>
+        </article>
+        <article class="batch">
+
+          <h2>09/2018: Batch 1: v caespitosa</h2>
+          <div>
+            <h3>2 Remain</h3>
+              <div>
+                There are a lot of things I could have done better.  I hope future batches are much more successful.
                 I sowed 30 seeds - half in a plastic icecube tray with a plastic cover and half in a 2 inch clay pot in a baggy. Many were
                 misshapen and odd looking.  I took the seedlings out of plastic much earlier than I needed to and they seemed small and stunted
                 compared to other seedlings which were planted later.  The ones in the icecube tray had a much better germination rate.
@@ -90,23 +113,9 @@
                 which led to yellowing and stretching.
               </div>
           </div>
-          <img v-bind:src="batch_01_seedlings_02" alt="Lopophora williamsii seedlings from 2019/07/23" />
+          <img v-bind:src="batch_01_plants_01" alt="Lopophora williamsii from 2020/08/21" />
+          <img v-bind:src="batch_01_seedlings_05" alt="Lopophora williamsii seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings" alt="Lopophora williamsii seedlings from 2019/04/18" />
-        </article>
-
-        <article class="batch">
-          <h2>Charlie: v menchaka</h2>
-          <div>
-            <h3>Born November 6, 2014</h3>
-              <div>
-                This is one of the only cacti I own that I didn't plant. He was 2.5 years old when I picked him up (Spring 2018-ish).
-                Still quite small, as these fellas tend to be, but seems happy enough.  I moved him from his tiny plastic pot to a
-                slightly larger clay pot.
-              </div>
-              <img v-bind:src="charlie_3_5_side"  alt="Lopophora williamsii fron the side, Spring, 2019" />
-              <img v-bind:src="charlie_3_5_above"  alt="Lopophora williamsii from above, Spring, 2019" />
-              <img v-bind:src="charlie"  alt="Lopophora williamsii, Spring, 2018" />
-          </div>
         </article>
       </div>
     </div>
@@ -114,28 +123,26 @@
 </template>
 
 <script>
-  import image from '../../assets/cacti/lopophoraWilliamsii/charlie_3years.jpg';
-  import charlie from '../../assets/cacti/lopophoraWilliamsii/charlie_2_5years.jpg';
-  import charlie_3_5_above from '../../assets/cacti/lopophoraWilliamsii/charlie_3_5yearsAbove.jpg';
-  import charlie_3_5_side from '../../assets/cacti/lopophoraWilliamsii/charlie_3_5_yearsSide.jpg';
+  import charlie from '../../assets/cacti/lopophoraWilliamsii/charlie_01.jpg';
+  import charlie_02 from '../../assets/cacti/lopophoraWilliamsii/charlie_02.jpg';
+  import charlie_03 from '../../assets/cacti/lopophoraWilliamsii/charlie_03.jpg';
+  import charlie_04 from '../../assets/cacti/lopophoraWilliamsii/charlie_04.jpg';
 
-  import batch_01_seedlings from '../../assets/cacti/lopophoraWilliamsii/18_09_01.jpg';
-  import batch_01_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/18_09_02.jpg';
-  import batch_01_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/18_09_03.jpg';
-  import batch_01_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/18_09_04.jpg';
-  import batch_01_seedlings_05 from '../../assets/cacti/lopophoraWilliamsii/18_09_05.jpg';
+  import batch_01_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings_01.jpg';
+  import batch_01_seedlings_05 from '../../assets/cacti/lopophoraWilliamsii/batch_01_seedlings_05.jpg';
+  import batch_01_plants_01 from '../../assets/cacti/lopophoraWilliamsii/batch_01_plants_01.jpg';
 
-  import batch_02_seedlings from '../../assets/cacti/lopophoraWilliamsii/19_03_01.jpg';
-  import batch_02_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/19_03_02.jpg';
-  import batch_02_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/19_03_03.jpg';
-  import batch_02_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/19_03_04.jpg';
-  import batch_02_seedlings_05 from '../../assets/cacti/lopophoraWilliamsii/19_03_05.jpg';
+  import batch_02_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_01.jpg';
+  import batch_02_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_02.jpg';
+  import batch_02_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_04.jpg';
+  import batch_02_seedlings_05 from '../../assets/cacti/lopophoraWilliamsii/batch_02_seedlings_05.jpg';
+  import batch_02_plants_01 from '../../assets/cacti/lopophoraWilliamsii/batch_02_plants_01.jpg';
 
-  import batch_03_seedlings from '../../assets/cacti/lopophoraWilliamsii/19_05_01.jpg';
-  import batch_03_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/19_05_02.jpg';
-  import batch_03_seedlings_03 from '../../assets/cacti/lopophoraWilliamsii/19_05_03.jpg';
-  import batch_03_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/19_05_04.jpg';
-  import batch_03_seedlings_05 from '../../assets/cacti/lopophoraWilliamsii/19_05_05.jpg';
+  import batch_03_seedlings from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_01.jpg';
+  import batch_03_seedlings_02 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_02.jpg';
+  import batch_03_seedlings_04 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_04.jpg';
+  import batch_03_seedlings_05 from '../../assets/cacti/lopophoraWilliamsii/batch_03_seedlings_05.jpg';
+  import batch_03_plants_01 from '../../assets/cacti/lopophoraWilliamsii/batch_03_plants_01.jpg';
 
   export default {
     head () {
@@ -149,25 +156,23 @@
     },
     data() {
       return {
-        image,
         charlie,
-        charlie_3_5_above,
-        charlie_3_5_side,
+        charlie_02,
+        charlie_03,
+        charlie_04,
         batch_01_seedlings,
-        batch_01_seedlings_02,
-        batch_01_seedlings_03,
-        batch_01_seedlings_04,
         batch_01_seedlings_05,
+        batch_01_plants_01,
         batch_02_seedlings,
         batch_02_seedlings_02,
-        batch_02_seedlings_03,
         batch_02_seedlings_04,
         batch_02_seedlings_05,
+        batch_02_plants_01,
         batch_03_seedlings,
         batch_03_seedlings_02,
-        batch_03_seedlings_03,
         batch_03_seedlings_04,
-        batch_03_seedlings_05
+        batch_03_seedlings_05,
+        batch_03_plants_01
       };
     }
   }

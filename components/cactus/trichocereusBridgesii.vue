@@ -11,14 +11,23 @@
      <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>03/19 - 9 remain</h2>
+          <h2>03/19 - 4 remain</h2>
           <div>
             <h3>Seedlings</h3>
               <div>
-                All looking strong and happy.  Except that one I lost to rot :( I have to start treating
-                these like adults and not watering them as often.
+                <p>
+                  All looking strong and happy.  Except that one I lost to rot :( I have to start treating
+                  these like adults and not watering them as often.
+                </p>
+                <p>
+                  The summer has been good to these guys, they're super happy, and they've grown a lot.  There's
+                  no question that they're little adults now, and keeping them in clay has made it easy to avoid
+                  over watering them.  Now that they're bigger, and I can keep a better eye on the individuals, I
+                  have faith that these will all survive moving forward.
+                </p>
               </div>
           </div>
+          <img v-bind:src="batch_02_plants_01"  alt="Trichocereus bridgesii seedlings from 2020/08/21" />
           <img v-bind:src="batch_02_seedlings_05"  alt="Trichocereus bridgesii seedlings from 2020/03/29" />
           <img v-bind:src="batch_02_seedlings_04"  alt="Trichocereus bridgesii seedlings from 2019/11/10" />
           <img v-bind:src="batch_02_seedlings_03"  alt="Trichocereus bridgesii seedlings from 2019/09/17" />
@@ -43,9 +52,11 @@
           <div>
             <h3>Seedlings</h3>
               <div>
-                The two still live, and seems to be happy
+                The two still live, and seems to be happy.  They've grown a lot over the summer, and they seem to have settled into
+                their life as adorable little adults.
               </div>
           </div>
+          <img v-bind:src="batch_01_plants_01"  alt="Trichocereus bridgesii from 2020/08/21" />
           <img v-bind:src="batch_01_seedlings_05"  alt="Trichocereus bridgesii seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings_04"  alt="Trichocereus bridgesii seedlings from 2019/11/10" />
           <img v-bind:src="batch_01_seedlings_03"  alt="Trichocereus bridgesii seedlings from 2019/09/17" />
@@ -76,12 +87,14 @@
   import batch_01_seedlings_03 from '../../assets/cacti/trichocereusBridgesii/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/cacti/trichocereusBridgesii/batch_01_seedlings_04.jpg';
   import batch_01_seedlings_05 from '../../assets/cacti/trichocereusBridgesii/batch_01_seedlings_05.jpg';
+  import batch_01_plants_01 from '../../assets/cacti/trichocereusBridgesii/batch_01_plants_01.jpg';
 
   import batch_02_seedlings from '../../assets/cacti/trichocereusBridgesii/batch_02_seedlings.jpg';
   import batch_02_seedlings_02 from '../../assets/cacti/trichocereusBridgesii/batch_02_seedlings_02.jpg';
   import batch_02_seedlings_03 from '../../assets/cacti/trichocereusBridgesii/batch_02_seedlings_03.jpg';
   import batch_02_seedlings_04 from '../../assets/cacti/trichocereusBridgesii/batch_02_seedlings_04.jpg';
   import batch_02_seedlings_05 from '../../assets/cacti/trichocereusBridgesii/batch_02_seedlings_05.jpg';
+  import batch_02_plants_01 from '../../assets/cacti/trichocereusBridgesii/batch_02_plants_01.jpg';
 
   export default {
     head () {
@@ -98,11 +111,13 @@
         batch_01_seedlings_03,
         batch_01_seedlings_04,
         batch_01_seedlings_05,
+        batch_01_plants_01,
         batch_02_seedlings,
         batch_02_seedlings_02,
         batch_02_seedlings_03,
         batch_02_seedlings_04,
-        batch_02_seedlings_05
+        batch_02_seedlings_05,
+        batch_02_plants_01
       };
     }
   }

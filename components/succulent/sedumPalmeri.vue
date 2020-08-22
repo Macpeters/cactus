@@ -14,11 +14,20 @@
           <div>
             <h3>Seedlings: 11/2019</h3>
               <div>
-                These guys are doing fantastic - I'm really excited to see how they progress.  I have had
-                to divide them into three separate containers - the biggest one is on its own and
-                will likely outgrow the small pot in a few months at this rate.
+                <p>
+                  I have moved these into a wide, shallow clay pot, and all on their own they've taken over
+                  the whole thing.  They still have room to grow, so I can leave them alone, but I'm really impressed
+                  with how well they have been growing.
+                </p>
+                <p>
+                  These guys are doing fantastic - I'm really excited to see how they progress.  I have had
+                  to divide them into three separate containers - the biggest one is on its own and
+                  will likely outgrow the small pot in a few months at this rate.  I haven't seen any of the bright red
+                  I am expecting - but maybe they have to flower for that?
+                </p>
               </div>
           </div>
+          <img v-bind:src="batch_01_plants_01" alt="Sedum palmeri from 2020/08/21" />
           <img v-bind:src="batch_01_seedlings_05" alt="Sedum palmeri seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings_04" alt="Sedum palmeri seedlings from 2019/11/10" />
           <img v-bind:src="batch_01_seedlings_03" alt="Sedum palmeri seedlings from 2019/09/17" />
@@ -49,6 +58,7 @@
   import batch_01_seedlings_03 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_04.jpg';
   import batch_01_seedlings_05 from '../../assets/succulents/sedumPalmeri/batch_01_seedlings_05.jpg';
+  import batch_01_plants_01 from '../../assets/succulents/sedumPalmeri/batch_01_plants_01.jpg';
 
   export default {
     head () {
@@ -64,7 +74,8 @@
         batch_01_seedlings_02,
         batch_01_seedlings_03,
         batch_01_seedlings_04,
-        batch_01_seedlings_05
+        batch_01_seedlings_05,
+        batch_01_plants_01
       };
     }
   }

@@ -13,18 +13,27 @@
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>Batch 2</h2>
+          <h2>Batch 2: 05/19 - 10 remain</h2>
           <div>
             <h3>Seedlings: 11/2019</h3>
               <div>
-                  These were looking pretty orange for a few days - I moved them further from the
-                  light.  The orange has largely faded.  I wouldn't mind if these turn out to have
-                  some colour, but I would like to avoid having to graft until I have a bit more XP
-                  with cactusing.  Even after switching to 12 hour flor lighting, they still seem
-                  taller and floppier than seems right.  Maybe I just don't know astrophytum well
-                  enough to say, though.
+                  <p>
+                    These were looking pretty orange for a few days - I moved them further from the
+                    light.  The orange has largely faded.  I wouldn't mind if these turn out to have
+                    some colour, but I would like to avoid having to graft until I have a bit more XP
+                    with cactusing.  Even after switching to 12 hour flor lighting, they still seem
+                    taller and floppier than seems right.  Maybe I just don't know astrophytum well
+                    enough to say, though.
+                  </p>
+                  <p>
+                    After a summer of growth, they're a bit bigger, but not remarkably.  Maybe these are
+                    slow growers.  The seedling stem is now buried, so maybe I'm comparing above ground
+                    growth to mostly below ground growth.  At any rate, these are the most columny
+                    astrophytum, as expected.
+                  </p>
               </div>
           </div>
+          <img v-bind:src="batch_02_plants_01"  alt="Astrophytum myriostigma from 2020/08/21" />
           <img v-bind:src="batch_02_seedlings_05"  alt="Astrophytum myriostigma seedlings from 2020/03/29" />
           <img v-bind:src="batch_02_seedlings_04"  alt="Astrophytum myriostigma seedlings from 2019/11/10" />
           <img v-bind:src="batch_02_seedlings_03"  alt="Astrophytum myriostigma seedlings from 2019/09/17" />
@@ -44,7 +53,7 @@
         </article>
 
         <article class="batch">
-          <h2>Batch 1</h2>
+          <h2>Batch 1 - none remain</h2>
           <div>
             <h3>Seedlings: 11/2019</h3>
               <div>
@@ -85,6 +94,7 @@
   import batch_02_seedlings_03 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_03.jpg';
   import batch_02_seedlings_04 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_04.jpg';
   import batch_02_seedlings_05 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_05.jpg';
+  import batch_02_plants_01 from '../../assets/cacti/astrophytumMyriostigma/batch_02_plants_01.jpg';
 
   export default {
     head () {
@@ -103,7 +113,8 @@
         batch_01_seedlings_03,
         batch_02_seedlings_03,
         batch_02_seedlings_04,
-        batch_02_seedlings_05
+        batch_02_seedlings_05,
+        batch_02_plants_01
       };
     },
   }

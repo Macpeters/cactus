@@ -4,21 +4,40 @@
       <img v-bind:src="image"  />
       <h2>Notes on the species</h2>
       <div>
+        <p>
+          Cleistocactus means "closed" or "hidden".  The flowers are narrow and barely open.  Genus is found in Argentina,
+          Bolivia, Ecuador, and Peru.  The flowers of Cleistocactus are hummingbird pollinated.  These species also
+          have a cephalium, which is where flowering occurs.  It is a specialized area with bristly, wolly, or woody growth.
+        </p>
+        <p>
+          Water this like a succulent.  It is recommended outdoors, but will grow indoors.
+          Keep dry in winter.  Repot in the spring.
+          One of the hardiest wolly columnar cacti from Bolivia.  Frost resistant.  Doesn't care for extremely high temperatures
+          in summer.  Propogated by seed or cutting.
+        </p>
       </div>
     </article>
 
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>04/2019 - 16 remain</h2>
+          <h2>04/2019 - 15 remain</h2>
           <div>
             <h3>Seedlings</h3>
               <div>
-                I love how these guys are thriving.  Is this  an easier cactus to grow?  Does it
-                just love the conditions I'm providing?  I've planted a second cleistocactus species -
-                so I'll see if the genus in general is this prolific.
+                <p>
+                  I love how these guys are thriving.  Is this  an easier cactus to grow?  Does it
+                  just love the conditions I'm providing?  I've planted a second cleistocactus species -
+                  so I'll see if the genus in general is this prolific.
+                </p>
+                <p>
+                  The summer is nearly over, and I've only had a single loss since March.  These guys
+                  are strong and hardy, and I'm super happy at how well they've done.  The next step will be
+                  to
+                </p>
               </div>
           </div>
+          <img v-bind:src="batch_01_plants_01" alt="Cleistocactus smaragdiflorus from 2020/08/21"  />
           <img v-bind:src="batch_01_seedlings_05" alt="Cleistocactus smaragdiflorus seedlings from 2020/03/29"  />
           <img v-bind:src="batch_01_seedlings_04" alt="Cleistocactus smaragdiflorus seedlings from 2019/11/10"  />
           <img v-bind:src="batch_01_seedlings_03" alt="Cleistocactus smaragdiflorus seedlings from 2019/09/17"  />
@@ -47,6 +66,7 @@
   import batch_01_seedlings_03 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings_04.jpg';
   import batch_01_seedlings_05 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_seedlings_05.jpg';
+  import batch_01_plants_01 from '../../assets/cacti/cleistocactusSmaragdiflorus/batch_01_plants_01.jpg';
 
   export default {
     head () {
@@ -62,7 +82,8 @@
         batch_01_seedlings_02,
         batch_01_seedlings_03,
         batch_01_seedlings_04,
-        batch_01_seedlings_05
+        batch_01_seedlings_05,
+        batch_01_plants_01
       };
     }
   }
