@@ -11,7 +11,7 @@
      <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>03/19 - 4 remain</h2>
+          <h2>Batch 02 03/2019 - 4 remain</h2>
           <div>
             <h3>Seedlings</h3>
               <div>
@@ -48,7 +48,7 @@
         </article>
 
         <article class="batch">
-          <h2>03/2019 - 2 remain</h2>
+          <h2>Batch 01 03/2018 - 2 remain</h2>
           <div>
             <h3>Seedlings</h3>
               <div>

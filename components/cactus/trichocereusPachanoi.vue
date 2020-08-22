@@ -15,7 +15,19 @@
      <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>05/2019 - 12 remain.</h2>
+          <h2>05/2019 - 18 remain.</h2>
+          <div>
+            <h3>Mixed Up</h3>
+              <div>
+                I seem to have mixed both batches together in one pot, and I can no longer tell
+                them apart.  Probably the tag was faded and I mis-read... at any rate, they all still live.
+                All 18.  I'm not sure why these are growing slower than the other trichocereus species,
+                and it seems fewer have survived as well.  I may need to try another batch of these in
+                the future.
+              </div>
+              <img v-bind:src="batch_plants_01" alt="Trichocereus pachanoi from 2020/08/21" />
+          </div>
+
           <div>
             <h3>Seedlings</h3>
               <div>
@@ -88,6 +100,8 @@
   import batch_02_seedlings_04 from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings_04.jpg';
   import batch_02_seedlings_05 from '../../assets/cacti/trichocereusPachanoi/batch_02_seedlings_05.jpg';
 
+  import batch_plants_01 from '../../assets/cacti/trichocereusPachanoi/batch_plants_01.jpg';
+
 
   export default {
     head () {
@@ -108,7 +122,8 @@
         batch_02_seedlings_02,
         batch_02_seedlings_03,
         batch_02_seedlings_04,
-        batch_02_seedlings_05
+        batch_02_seedlings_05,
+        batch_plants_01
       };
     }
   }

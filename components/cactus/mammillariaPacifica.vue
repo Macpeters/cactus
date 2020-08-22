@@ -10,15 +10,22 @@
     <div class="batch-logs">
       <div class="row">
         <article>
-          <h2>04/2019 - 6 remain</h2>
+          <h2>Batch 01 04/2019 - 5 remain</h2>
           <div>
             <h3>Seedlings</h3>
               <div>
-                  Only 6 remain at this time, and they haven't grown much at all. I'm not sure if these guys
-                  are just super slow, or very unhappy with the life I've given them.  I've moved them a bit
-                  further from the light - maybe they'll like that better.
+                  <p>
+                    Only 6 remain in March 2020, and they haven't grown much at all. I'm not sure if these guys
+                    are just super slow, or very unhappy with the life I've given them.  I've moved them a bit
+                    further from the light - maybe they'll like that better.
+                  </p>
+                  <p>Now it's August, and there are 5 left.  They are tiny still, but some of them
+                    look like proper little cactuses with bright orange spines, so they must be fairly
+                    content.
+                  </p>
               </div>
           </div>
+          <img v-bind:src="batch_01_plants_01" alt="Mammillaria pacifica from 2020/08/21"  />
           <img v-bind:src="batch_01_seedlings_05" alt="Mammillaria pacifica seedlings from 2020/03/29"  />
           <img v-bind:src="batch_01_seedlings_04" alt="Mammillaria pacifica seedlings from 2019/11/10"  />
           <img v-bind:src="batch_01_seedlings_03" alt="Mammillaria pacifica seedlings from 2019/09/17"  />
@@ -45,6 +52,7 @@
   import batch_01_seedlings_03 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_03.jpg';
   import batch_01_seedlings_04 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_04.jpg';
   import batch_01_seedlings_05 from '../../assets/cacti/mammillariaPacifica/batch_01_seedlings_05.jpg';
+  import batch_01_plants_01 from '../../assets/cacti/mammillariaPacifica/batch_01_plants_01.jpg';
 
   export default {
     head () {
@@ -60,7 +68,8 @@
         batch_01_seedlings_02,
         batch_01_seedlings_03,
         batch_01_seedlings_04,
-        batch_01_seedlings_05
+        batch_01_seedlings_05,
+        batch_01_plants_01
       };
     }
   }
