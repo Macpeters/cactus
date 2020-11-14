@@ -25,6 +25,7 @@ export default {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    max-height: 100vh;
+    max-width: 90vw;
   }
 </style>

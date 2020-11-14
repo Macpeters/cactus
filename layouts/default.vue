@@ -6,7 +6,8 @@
         <li class="nav-item"><a href="/cactus">Cacti</a></li>
         <li class="nav-item"><a href="/succulent">Succulents</a></li>
         <li class="nav-item"><a href="/wishList">Wishlist</a></li>
-         <li class="nav-item"><a href="/moreInfo">Info</a></li>
+        <li class="nav-item"><a href="/care">Care</a></li>
+        <li class="nav-item"><a href="/moreInfo">Info</a></li>
       </ul>
     </h2>
     <nuxt />
