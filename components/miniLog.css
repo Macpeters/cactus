@@ -8,32 +8,40 @@ img {
     max-height: 400px;
     float: left;
   }
-  
+
   .cactus-log {
     padding-bottom: 10px;
   }
-  
+
   .main-notes {
     background-color: #f0e6c7;
     display: block;
     min-height: 300px;
   }
-  
+
   .row {
     display: block;
     clear: both;
     padding-bottom: 5px;
     border-bottom: #3c3a33
   }
-  
+
   .batch-logs {
     clear: both;
     padding-left: 10%;
     padding-right: 10%;
   }
-  
+
   .batch {
     text-align: center;
     float: left;
     border-bottom: medium solid black;
+  }
+
+  section {
+    width: 100%;
+    display: block;
+    clear: both;
+    padding-bottom: 5px;
+    border-bottom: #3c3a33
   }

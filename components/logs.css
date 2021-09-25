@@ -34,3 +34,11 @@ img {
   width: 50%;
   float: left;
 }
+
+section {
+  width: 100%;
+  display: block;
+  clear: both;
+  padding-bottom: 5px;
+  border-bottom: #3c3a33
+}

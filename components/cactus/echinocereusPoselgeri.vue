@@ -10,8 +10,24 @@
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-        <h2>11/2019 - 3 remain</h2>
-        <div>
+        <section>
+          <h2>Seedlings</h2>
+          <h2>09/2021 - 2 remain</h2>
+          <div>
+            <div>
+              <p>
+                This was one of the few pots that remained indoors over the summer, so there hasn't
+                been a ton of growth.  Next year I'll make sure he gets to go outside.
+              </p>
+            </div>
+            <img v-bind:src="batch_01_seedlings_03" alt="Echinocereus poselgeri seedlings 2021/09/12"  />
+          </div>
+        </section>
+
+        <section>
+          <h2>Seedlings</h2>
+          <h2>11/2019 - 3 remain</h2>
+          <div>
             <div>
               <p>
                 I ordered some seeds from rareplant.me, and planted them in November, 2019.
@@ -27,7 +43,9 @@
             </div>
             <img v-bind:src="batch_01_seedlings_02" alt="Echinocereus poselgeri seedlings 2020/08/21"  />
             <img v-bind:src="batch_01_seedlings_01" alt="Echinocereus poselgeri seedlings 2020/03/29"  />
-        </div>
+          </div>
+        </section>
+
       </article>
       </div>
     </div>
@@ -38,6 +56,7 @@
   import image from '../../assets/cacti/echinocereusPoselgeri/echinocereusPoselgeri.jpeg';
   import batch_01_seedlings_01 from '../../assets/cacti/echinocereusPoselgeri/batch_01_seedlings_01.jpg';
   import batch_01_seedlings_02 from '../../assets/cacti/echinocereusPoselgeri/batch_01_seedlings_02.jpg';
+  import batch_01_seedlings_03 from '../../assets/cacti/echinocereusPoselgeri/batch_01_seedlings_03.jpg';
 
   export default {
     head () {
@@ -50,7 +69,8 @@
       return {
         image,
         batch_01_seedlings_01,
-        batch_01_seedlings_02
+        batch_01_seedlings_02,
+        batch_01_seedlings_03
       };
     }
   }

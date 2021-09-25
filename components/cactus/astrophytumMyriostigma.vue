@@ -13,46 +13,60 @@
     <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>Batch 2: 05/19 - 10 remain</h2>
-          <div>
-            <h3>Seedlings: 11/2019</h3>
-              <div>
-                  <p>
-                    These were looking pretty orange for a few days - I moved them further from the
-                    light.  The orange has largely faded.  I wouldn't mind if these turn out to have
-                    some colour, but I would like to avoid having to graft until I have a bit more XP
-                    with cactusing.  Even after switching to 12 hour flor lighting, they still seem
-                    taller and floppier than seems right.  Maybe I just don't know astrophytum well
-                    enough to say, though.
-                  </p>
-                  <p>
-                    After a summer of growth, they're a bit bigger, but not remarkably.  Maybe these are
-                    slow growers.  The seedling stem is now buried, so maybe I'm comparing above ground
-                    growth to mostly below ground growth.  At any rate, these are the most columny
-                    astrophytum, as expected.
-                  </p>
-              </div>
-          </div>
+
+          <section>
+            <h2>Plants</h2>
+            <h3>09/2021 - 5 remain</h3>
+            <div>
+              <p>
+                Several were lost during my move in April, but the remaining plants seems strong.
+                One pot spent the summer outside, and grew quite a lot larger, while the other stayed
+                inside under flourescent lighting.  It's clear what a difference full sunlight makes.
+              </p>
+            </div>
+          </section>
+          <img v-bind:src="batch_02_plants_02"  alt="Astrophytum myriostigma from 2021/09/12" />
+
+          <section>
+            <h2>Seedlings</h2>
+            <h3>Seedlings: 11/2019 - 10 remain</h3>
+            <div>
+                <p>
+                  These were looking pretty orange for a few days - I moved them further from the
+                  light.  The orange has largely faded.  I wouldn't mind if these turn out to have
+                  some colour, but I would like to avoid having to graft until I have a bit more XP
+                  with cactusing.  Even after switching to 12 hour flor lighting, they still seem
+                  taller and floppier than seems right.  Maybe I just don't know astrophytum well
+                  enough to say, though.
+                </p>
+                <p>
+                  After a summer of growth, they're a bit bigger, but not remarkably.  Maybe these are
+                  slow growers.  The seedling stem is now buried, so maybe I'm comparing above ground
+                  growth to mostly below ground growth.  At any rate, these are the most columny
+                  astrophytum, as expected.
+                </p>
+            </div>
+          </section>
           <img v-bind:src="batch_02_plants_01"  alt="Astrophytum myriostigma from 2020/08/21" />
           <img v-bind:src="batch_02_seedlings_05"  alt="Astrophytum myriostigma seedlings from 2020/03/29" />
           <img v-bind:src="batch_02_seedlings_04"  alt="Astrophytum myriostigma seedlings from 2019/11/10" />
           <img v-bind:src="batch_02_seedlings_03"  alt="Astrophytum myriostigma seedlings from 2019/09/17" />
-          <div>
+          <section>
             <h3>Sowing the seeds: 05/2019</h3>
-              <div>I planted 25 seeds.  Actually, I ordered 100 A. astaria from Seed World
-                on Amazon (they were super cheap), they took forever to show up, and then it
-                was 25 each of A. astaria, A.myriostigma, and A. capricorn.  I do hope they
-                actually grow, because that would give me an extra species, and an extra chance
-                to see if the first batch A. myriostigma matches the second.  All 3 species in the
-                order had large-ish seeds (compared to most of the other cacti I've sown), and
-                they were all mostly sherical.
-              </div>
-          </div>
+            <div>I planted 25 seeds.  Actually, I ordered 100 A. astaria from Seed World
+              on Amazon (they were super cheap), they took forever to show up, and then it
+              was 25 each of A. astaria, A.myriostigma, and A. capricorn.  I do hope they
+              actually grow, because that would give me an extra species, and an extra chance
+              to see if the first batch A. myriostigma matches the second.  All 3 species in the
+              order had large-ish seeds (compared to most of the other cacti I've sown), and
+              they were all mostly sherical.
+            </div>
+          </section>
           <img v-bind:src="batch_02_seedlings_02"  alt="Astrophytum myriostigma seedlings from 2019/07/23" />
           <img v-bind:src="batch_02_seedlings"  alt="Astrophytum myriostigma seedlings from 2019/05/23" />
         </article>
 
-        <article class="batch">
+        <!-- <article class="batch">
           <h2>Batch 1 - none remain</h2>
           <div>
             <h3>Seedlings: 11/2019</h3>
@@ -78,7 +92,7 @@
           </div>
           <img v-bind:src="batch_01_seedlings_02"  alt="Astrophytum myriostigma seedlings from 23/07/2019" />
           <img v-bind:src="batch_01_seedlings"  alt="Astrophytum myriostigma seedlings from 23/05/2019"/>
-        </article>
+        </article> -->
       </div>
     </div>
   </div>
@@ -95,6 +109,7 @@
   import batch_02_seedlings_04 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_04.jpg';
   import batch_02_seedlings_05 from '../../assets/cacti/astrophytumMyriostigma/batch_02_seedlings_05.jpg';
   import batch_02_plants_01 from '../../assets/cacti/astrophytumMyriostigma/batch_02_plants_01.jpg';
+  import batch_02_plants_02 from '../../assets/cacti/astrophytumMyriostigma/batch_02_plants_02.jpg';
 
   export default {
     head () {
@@ -114,10 +129,11 @@
         batch_02_seedlings_03,
         batch_02_seedlings_04,
         batch_02_seedlings_05,
-        batch_02_plants_01
+        batch_02_plants_01,
+        batch_02_plants_02
       };
     },
   }
 </script>
 
-<style lang="css" src="../logs.css" scoped></style>
+<style lang="css" src="../miniLog.css" scoped></style>

@@ -15,57 +15,88 @@
      <div class="batch-logs">
       <div class="row">
         <article class="batch">
-          <h2>05/2019 - 18 remain.</h2>
-          <div>
-            <h3>Mixed Up</h3>
-              <div>
-                I seem to have mixed both batches together in one pot, and I can no longer tell
-                them apart.  Probably the tag was faded and I mis-read... at any rate, they all still live.
-                All 18.  I'm not sure why these are growing slower than the other trichocereus species,
+          <section>
+            <h2>Plants</h2>
+            <h3>09/2021 - 18 remain</h3>
+            <div>
+              <p>
+                I may soon have to remove the larger ones from the one most crowded pot - perhaps
+                that will encourage the smaller ones to try growing a little.
+              </p>
+            </div>
+          </section>
+          <img v-bind:src="batch_02_plants_02" alt="Trichocereus pachanoi from 2021/09/12" />
+
+          <section>
+            <h3>05/2019 - 18 remain</h3>
+            <div>
+              <p>
+                I'm not sure why these are growing slower than the other trichocereus species,
                 and it seems fewer have survived as well.  I may need to try another batch of these in
                 the future.
-              </div>
-              <img v-bind:src="batch_plants_01" alt="Trichocereus pachanoi from 2020/08/21" />
-          </div>
+              </p>
+            </div>
+          </section>
+          <img v-bind:src="batch_plants_01" alt="Trichocereus pachanoi from 2020/08/21" />
 
-          <div>
-            <h3>Seedlings</h3>
-              <div>
+
+          <section>
+            <h2>Seedlings</h2>
+            <h3>03/2020</h3>
+            <div>
+              <p>
                 These are looking sturdy.  I have to now be more careful about how often I water - I've lost
                 a couple 2 rot.  They can no longer get the same care I gave to them when they were seedlings,
                 so it's time to start treating them like tiny but mature plants.
-              </div>
-          </div>
+              </p>
+            </div>
+          </section>
           <img v-bind:src="batch_02_seedlings_05" alt="Trichocereus pachanoi seedlings from 2020/03/29" />
           <img v-bind:src="batch_02_seedlings_04" alt="Trichocereus pachanoi seedlings from 2019/11/10" />
           <img v-bind:src="batch_02_seedlings_03" alt="Trichocereus pachanoi seedlings from 2019/09/17" />
-          <div>
+
+          <section>
             <h3>Sowing the seeds</h3>
-              <div>
-                <p>
-                  I planted 30 seeds in batches of 10 and 20. 19 Seelings germinated from this batch, still incubated and looking bigger and stronger than their slightly
-                older siblings.  As of July 23, 18 still live, out of incubation</p>
-              </div>
-          </div>
+            <div>
+              <p>
+                I planted 30 seeds in batches of 10 and 20. 19 Seelings germinated from this batch, still incubated and looking bigger and stronger than their slightly
+              older siblings.  As of July 23, 18 still live, out of incubation</p>
+            </div>
+          </section>
           <img v-bind:src="batch_02_seedlings_02" alt="Trichocereus pachanoi seedlings from 2019/07/23" />
           <img v-bind:src="batch_02_seedlings" alt="Trichocereus pachanoi seedlings from 2019/04/18" />
         </article>
 
         <article class="batch">
-          <h2>03/18 - 5 remain</h2>
-          <div>
-            <h3>Seedlings</h3>
-              <div>
-                  All the T Pachanois seem smaller - shorter and stalkier, than the other Trichocereus
+          <section>
+            <h2>Plants</h2>
+            <h3>09/2021 - 5 remain</h3>
+            <div>
+              <p>
+                These guys are definitely looking a bit crowded.  I'll have to break them up into
+                separate pots. I'm glad they've grown, though.  The summer did them good.
+              </p>
+            </div>
+          </section>
+          <img v-bind:src="batch_01_plants_02" alt="Trichocereus pachanoi from 2021/09/12" />
+
+          <section>
+            <h2>Seedlings</h2>
+            <h3>03/18 - 5 remain</h3>
+            <div>
+              <p>
+                All the T Pachanois seem smaller - shorter and stalkier, than the other Trichocereus
                   species I've got.
-              </div>
-          </div>
+              </p>
+            </div>
+          </section>
           <img v-bind:src="batch_01_seedlings_05" alt="Trichocereus pachanoi seedlings from 2020/03/29" />
           <img v-bind:src="batch_01_seedlings_04" alt="Trichocereus pachanoi seedlings from 2019/11/10" />
           <img v-bind:src="batch_01_seedlings_03" alt="Trichocereus pachanoi seedlings from 2019/09/17" />
-          <div>
+
+          <section>
             <h3>Sowing the seeds</h3>
-              <div>
+            <div>
                 <p>I planted 20 seeds, 9 germinated</p>
                 <p>
                   This first batch was in the unfortunate group of freshly sown seeds that I knocked over.  I was surprised
@@ -76,7 +107,7 @@
                 </p>
                 <p>As of July 23, 8 still live.</p>
               </div>
-          </div>
+          </section>
           <img v-bind:src="batch_01_seedlings_02" alt="Trichocereus pachanoi seedlings from 2019/07/23" />
           <img v-bind:src="batch_01_seedlings" alt="Trichocereus pachanoi seedlings from 2019/04/18" />
         </article>
@@ -102,6 +133,8 @@
 
   import batch_plants_01 from '../../assets/cacti/trichocereusPachanoi/batch_plants_01.jpg';
 
+  import batch_01_plants_02 from '../../assets/cacti/trichocereusPachanoi/batch_01_plants_02.jpg';
+  import batch_02_plants_02 from '../../assets/cacti/trichocereusPachanoi/batch_02_plants_02.jpg';
 
   export default {
     head () {
@@ -123,7 +156,9 @@
         batch_02_seedlings_03,
         batch_02_seedlings_04,
         batch_02_seedlings_05,
-        batch_plants_01
+        batch_plants_01,
+        batch_01_plants_02,
+        batch_02_plants_02
       };
     }
   }
